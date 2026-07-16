@@ -1,0 +1,601 @@
+{
+  "name": "Inventory",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 6
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        0,
+        16
+      ],
+      "id": "aa6f6e54-448e-4b4c-a40b-9c8b8e426fef",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "19BuYIsUOA0-0_-ot4YO6BgVAZZ0O1YjFoQ_zA5AR5Zo",
+          "mode": "list",
+          "cachedResultName": "INVENTORY",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/19BuYIsUOA0-0_-ot4YO6BgVAZZ0O1YjFoQ_zA5AR5Zo/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 396447371,
+          "mode": "list",
+          "cachedResultName": "Inventory",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/19BuYIsUOA0-0_-ot4YO6BgVAZZ0O1YjFoQ_zA5AR5Zo/edit#gid=396447371"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        192,
+        16
+      ],
+      "id": "6d1458d0-9832-458b-b533-4173cfd205b8",
+      "name": "Get row(s) in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "fsimOvF5SQbxWyop",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "783f7c82-8748-4e26-adbb-0735b8b64145",
+              "leftValue": "={{ $json['Days to Expiry'] }}",
+              "rightValue": 7,
+              "operator": {
+                "type": "number",
+                "operation": "lte"
+              }
+            },
+            {
+              "id": "b9e84c78-fbd4-4d90-98bf-b1f132d3ad34",
+              "leftValue": "={{ $json['Stock Qty'] }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            },
+            {
+              "id": "edadb8f1-10c1-45b7-a16e-52bde8a14c4e",
+              "leftValue": "={{ $json['Days to Expiry'] }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.3,
+      "position": [
+        400,
+        16
+      ],
+      "id": "25dc0cb7-1e0e-4e88-aed2-c672a5edcc22",
+      "name": "Filter"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        608,
+        16
+      ],
+      "id": "4f85f029-bfc3-47b4-a6a6-e136633cff79",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are a combo deal planner for a Danish supermarket reducing food waste.\n\nSTRICT RULES:\n- ONLY use products from the list below. Never invent or add any product not in this list.\n- ONLY use food products. Never include cleaning products, household items, or non-food items.\n- Each product can only appear in ONE combo. Once used, do not reuse it in another combo.\n- Each combo must make real culinary sense for any meal occasion (breakfast, lunch, dinner, snack, brunch etc).\n- Each combo must have between 2 and 4 products.\n- Always prioritise products with the FEWEST days left first.\n- Discount is the AVERAGE of all products' urgency discounts in the combo, rounded to nearest 10%.\n\nUrgency discount rules per product:\n- 0–1 days left = 40%\n- 2–3 days left = 30%\n- 4–5 days left = 20%\n- 6–7 days left = 10%\n\nNear-expiry products (sorted by urgency):\n{{ $json.data.sort((a,b) => a['Days to Expiry'] - b['Days to Expiry']).filter(p => !['Cleaning','Household','Personal Care'].includes(p['Category'])).map(p => `- ${p['Product Name']} | Category: ${p['Category']} | Days left: ${p['Days to Expiry']} | Stock: ${p['Stock Qty']} | Price: ${p['Selling Price']} DKK`).join('\\n') }}\n\nGenerate exactly 5 combo deals using ONLY the products above. Each product must appear in only one combo.\n\nUse this EXACT format for each combo, no extra text:\n\nCOMBO 1\nCOMBO_NAME: [meal name]\nPRODUCTS: [product1], [product2], [product3]\nDAYS_LEFT: [days left of most urgent product]\nURGENCY: [Critical / Soon / Moderate]\nDISCOUNT: [X]%\nORIGINAL_PRICE: [X.XX]\nFINAL_PRICE: [X.XX]\nSAVINGS: [X.XX]\nSTOCK: [stock qty of each product separated by commas]\nMAX_COMBOS: [minimum stock quantity among all products in this combo]\nMEAL_OCCASION: [e.g. Quick Dinner, Weekend Brunch, Family Lunch]\nACTION: [e.g. Promote today, Place near checkout, Add to app deal]\n\nCOMBO 2\n...\n\nCOMBO 3\n...\n\nCOMBO 4\n...\n\nCOMBO 5\n...",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        816,
+        16
+      ],
+      "id": "928c2f7c-cee3-4d3f-88ae-ee9c9e2d6268",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": "llama3:latest",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        736,
+        208
+      ],
+      "id": "b6dd3199-4928-470e-b295-2f31619575cf",
+      "name": "Ollama Chat Model",
+      "credentials": {
+        "ollamaApi": {
+          "id": "JgHmTxW1DzkEPM53",
+          "name": "Ollama account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "19BuYIsUOA0-0_-ot4YO6BgVAZZ0O1YjFoQ_zA5AR5Zo",
+          "mode": "list",
+          "cachedResultName": "INVENTORY",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/19BuYIsUOA0-0_-ot4YO6BgVAZZ0O1YjFoQ_zA5AR5Zo/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1197300518,
+          "mode": "list",
+          "cachedResultName": "Combo Results",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/19BuYIsUOA0-0_-ot4YO6BgVAZZ0O1YjFoQ_zA5AR5Zo/edit#gid=1197300518"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Date": "={{ $now.format('dd-MM-yyyy HH:mm') }}",
+            "Combo Name": "={{ $json['Combo Name'] }}",
+            "Products": "={{ $json['Products'] }}",
+            "Days Left": "={{ $json['Days Left'] }}",
+            "Urgency": "={{ $json['Urgency'] }}",
+            "Discount": "={{ $json['Discount'] }}",
+            "Original Price (DKK)": "={{ $json['Original Price (DKK)'] }}",
+            "Final Price (DKK)": "={{ $json['Final Price (DKK)'] }}",
+            "Savings (DKK)": "={{ $json['Savings (DKK)'] }}",
+            "Stock Available": "={{ $json['Stock Available'] }}",
+            "Max Combos": "={{ $json['Max Combos'] }}",
+            "Meal Occasion": "={{ $json['Meal Occasion'] }}",
+            "Action": "={{ $json['Action'] }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Date",
+              "displayName": "Date",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Combo Name",
+              "displayName": "Combo Name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Products",
+              "displayName": "Products",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Days Left",
+              "displayName": "Days Left",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Urgency",
+              "displayName": "Urgency",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Discount",
+              "displayName": "Discount",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Original Price (DKK)",
+              "displayName": "Original Price (DKK)",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Final Price (DKK)",
+              "displayName": "Final Price (DKK)",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Savings (DKK)",
+              "displayName": "Savings (DKK)",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Stock Available",
+              "displayName": "Stock Available",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Max Combos",
+              "displayName": "Max Combos",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Meal Occasion",
+              "displayName": "Meal Occasion",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Action",
+              "displayName": "Action",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1376,
+        -240
+      ],
+      "id": "91399f43-3bd8-437c-a5aa-38a3efa2dd13",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "fsimOvF5SQbxWyop",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are a supermarket marketing assistant creating promotional materials.\n\nBased on these combo deals:\n{{ $json.output }}\n\nGenerate a promotional leaflet with TWO sections:\n\n--- SHELF LABELS ---\nFor each combo create a small shelf label with:\nCOMBO NAME: [name in capitals]\nPRODUCTS: [list products]\nDISCOUNT: [X]% OFF\nPRICE: [final price] DKK\nURGENCY: [e.g. \"Use by today!\" or \"Only 3 days left!\"]\nPROMO LINE: [one catchy line]\n\n--- A4 FLYER ---\nCreate one A4 promotional flyer featuring all 3 combos with:\nHEADLINE: [catchy store headline e.g. \"Today's Waste Saver Deals!\"]\nFor each combo include:\n- Combo name and products\n- Simple 3-step recipe or serving suggestion\n- Discount and final price\n- Why it's good value\nEnd with a sustainability message about reducing food waste.\n\nKeep the language simple, friendly and suitable for Danish supermarket customers.",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        1376,
+        16
+      ],
+      "id": "6b776690-72d3-4a1e-abf0-78460ec55742",
+      "name": "AI Agent1"
+    },
+    {
+      "parameters": {
+        "model": "llama3:latest",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        1328,
+        224
+      ],
+      "id": "f0530e9c-7ce2-4ae2-8720-36e40d687280",
+      "name": "Ollama Chat Model1",
+      "credentials": {
+        "ollamaApi": {
+          "id": "JgHmTxW1DzkEPM53",
+          "name": "Ollama account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const comboText = $('AI Agent').item.json.output\n  .replace(/\\n/g, ' ')\n  .replace(/\\r/g, '');\n\nconst prompt = `Professional supermarket promotional flyer, bold title WASTE SAVER DEALS, red and yellow colors, 3 food combo cards with appetizing food photos, discount badges, prices in DKK, style similar to Lidl supermarket. Combos: ${comboText.substring(0, 200)}`;\n\nconst response = await this.helpers.httpRequest({\n  method: 'POST',\n  url: 'https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell',\n  headers: {\n    'Authorization': 'Bearer YOUR_HUGGINGFACE_TOKEN',\n    'Content-Type': 'application/json',\n    'Accept': 'image/png'\n  },\n  body: JSON.stringify({\n    inputs: prompt,\n    parameters: { num_inference_steps: 5 }\n  }),\n  encoding: 'arraybuffer',\n  returnFullResponse: true\n});\n\nconst base64 = Buffer.from(response.body).toString('base64');\nconst fileName = `flyer_${new Date().toISOString().slice(0,10)}.png`;\n\nreturn [{\n  json: { fileName },\n  binary: {\n    data: {\n      data: base64,\n      mimeType: 'image/png',\n      fileName\n    }\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1712,
+        16
+      ],
+      "id": "da755327-7a90-4d1d-9c4f-b8360b68953b",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "name": "={{ $json.fileName }}",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "root",
+          "cachedResultName": "/ (Root folder)"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1920,
+        16
+      ],
+      "id": "9c9022f2-0887-4817-99e4-91ef7f115656",
+      "name": "Upload file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "Wvp7DVGyHYBTXmT2",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const output = $('AI Agent').item.json.output;\nconst date = new Date().toLocaleDateString('da-DK');\n\nconst blocks = output.split(/COMBO \\d+/i).filter(b => b.trim());\n\nconst get = (block, key) => {\n  const m = block.match(new RegExp(key + ':\\\\s*(.+)', 'i'));\n  return m ? m[1].trim() : '';\n};\n\nconst cleanPrice = (val) => {\n  const num = parseFloat(val.replace(/[^0-9.]/g, ''));\n  return isNaN(num) ? 0 : num;\n};\n\nconst cleanPercent = (val) => {\n  const num = parseFloat(val.replace(/[^0-9.]/g, ''));\n  return isNaN(num) ? 0 : num;\n};\n\nconst rows = blocks.map(block => {\n  const comboName = get(block, 'COMBO_NAME');\n  const products = get(block, 'PRODUCTS');\n  const daysLeft = get(block, 'DAYS_LEFT');\n  const urgency = get(block, 'URGENCY');\n  const discountStr = get(block, 'DISCOUNT');\n  const discountPct = cleanPercent(discountStr);\n  const discountDecimal = discountPct / 100;\n\n  // Get original price from Llama\n  let origPrice = cleanPrice(get(block, 'ORIGINAL_PRICE'));\n\n  // Calculate final price and savings ourselves — don't trust Llama's arithmetic\n  const correctedFinal = origPrice > 0 ? \n    parseFloat((origPrice * (1 - discountDecimal)).toFixed(2)) : \n    cleanPrice(get(block, 'FINAL_PRICE'));\n\n  const correctedSavings = origPrice > 0 ? \n    parseFloat((origPrice * discountDecimal).toFixed(2)) : \n    cleanPrice(get(block, 'SAVINGS'));\n\n  return {\n    Date: date,\n    'Combo Name': comboName,\n    Products: products,\n    'Days Left': daysLeft,\n    Urgency: urgency,\n    Discount: discountPct + '%',\n    'Original Price (DKK)': origPrice.toFixed(2),\n    'Final Price (DKK)': correctedFinal,\n    'Savings (DKK)': correctedSavings,\n    'Stock Available': get(block, 'STOCK'),\n    'Max Combos': get(block, 'MAX_COMBOS').replace(/[^0-9]/g, ''),\n    'Meal Occasion': get(block, 'MEAL_OCCASION'),\n    Action: get(block, 'ACTION')\n  };\n}).filter(r => r['Combo Name']);\n\nreturn rows.map(r => ({ json: r }));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1168,
+        16
+      ],
+      "id": "f1ce7e0e-27ac-46ff-8d6f-475d48a8b12a",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "sendTo": "Your Email address",
+        "subject": "=Daily Waste Saver Report — {{ $now.format('dd-MM-yyyy') }}",
+        "message": "=<h2>🌿 Daily Waste Saver Combo Deals</h2>\n<p>Here are today's combo deals generated from near-expiry products:</p>\n\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse:collapse;width:100%\">\n  <tr style=\"background:#e63946;color:white\">\n    <th>Combo Name</th>\n    <th>Products</th>\n    <th>Urgency</th>\n    <th>Discount</th>\n    <th>Final Price</th>\n    <th>Action</th>\n  </tr>\n  {{ $('Code in JavaScript1').all().map(item => `\n  <tr>\n    <td>${item.json['Combo Name']}</td>\n    <td>${item.json['Products']}</td>\n    <td>${item.json['Urgency']}</td>\n    <td>${item.json['Discount']}</td>\n    <td>${item.json['Final Price (DKK)']} DKK</td>\n    <td>${item.json['Action']}</td>\n  </tr>`).join('') }}\n</table>\n\n<p>The promotional flyer is attached to this email.</p>\n<p style=\"color:#666;font-size:12px\">This report was generated automatically by the WasteSaver system.\n<p>📎 <a href=\"https://drive.google.com/file/d/{{ $('Upload file').item.json.id }}/view\">Click here to view today's flyer</a></p>\n</p>",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        2128,
+        16
+      ],
+      "id": "3456ea31-8670-4d45-bce3-c53c87d8541d",
+      "name": "Send a message",
+      "webhookId": "2045d8da-696b-41e9-8220-3e6bca208a70",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "1OA6ClWXXXTJfmpx",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent1": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Upload file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload file": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "AI Agent1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "3655020c-4f8f-45a2-9c18-40cc91b744f8",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "ac295421c0dbf87d4276756a9181a34e4833d077db7b3b0292dc8e193932df72"
+  },
+  "id": "1auw3PX8BsX5t3mP",
+  "tags": []
+}
