@@ -1,0 +1,996 @@
+SKU,Product Name,Category,Supplier,Unit Cost,Selling Price,Stock Qty,Stock Value,Reorder Level,Reorder Quantity,Date_Received,Last_Order_Date,Best before,Days to Expiry,Reorder Status,Status,Dynamic Discount %,Final Price
+1001,Arla Milk 1L,Dairy,Arla Foods,6,8.5,120,720,50,OK,10/13/2025,10/8/2025,7/2/2026,-14.00,OK,,1.00,0
+1002,Schulstad Bread 500g,Bakery,Schulstad,8,12,35,280,30,OK,10/14/2025,10/2/2025,5/21/2026,-56.00,OK,,1.00,0
+1003,Coca-Cola 1.5L,Beverage,Coca-Cola,10,15,200,2000,60,OK,10/15/2025,10/10/2025,4/23/2026,-84.00,OK,,1.00,0
+1004,Lurpak Butter 250g,Dairy,Arla Foods,12,18,45,540,40,OK,10/14/2025,10/10/2025,6/16/2026,-30.00,OK,,1.00,0
+1005,Ajax Cleaner 1L,Cleaning,Unilever,15,25,20,300,25,Reorder,10/11/2025,10/7/2025,7/1/2026,-15.00,Reorder,,1.00,0
+1006,Sushi Rice,Grains & Pulses,Jaxnation, 4.50 ,6,22,99,60.6,Reorder,10/14/2025,10/10/2025,3/25/2026,-113.00,Reorder,,1.00,0
+1007,Arabica Coffee,Beverages,Feedmix, 20.00 ,6.0,45,900,31.8,OK,10/13/2025,10/6/2025,4/18/2026,-89.00,OK,,1.00,0
+1008,Black Rice,Grains & Pulses,Vinder, 6.00 ,24.7,30,180,102.9,Reorder,10/13/2025,10/4/2025,4/19/2026,-88.00,Reorder,,1.00,0
+1009,Long Grain Rice,Grains & Pulses,Brightbean, 1.50 ,57.2,12,18,67.3,Reorder,10/14/2025,10/3/2025,5/2/2026,-75.00,Reorder,,1.00,0
+1010,Plum,Fruits & Vegetables,Topicstorm, 4.00 ,48.3,37,148,32.9,OK,10/11/2025,10/2/2025,7/4/2026,-12.00,OK,,1.00,0
+1011,All-Purpose Flour,Grains & Pulses,Dabjam, 1.75 ,58.3,55,96.25,105.9,Reorder,10/15/2025,10/10/2025,3/26/2026,-112.00,Reorder,,1.00,0
+1012,Corn Oil,Oils & Fats,Tagfeed, 2.50 ,56.2,96,240,101.5,Reorder,10/14/2025,10/7/2025,6/18/2026,-28.00,Reorder,,1.00,0
+1013,Egg (Goose),Dairy,Muxo, 2.50 ,18.3,44,110,106.8,Reorder,10/14/2025,10/3/2025,7/7/2026,-9.00,Reorder,,1.00,0
+1014,Greek Yogurt,Dairy,Thoughtstorm, 3.00 ,37.0,91,273,98.7,Reorder,10/12/2025,10/6/2025,6/22/2026,-24.00,Reorder,,1.00,0
+1015,Egg (Duck),Dairy,Wordify, 1.00 ,69.5,43,43,58.3,Reorder,10/14/2025,10/6/2025,6/17/2026,-29.00,Reorder,,1.00,0
+1016,Long Grain Rice,Grains & Pulses,Fivebridge, 1.60 ,36.7,62,99.2,104.0,Reorder,10/15/2025,10/5/2025,4/16/2026,-91.00,Reorder,,1.00,0
+1017,White Sugar,Grains & Pulses,Zooxo, 2.00 ,30.9,91,182,46.6,OK,10/11/2025,10/5/2025,5/29/2026,-48.00,OK,,1.00,0
+1018,Rye Bread,Bakery,Vitz, 3.00 ,6.3,26,78,34.1,Reorder,10/11/2025,10/10/2025,6/20/2026,-26.00,Reorder,,1.00,0
+1019,Plum,Fruits & Vegetables,Voomm, 4.00 ,44.5,95,380,124.7,Reorder,10/13/2025,10/4/2025,4/9/2026,-98.00,Reorder,,1.00,0
+1020,Strawberries,Fruits & Vegetables,Babblestorm, 6.00 ,50.7,54,324,100.5,Reorder,10/12/2025,10/4/2025,4/16/2026,-91.00,Reorder,,1.00,0
+1021,Feta Cheese,Dairy,Youfeed, 7.00 ,26.7,94,658,129.6,Reorder,10/15/2025,10/2/2025,3/22/2026,-116.00,Reorder,,1.00,0
+1022,Bread Flour,Grains & Pulses,Mynte, 1.50 ,73.1,27,40.5,68.1,Reorder,10/15/2025,10/6/2025,7/19/2026,3.00,Reorder,,0.60,29.22
+1023,Swiss Cheese,Dairy,Reallinks, 8.00 ,77.1,49,392,111.5,Reorder,10/11/2025,10/8/2025,5/12/2026,-65.00,Reorder,,1.00,0
+1024,Arabica Coffee,Beverages,Skivee, 20.00 ,66.7,55,1100,122.9,Reorder,10/11/2025,10/1/2025,7/9/2026,-7.00,Reorder,,1.00,0
+1025,White Sugar,Grains & Pulses,Mydeo, 2.00 ,71.9,65,130,31.3,OK,10/15/2025,10/8/2025,7/8/2026,-8.00,OK,,1.00,0
+1026,Spinach,Fruits & Vegetables,Devshare, 2.50 ,46.5,72,180,138.3,Reorder,10/12/2025,10/1/2025,5/5/2026,-72.00,Reorder,,1.00,0
+1027,Trout,Seafood,Jabbertype, 12.00 ,12.9,49,588,124.6,Reorder,10/11/2025,10/4/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1028,Green Beans,Fruits & Vegetables,Gigazoom, 2.00 ,13.7,81,162,146.6,Reorder,10/14/2025,10/4/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1029,Cabbage,Fruits & Vegetables,Chatterbridge, 1.00 ,15.3,88,88,25.6,OK,10/14/2025,10/5/2025,4/15/2026,-92.00,OK,,1.00,0
+1030,Parmesan Cheese,Dairy,Feedspan, 12.00 ,68.3,63,756,38.2,OK,10/12/2025,10/10/2025,4/25/2026,-82.00,OK,,1.00,0
+1031,Raw Sugar,Grains & Pulses,Mydo, 1.50 ,63.0,31,46.5,96.8,Reorder,10/11/2025,10/9/2025,5/19/2026,-58.00,Reorder,,1.00,0
+1032,Egg (Quail),Dairy,Realpoint, 0.80 ,32.7,97,77.6,107.8,Reorder,10/14/2025,10/5/2025,6/9/2026,-37.00,Reorder,,1.00,0
+1033,Mushrooms,Fruits & Vegetables,Photospace, 6.00 ,26.2,72,432,109.3,Reorder,10/11/2025,10/9/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1034,Oatmeal Biscuit,Bakery,Gigazoom, 5.00 ,76.1,16,80,41.0,Reorder,10/15/2025,10/2/2025,7/14/2026,-2.00,Reorder,,1.00,0
+1035,Pear,Fruits & Vegetables,Centizu, 4.50 ,44.8,77,346.5,87.0,Reorder,10/14/2025,10/3/2025,4/5/2026,-102.00,Reorder,,1.00,0
+1036,Cucumber,Fruits & Vegetables,Brainverse, 1.75 ,52.1,19,33.25,61.2,Reorder,10/15/2025,10/9/2025,4/15/2026,-92.00,Reorder,,1.00,0
+1037,Pineapple,Fruits & Vegetables,Photojam, 3.50 ,31.2,18,63,138.6,Reorder,10/13/2025,10/1/2025,5/5/2026,-72.00,Reorder,,1.00,0
+1038,Olive Oil,Oils & Fats,Kamba, 6.00 ,63.3,47,282,46.9,OK,10/11/2025,10/8/2025,6/26/2026,-20.00,OK,,1.00,0
+1039,Herbal Tea,Beverages,Pixonyx, 30.00 ,57.0,77,2310,71.4,OK,10/14/2025,10/5/2025,4/6/2026,-101.00,OK,,1.00,0
+1040,Haddock,Seafood,Midel, 9.00 ,12.4,46,414,125.2,Reorder,10/15/2025,10/6/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1041,Onion,Fruits & Vegetables,Skyble, 2.00 ,31.7,39,78,130.4,Reorder,10/11/2025,10/10/2025,5/13/2026,-64.00,Reorder,,1.00,0
+1042,Sushi Rice,Grains & Pulses,Linklinks, 4.50 ,58.9,75,337.5,61.7,OK,10/13/2025,10/4/2025,5/9/2026,-68.00,OK,,1.00,0
+1043,Pineapple,Fruits & Vegetables,Flipbug, 3.45 ,54.9,48,165.6,137.2,Reorder,10/11/2025,10/4/2025,7/5/2026,-11.00,Reorder,,1.00,0
+1044,Zucchini,Fruits & Vegetables,Kare, 2.50 ,58.0,61,152.5,115.4,Reorder,10/15/2025,10/7/2025,4/7/2026,-100.00,Reorder,,1.00,0
+1045,Short Grain Rice,Grains & Pulses,Snaptags, 3.00 ,11.0,60,180,60.4,Reorder,10/12/2025,10/3/2025,6/24/2026,-22.00,Reorder,,1.00,0
+1046,Mango,Fruits & Vegetables,Twitternation, 5.00 ,80.8,24,120,69.1,Reorder,10/14/2025,10/8/2025,7/15/2026,-1.00,Reorder,,1.00,0
+1047,Lemon,Fruits & Vegetables,Layo, 2.30 ,38.0,12,27.6,140.3,Reorder,10/11/2025,10/8/2025,6/10/2026,-36.00,Reorder,,1.00,0
+1048,Black Coffee,Beverages,Realpoint, 15.00 ,67.7,84,1260,90.5,Reorder,10/14/2025,10/5/2025,6/6/2026,-40.00,Reorder,,1.00,0
+1049,Butter,Dairy,Kayveo, 3.00 ,64.8,51,153,87.0,Reorder,10/15/2025,10/4/2025,5/17/2026,-60.00,Reorder,,1.00,0
+1050,Multigrain Bread,Bakery,Roombo, 3.50 ,21.3,65,227.5,102.4,Reorder,10/11/2025,10/6/2025,5/6/2026,-71.00,Reorder,,1.00,0
+1051,Long Grain Rice,Grains & Pulses,Voonyx, 1.50 ,48.1,67,100.5,75.4,Reorder,10/12/2025,10/7/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1052,Bread Flour,Grains & Pulses,Browsezoom, 1.50 ,85.0,14,21,146.6,Reorder,10/14/2025,10/1/2025,5/9/2026,-68.00,Reorder,,1.00,0
+1053,Kiwi,Fruits & Vegetables,Fiveclub, 6.00 ,34.9,45,270,144.2,Reorder,10/13/2025,10/1/2025,5/20/2026,-57.00,Reorder,,1.00,0
+1054,Mango,Fruits & Vegetables,Skipfire, 5.00 ,11.6,92,460,64.9,OK,10/11/2025,10/7/2025,4/22/2026,-85.00,OK,,1.00,0
+1055,Sourdough Bread,Bakery,Flashspan, 4.00 ,25.3,41,164,55.6,Reorder,10/12/2025,10/1/2025,3/30/2026,-108.00,Reorder,,1.00,0
+1056,Short Grain Rice,Grains & Pulses,Katz, 4.50 ,77.4,41,184.5,135.6,Reorder,10/13/2025,10/7/2025,6/20/2026,-26.00,Reorder,,1.00,0
+1057,Orange,Fruits & Vegetables,Devshare, 3.00 ,9.5,85,255,124.3,Reorder,10/14/2025,10/3/2025,7/16/2026,0.00,Reorder,,1.00,0
+1058,Pineapple,Fruits & Vegetables,Yamia, 3.40 ,6.3,44,149.6,43.6,OK,10/15/2025,10/10/2025,3/27/2026,-111.00,OK,,1.00,0
+1059,White Bread,Bakery,Skyble, 2.50 ,69.3,92,230,92.6,Reorder,10/15/2025,10/3/2025,3/19/2026,-119.00,Reorder,,1.00,0
+1060,Green Coffee,Beverages,Kwinu, 12.00 ,30.4,62,744,131.6,Reorder,10/14/2025,10/4/2025,4/4/2026,-103.00,Reorder,,1.00,0
+1061,Zucchini,Fruits & Vegetables,Brainverse, 2.50 ,20.9,26,65,112.1,Reorder,10/14/2025,10/1/2025,4/5/2026,-102.00,Reorder,,1.00,0
+1062,Sourdough Bread,Bakery,Vinte, 4.50 ,15.0,59,265.5,121.4,Reorder,10/15/2025,10/2/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1063,Orange,Fruits & Vegetables,Twitterwire, 2.90 ,74.2,88,255.2,119.4,Reorder,10/15/2025,10/7/2025,5/5/2026,-72.00,Reorder,,1.00,0
+1064,Sardines,Seafood,Ntag, 6.00 ,20.4,91,546,34.4,OK,10/15/2025,10/3/2025,6/26/2026,-20.00,OK,,1.00,0
+1065,Olive Oil,Oils & Fats,Blogspan, 6.00 ,35.1,28,168,91.3,Reorder,10/13/2025,10/9/2025,7/15/2026,-1.00,Reorder,,1.00,0
+1066,Carrot,Fruits & Vegetables,Avaveo, 1.50 ,59.9,51,76.5,68.2,Reorder,10/11/2025,10/7/2025,4/28/2026,-79.00,Reorder,,1.00,0
+1067,Black Tea,Beverages,Brainbox, 5.00 ,67.3,46,230,64.8,Reorder,10/13/2025,10/3/2025,7/23/2026,7.00,Reorder,,0.00,67.32
+1068,Pear,Fruits & Vegetables,Voonix, 4.45 ,61.2,82,364.9,138.0,Reorder,10/12/2025,10/6/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1069,Olive Oil,Oils & Fats,Midel, 6.00 ,7.8,100,600,72.4,OK,10/13/2025,10/2/2025,5/10/2026,-67.00,OK,,1.00,0
+1070,Ricotta Cheese,Dairy,Shufflebeat, 6.00 ,26.3,51,306,130.8,Reorder,10/13/2025,10/4/2025,4/8/2026,-99.00,Reorder,,1.00,0
+1071,Black Coffee,Beverages,Flipbug, 15.00 ,61.6,61,915,145.8,Reorder,10/15/2025,10/5/2025,6/14/2026,-32.00,Reorder,,1.00,0
+1072,White Tea,Beverages,Skipstorm, 25.00 ,26.1,99,2475,54.1,OK,10/11/2025,10/5/2025,5/17/2026,-60.00,OK,,1.00,0
+1073,Cucumber,Fruits & Vegetables,Gigazoom, 1.80 ,84.0,13,23.4,49.3,Reorder,10/13/2025,10/1/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1074,Mozzarella Cheese,Dairy,Dazzlesphere, 7.00 ,43.3,45,315,108.9,Reorder,10/11/2025,10/6/2025,7/29/2026,13.00,Reorder,,0.00,43.27
+1075,Broccoli,Fruits & Vegetables,Realblab, 4.00 ,43.9,73,292,38.5,OK,10/13/2025,10/2/2025,5/3/2026,-74.00,OK,,1.00,0
+1076,Eggplant,Fruits & Vegetables,Eire, 3.00 ,6.8,39,117,101.8,Reorder,10/11/2025,10/6/2025,6/15/2026,-31.00,Reorder,,1.00,0
+1077,Trout,Seafood,Blogtag, 12.00 ,42.0,29,348,46.7,Reorder,10/11/2025,10/3/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1078,Heavy Cream,Dairy,Ntags, 4.00 ,42.6,12,48,122.7,Reorder,10/13/2025,10/8/2025,3/19/2026,-119.00,Reorder,,1.00,0
+1079,Bell Pepper,Fruits & Vegetables,Tagtune, 4.45 ,15.9,96,427.2,84.1,OK,10/13/2025,10/3/2025,7/6/2026,-10.00,OK,,1.00,0
+1080,Onion,Fruits & Vegetables,Skiba, 2.00 ,14.3,35,70,37.0,Reorder,10/15/2025,10/10/2025,7/3/2026,-13.00,Reorder,,1.00,0
+1081,Sardines,Seafood,Voolia, 6.00 ,46.7,89,534,50.5,OK,10/13/2025,10/9/2025,3/15/2026,-123.00,OK,,1.00,0
+1082,Mango,Fruits & Vegetables,Oyoloo, 4.50 ,48.8,60,270,55.7,OK,10/15/2025,10/2/2025,7/10/2026,-6.00,OK,,1.00,0
+1083,Arborio Rice,Grains & Pulses,Feedmix, 4.50 ,21.8,20,90,56.7,Reorder,10/14/2025,10/8/2025,7/4/2026,-12.00,Reorder,,1.00,0
+1084,Potato,Fruits & Vegetables,Tagtune, 1.20 ,29.2,28,33.6,114.0,Reorder,10/15/2025,10/9/2025,7/21/2026,5.00,Reorder,,0.35,18.98
+1085,Corn Oil,Oils & Fats,Tagopia, 2.50 ,14.7,20,50,46.1,Reorder,10/11/2025,10/6/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1086,Butter Biscuit,Bakery,Ozu, 6.00 ,25.9,38,228,101.0,Reorder,10/12/2025,10/7/2025,7/22/2026,6.00,Reorder,,0.20,20.71
+1087,Peas,Fruits & Vegetables,Edgepulse, 3.00 ,68.7,99,297,63.7,OK,10/11/2025,10/8/2025,6/10/2026,-36.00,OK,,1.00,0
+1088,Cream,Dairy,Oyondu, 2.50 ,58.9,92,230,104.1,Reorder,10/14/2025,10/9/2025,3/24/2026,-114.00,Reorder,,1.00,0
+1089,Spinach,Fruits & Vegetables,Abatz, 2.40 ,48.3,41,98.4,36.9,OK,10/11/2025,10/4/2025,7/12/2026,-4.00,OK,,1.00,0
+1090,Sardines,Seafood,Browsetype, 6.00 ,21.3,44,264,62.1,Reorder,10/11/2025,10/4/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1091,White Sugar,Grains & Pulses,Photobean, 2.00 ,12.5,47,94,87.7,Reorder,10/11/2025,10/2/2025,4/1/2026,-106.00,Reorder,,1.00,0
+1092,Bread Flour,Grains & Pulses,Mydeo, 1.50 ,42.4,21,31.5,99.5,Reorder,10/14/2025,10/7/2025,5/15/2026,-62.00,Reorder,,1.00,0
+1093,Cucumber,Fruits & Vegetables,Skinte, 1.80 ,81.7,85,153,61.7,OK,10/13/2025,10/3/2025,6/15/2026,-31.00,OK,,1.00,0
+1094,Swiss Cheese,Dairy,Cogilith, 8.00 ,23.9,29,232,122.3,Reorder,10/14/2025,10/2/2025,6/30/2026,-16.00,Reorder,,1.00,0
+1095,Peanut Oil,Oils & Fats,Bluezoom, 4.00 ,17.5,64,256,96.3,Reorder,10/11/2025,10/10/2025,5/13/2026,-64.00,Reorder,,1.00,0
+1096,Blueberries,Fruits & Vegetables,Jaloo, 10.00 ,51.2,66,660,96.7,Reorder,10/12/2025,10/2/2025,7/7/2026,-9.00,Reorder,,1.00,0
+1097,Chocolate Biscuit,Bakery,Vidoo, 5.00 ,79.8,75,375,36.3,OK,10/11/2025,10/8/2025,4/23/2026,-84.00,OK,,1.00,0
+1098,Cheese,Dairy,Shuffledrive, 9.00 ,22.6,53,477,135.8,Reorder,10/15/2025,10/6/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1099,Palm Oil,Oils & Fats,Zooxo, 1.80 ,11.6,43,77.4,85.9,Reorder,10/15/2025,10/8/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1100,Eggplant,Fruits & Vegetables,Topicblab, 3.00 ,84.3,74,222,128.0,Reorder,10/12/2025,10/8/2025,7/29/2026,13.00,Reorder,,0.00,84.30
+1101,Garlic,Fruits & Vegetables,Katz, 7.00 ,83.2,27,189,119.0,Reorder,10/13/2025,10/6/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1102,Jasmine Rice,Grains & Pulses,Yadel, 4.75 ,85.2,91,432.25,82.2,OK,10/12/2025,10/2/2025,7/26/2026,10.00,OK,,0.00,85.24
+1103,Rice Flour,Grains & Pulses,Mynte, 2.00 ,49.7,52,104,131.2,Reorder,10/13/2025,10/10/2025,6/1/2026,-45.00,Reorder,,1.00,0
+1104,Zucchini,Fruits & Vegetables,Livetube, 2.50 ,36.9,43,107.5,147.2,Reorder,10/12/2025,10/8/2025,7/15/2026,-1.00,Reorder,,1.00,0
+1105,Multigrain Bread,Bakery,Zoombox, 3.20 ,54.3,56,179.2,38.6,OK,10/13/2025,10/3/2025,3/25/2026,-113.00,OK,,1.00,0
+1106,Ricotta Cheese,Dairy,Photobug, 6.00 ,80.8,66,396,36.7,OK,10/15/2025,10/6/2025,6/6/2026,-40.00,OK,,1.00,0
+1107,Bread Flour,Grains & Pulses,Skynoodle, 1.50 ,48.8,84,126,94.6,Reorder,10/15/2025,10/6/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1108,Cottage Cheese,Dairy,Midel, 5.00 ,57.6,37,185,119.5,Reorder,10/15/2025,10/9/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1109,Whipped Cream,Dairy,Feedbug, 4.00 ,32.5,29,116,42.0,Reorder,10/13/2025,10/4/2025,4/15/2026,-92.00,Reorder,,1.00,0
+1110,Almond Flour,Grains & Pulses,Brainverse, 9.50 ,59.6,13,123.5,124.4,Reorder,10/15/2025,10/7/2025,4/18/2026,-89.00,Reorder,,1.00,0
+1111,Lemon,Fruits & Vegetables,Mydo, 2.50 ,74.9,63,157.5,127.6,Reorder,10/14/2025,10/1/2025,4/26/2026,-81.00,Reorder,,1.00,0
+1112,Tilapia,Seafood,Fiveclub, 7.00 ,48.7,95,665,99.4,Reorder,10/13/2025,10/2/2025,7/29/2026,13.00,Reorder,,0.00,48.74
+1113,Lettuce,Fruits & Vegetables,Fadeo, 2.00 ,63.8,58,116,51.4,OK,10/15/2025,10/6/2025,4/30/2026,-77.00,OK,,1.00,0
+1114,Peanut Oil,Oils & Fats,Edgeify, 4.00 ,84.5,57,228,95.6,Reorder,10/14/2025,10/9/2025,3/30/2026,-108.00,Reorder,,1.00,0
+1115,Sardines,Seafood,Eayo, 6.00 ,71.5,33,198,63.0,Reorder,10/12/2025,10/3/2025,3/24/2026,-114.00,Reorder,,1.00,0
+1116,Arabica Coffee,Beverages,Voomm, 20.00 ,59.2,62,1240,65.2,Reorder,10/11/2025,10/9/2025,6/5/2026,-41.00,Reorder,,1.00,0
+1117,Coconut,Fruits & Vegetables,Mydo, 5.00 ,52.0,89,445,65.5,OK,10/12/2025,10/9/2025,3/29/2026,-109.00,OK,,1.00,0
+1118,Cod,Seafood,Devbug, 8.00 ,62.7,23,184,112.2,Reorder,10/13/2025,10/6/2025,5/20/2026,-57.00,Reorder,,1.00,0
+1119,Banana,Fruits & Vegetables,Vinder, 98.43 ,22.3,56,5512.08,48.3,OK,10/11/2025,10/7/2025,4/10/2026,-97.00,OK,,1.00,0
+1120,Black Rice,Grains & Pulses,Wikivu, 6.10 ,85.0,86,524.6,39.5,OK,10/12/2025,10/1/2025,3/28/2026,-110.00,OK,,1.00,0
+1121,Pomegranate,Fruits & Vegetables,Dynabox, 6.00 ,82.2,60,360,53.1,OK,10/13/2025,10/3/2025,5/2/2026,-75.00,OK,,1.00,0
+1122,Pineapple,Fruits & Vegetables,Rooxo, 3.50 ,68.0,70,245,122.7,Reorder,10/15/2025,10/10/2025,6/2/2026,-44.00,Reorder,,1.00,0
+1123,Peach,Fruits & Vegetables,Quire, 4.00 ,47.7,47,188,28.3,OK,10/13/2025,10/3/2025,5/9/2026,-68.00,OK,,1.00,0
+1124,Arborio Rice,Grains & Pulses,Realcube, 4.50 ,75.9,95,427.5,117.3,Reorder,10/12/2025,10/7/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1125,Plum,Fruits & Vegetables,Brainsphere, 3.85 ,60.3,20,77,90.0,Reorder,10/12/2025,10/1/2025,5/2/2026,-75.00,Reorder,,1.00,0
+1126,Sushi Rice,Grains & Pulses,Dabshots, 4.30 ,77.9,19,81.7,69.7,Reorder,10/14/2025,10/2/2025,7/15/2026,-1.00,Reorder,,1.00,0
+1127,Arabica Coffee,Beverages,Yadel, 21.00 ,9.7,74,1554,82.5,Reorder,10/12/2025,10/7/2025,7/25/2026,9.00,Reorder,,0.00,9.65
+1128,Pear,Fruits & Vegetables,Riffwire, 4.50 ,22.4,61,274.5,55.3,OK,10/12/2025,10/8/2025,4/26/2026,-81.00,OK,,1.00,0
+1129,Sourdough Bread,Bakery,Eadel, 4.00 ,68.9,34,136,107.5,Reorder,10/15/2025,10/5/2025,6/18/2026,-28.00,Reorder,,1.00,0
+1130,Pear,Fruits & Vegetables,Gigaclub, 4.50 ,19.7,29,130.5,41.9,Reorder,10/11/2025,10/1/2025,4/4/2026,-103.00,Reorder,,1.00,0
+1131,Heavy Cream,Dairy,Skynoodle, 4.20 ,78.2,14,58.8,90.6,Reorder,10/11/2025,10/8/2025,6/17/2026,-29.00,Reorder,,1.00,0
+1132,White Rice,Grains & Pulses,Centidel, 1.80 ,73.2,20,36,139.2,Reorder,10/15/2025,10/6/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1133,Cauliflower,Grains & Pulses,Shufflester, 3.20 ,21.9,40,128,87.9,Reorder,10/13/2025,10/4/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1134,Canola Oil,Oils & Fats,Mydeo, 2.30 ,20.5,91,209.3,146.2,Reorder,10/12/2025,10/6/2025,6/3/2026,-43.00,Reorder,,1.00,0
+1135,Avocado Oil,Oils & Fats,Skajo, 10.00 ,60.9,99,990,50.6,OK,10/12/2025,10/5/2025,6/2/2026,-44.00,OK,,1.00,0
+1136,Bread Flour,Grains & Pulses,Eidel, 1.50 ,43.0,34,51,82.0,Reorder,10/13/2025,10/6/2025,6/25/2026,-21.00,Reorder,,1.00,0
+1137,Gouda Cheese,Dairy,Thoughtblab, 7.00 ,51.1,100,700,105.8,Reorder,10/12/2025,10/3/2025,4/3/2026,-104.00,Reorder,,1.00,0
+1138,Black Rice,Grains & Pulses,Bubblemix, 6.00 ,32.2,79,474,145.9,Reorder,10/11/2025,10/8/2025,6/15/2026,-31.00,Reorder,,1.00,0
+1139,Greek Yogurt,Dairy,Thoughtblab, 3.00 ,22.4,62,186,99.3,Reorder,10/13/2025,10/6/2025,7/27/2026,11.00,Reorder,,0.00,22.36
+1140,Tuna,Seafood,Meemm, 18.00 ,77.6,25,450,120.2,Reorder,10/14/2025,10/7/2025,4/30/2026,-77.00,Reorder,,1.00,0
+1141,Buttermilk,Dairy,Vinder, 2.50 ,73.2,47,117.5,75.1,Reorder,10/12/2025,10/4/2025,7/13/2026,-3.00,Reorder,,1.00,0
+1142,Orange,Fruits & Vegetables,Kanoodle, 3.00 ,10.8,15,45,30.7,Reorder,10/15/2025,10/8/2025,5/5/2026,-72.00,Reorder,,1.00,0
+1143,Pomegranate,Fruits & Vegetables,Flipopia, 6.00 ,11.6,19,114,146.2,Reorder,10/13/2025,10/2/2025,7/23/2026,7.00,Reorder,,0.00,11.62
+1144,Tuna,Seafood,Realbridge, 18.00 ,62.9,58,1044,68.1,Reorder,10/13/2025,10/10/2025,3/25/2026,-113.00,Reorder,,1.00,0
+1145,Sour Cream,Dairy,Skyvu, 4.00 ,58.2,11,44,92.7,Reorder,10/12/2025,10/1/2025,3/30/2026,-108.00,Reorder,,1.00,0
+1146,Rice Flour,Grains & Pulses,Jabberstorm, 2.00 ,45.1,99,198,56.9,OK,10/14/2025,10/10/2025,4/21/2026,-86.00,OK,,1.00,0
+1147,Long Grain Rice,Grains & Pulses,Geba, 1.50 ,44.0,26,39,145.6,Reorder,10/11/2025,10/1/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1148,Bell Pepper,Fruits & Vegetables,Linklinks, 4.50 ,22.9,70,315,106.9,Reorder,10/15/2025,10/1/2025,4/11/2026,-96.00,Reorder,,1.00,0
+1149,Bell Pepper,Fruits & Vegetables,Skimia, 4.50 ,50.2,50,225,41.1,OK,10/12/2025,10/5/2025,7/1/2026,-15.00,OK,,1.00,0
+1150,Pineapple,Fruits & Vegetables,Bubblemix, 3.50 ,85.3,55,192.5,124.1,Reorder,10/12/2025,10/9/2025,4/7/2026,-100.00,Reorder,,1.00,0
+1151,Cod,Seafood,Buzzshare, 8.00 ,29.9,31,248,124.7,Reorder,10/13/2025,10/5/2025,5/8/2026,-69.00,Reorder,,1.00,0
+1152,Green Tea,Beverages,Oyoyo, 8.00 ,69.7,63,504,102.7,Reorder,10/14/2025,10/8/2025,5/24/2026,-53.00,Reorder,,1.00,0
+1153,Sardines,Seafood,Shufflester, 6.00 ,16.7,73,438,142.0,Reorder,10/13/2025,10/10/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1154,Sourdough Bread,Bakery,Eayo, 4.00 ,6.9,12,48,117.6,Reorder,10/15/2025,10/7/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1155,Short Grain Rice,Grains & Pulses,Yombu, 3.00 ,48.0,53,159,66.7,Reorder,10/15/2025,10/1/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1156,Powdered Sugar,Grains & Pulses,Meeveo, 2.50 ,35.8,68,170,114.2,Reorder,10/14/2025,10/6/2025,5/22/2026,-55.00,Reorder,,1.00,0
+1157,Swiss Cheese,Dairy,Skidoo, 8.10 ,22.0,80,648,26.0,OK,10/11/2025,10/8/2025,4/25/2026,-82.00,OK,,1.00,0
+1158,Tuna,Seafood,Meedoo, 18.00 ,61.8,92,1656,52.4,OK,10/15/2025,10/10/2025,5/25/2026,-52.00,OK,,1.00,0
+1159,Cucumber,Fruits & Vegetables,Eire, 1.80 ,70.7,31,55.8,135.0,Reorder,10/11/2025,10/8/2025,7/21/2026,5.00,Reorder,,0.35,45.97
+1160,Eggplant,Fruits & Vegetables,Topicstorm, 3.00 ,33.4,31,93,122.2,Reorder,10/14/2025,10/2/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1161,Garlic,Fruits & Vegetables,Tavu, 7.00 ,73.1,76,532,43.5,OK,10/13/2025,10/5/2025,7/12/2026,-4.00,OK,,1.00,0
+1162,Vegetable Oil,Oils & Fats,Trudeo, 2.00 ,42.3,57,114,46.2,OK,10/11/2025,10/6/2025,4/29/2026,-78.00,OK,,1.00,0
+1163,Whipped Cream,Dairy,Yotz, 4.00 ,42.1,92,368,123.7,Reorder,10/15/2025,10/9/2025,6/12/2026,-34.00,Reorder,,1.00,0
+1164,Cheddar Cheese,Dairy,Demizz, 9.00 ,18.5,88,792,76.0,OK,10/12/2025,10/4/2025,7/30/2026,14.00,OK,,0.00,18.50
+1165,Coconut,Fruits & Vegetables,Skippad, 5.00 ,47.7,99,495,122.7,Reorder,10/14/2025,10/5/2025,6/20/2026,-26.00,Reorder,,1.00,0
+1166,Egg (Turkey),Dairy,Topiclounge, 2.50 ,20.0,44,110,62.6,Reorder,10/12/2025,10/10/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1167,Herbal Tea,Beverages,Browsecat, 31.00 ,47.4,48,1488,133.9,Reorder,10/14/2025,10/9/2025,7/19/2026,3.00,Reorder,,0.60,18.94
+1168,Sesame Oil,Oils & Fats,Feedbug, 6.50 ,28.9,27,175.5,28.9,Reorder,10/14/2025,10/10/2025,7/25/2026,9.00,Reorder,,0.00,28.86
+1169,Black Rice,Grains & Pulses,Npath, 6.15 ,31.0,34,209.1,78.9,Reorder,10/12/2025,10/2/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1170,Orange,Fruits & Vegetables,Skipfire, 3.00 ,79.9,41,123,107.7,Reorder,10/15/2025,10/10/2025,4/4/2026,-103.00,Reorder,,1.00,0
+1171,Black Tea,Beverages,Topicstorm, 5.00 ,16.4,56,280,40.0,OK,10/11/2025,10/7/2025,7/1/2026,-15.00,OK,,1.00,0
+1172,Asparagus,Fruits & Vegetables,Devpoint, 5.00 ,40.3,22,110,45.2,Reorder,10/15/2025,10/5/2025,7/1/2026,-15.00,Reorder,,1.00,0
+1173,Palm Oil,Oils & Fats,Skibox, 1.80 ,71.0,40,72,98.3,Reorder,10/12/2025,10/4/2025,3/30/2026,-108.00,Reorder,,1.00,0
+1174,Swiss Cheese,Dairy,Gevee, 8.00 ,61.5,50,400,127.6,Reorder,10/15/2025,10/1/2025,6/22/2026,-24.00,Reorder,,1.00,0
+1175,Mango,Fruits & Vegetables,Meevee, 4.80 ,26.5,89,427.2,97.6,Reorder,10/12/2025,10/9/2025,6/14/2026,-32.00,Reorder,,1.00,0
+1176,Egg (Turkey),Dairy,Bluezoom, 2.50 ,35.2,76,190,92.0,Reorder,10/11/2025,10/8/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1177,Whole Wheat Flour,Grains & Pulses,Gigaclub, 2.75 ,57.7,67,184.25,111.9,Reorder,10/15/2025,10/3/2025,5/20/2026,-57.00,Reorder,,1.00,0
+1178,Robusta Coffee,Beverages,Photofeed, 10.00 ,47.9,62,620,108.4,Reorder,10/11/2025,10/5/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1179,Watermelon,Fruits & Vegetables,Latz, 3.00 ,85.2,75,225,72.8,OK,10/11/2025,10/4/2025,7/2/2026,-14.00,OK,,1.00,0
+1180,Green Coffee,Beverages,Cogibox, 12.50 ,17.3,75,937.5,76.3,Reorder,10/14/2025,10/1/2025,5/16/2026,-61.00,Reorder,,1.00,0
+1181,Cream,Dairy,Meevee, 2.50 ,62.4,29,72.5,95.0,Reorder,10/13/2025,10/5/2025,6/20/2026,-26.00,Reorder,,1.00,0
+1182,Oatmeal Biscuit,Bakery,Pixope, 5.00 ,33.9,34,170,138.5,Reorder,10/15/2025,10/6/2025,6/18/2026,-28.00,Reorder,,1.00,0
+1183,Green Tea,Beverages,Tanoodle, 8.00 ,45.4,15,120,49.6,Reorder,10/11/2025,10/8/2025,3/26/2026,-112.00,Reorder,,1.00,0
+1184,Anchovies,Seafood,Jaxspan, 10.00 ,20.9,88,880,41.3,OK,10/11/2025,10/7/2025,5/17/2026,-60.00,OK,,1.00,0
+1185,Cheddar Cheese,Dairy,Jayo, 9.00 ,40.6,40,360,136.2,Reorder,10/12/2025,10/9/2025,3/25/2026,-113.00,Reorder,,1.00,0
+1186,Avocado Oil,Oils & Fats,Quamba, 10.00 ,10.0,10,100,62.6,Reorder,10/13/2025,10/7/2025,5/10/2026,-67.00,Reorder,,1.00,0
+1187,Arabica Coffee,Beverages,Feedmix, 21.00 ,67.4,21,441,36.5,Reorder,10/12/2025,10/5/2025,5/12/2026,-65.00,Reorder,,1.00,0
+1188,Trout,Seafood,Zazio, 12.00 ,71.9,75,900,80.7,Reorder,10/15/2025,10/9/2025,6/7/2026,-39.00,Reorder,,1.00,0
+1189,Cod,Seafood,Izio, 8.00 ,36.4,56,448,133.1,Reorder,10/15/2025,10/10/2025,7/27/2026,11.00,Reorder,,0.00,36.41
+1190,Rye Bread,Bakery,Brainlounge, 3.00 ,63.5,69,207,123.9,Reorder,10/12/2025,10/10/2025,5/11/2026,-66.00,Reorder,,1.00,0
+1191,Basmati Rice,Grains & Pulses,Trilia, 4.50 ,55.3,56,252,46.0,OK,10/13/2025,10/4/2025,5/2/2026,-75.00,OK,,1.00,0
+1192,White Sugar,Grains & Pulses,Dazzlesphere, 2.00 ,39.8,24,48,71.0,Reorder,10/14/2025,10/4/2025,5/2/2026,-75.00,Reorder,,1.00,0
+1193,Sourdough Bread,Bakery,Thoughtstorm, 4.50 ,38.7,30,135,31.3,Reorder,10/13/2025,10/10/2025,5/13/2026,-64.00,Reorder,,1.00,0
+1194,White Tea,Beverages,Voolith, 25.00 ,25.7,36,900,52.9,Reorder,10/15/2025,10/10/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1195,White Bread,Bakery,Twitterbridge, 2.50 ,19.7,93,232.5,130.1,Reorder,10/15/2025,10/9/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1196,Mozzarella Cheese,Dairy,Feedfire, 7.00 ,66.3,96,672,143.0,Reorder,10/11/2025,10/10/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1197,Peanut Oil,Oils & Fats,Eidel, 4.00 ,23.8,60,240,134.5,Reorder,10/15/2025,10/4/2025,3/25/2026,-113.00,Reorder,,1.00,0
+1198,Gouda Cheese,Dairy,Skimia, 7.00 ,12.4,97,679,75.9,OK,10/12/2025,10/8/2025,6/15/2026,-31.00,OK,,1.00,0
+1199,Chocolate Biscuit,Bakery,JumpXS, 5.00 ,24.7,11,55,96.2,Reorder,10/14/2025,10/3/2025,4/25/2026,-82.00,Reorder,,1.00,0
+1200,Pomegranate,Fruits & Vegetables,Kamba, 6.00 ,36.3,14,84,129.0,Reorder,10/13/2025,10/10/2025,5/20/2026,-57.00,Reorder,,1.00,0
+1201,Sunflower Oil,Oils & Fats,Skidoo, 2.50 ,59.4,88,220,142.4,Reorder,10/15/2025,10/9/2025,6/8/2026,-38.00,Reorder,,1.00,0
+1202,Jasmine Rice,Grains & Pulses,Jabbertype, 4.75 ,74.5,24,114,52.2,Reorder,10/12/2025,10/6/2025,7/28/2026,12.00,Reorder,,0.00,74.46
+1203,Haddock,Seafood,Babbleopia, 9.00 ,27.8,93,837,93.5,Reorder,10/12/2025,10/7/2025,3/26/2026,-112.00,Reorder,,1.00,0
+1204,Black Rice,Grains & Pulses,Reallinks, 6.00 ,43.2,68,408,62.9,OK,10/14/2025,10/1/2025,6/26/2026,-20.00,OK,,1.00,0
+1205,Rye Bread,Bakery,Tanoodle, 2.80 ,15.8,28,78.4,113.9,Reorder,10/14/2025,10/4/2025,4/17/2026,-90.00,Reorder,,1.00,0
+1206,Lime,Fruits & Vegetables,Vinder, 2.00 ,31.5,21,42,131.2,Reorder,10/11/2025,10/6/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1207,Pomegranate,Fruits & Vegetables,Shuffledrive, 6.00 ,66.8,92,552,92.1,Reorder,10/15/2025,10/7/2025,7/25/2026,9.00,Reorder,,0.00,66.84
+1208,Robusta Coffee,Beverages,Jetwire, 10.00 ,9.8,68,680,120.3,Reorder,10/15/2025,10/1/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1209,Multigrain Bread,Bakery,Topicshots, 3.50 ,37.9,46,161,89.0,Reorder,10/15/2025,10/2/2025,5/5/2026,-72.00,Reorder,,1.00,0
+1210,Cucumber,Fruits & Vegetables,Innojam, 1.75 ,61.4,47,82.25,40.1,OK,10/15/2025,10/3/2025,4/10/2026,-97.00,OK,,1.00,0
+1211,Olive Oil,Oils & Fats,Layo, 6.00 ,57.8,52,312,75.5,Reorder,10/15/2025,10/4/2025,4/13/2026,-94.00,Reorder,,1.00,0
+1212,Mushrooms,Fruits & Vegetables,Youfeed, 6.00 ,21.8,51,306,135.7,Reorder,10/13/2025,10/9/2025,4/1/2026,-106.00,Reorder,,1.00,0
+1213,Egg (Goose),Dairy,Quatz, 2.50 ,70.2,14,35,110.4,Reorder,10/15/2025,10/3/2025,7/6/2026,-10.00,Reorder,,1.00,0
+1214,Greek Yogurt,Fruits & Vegetables,Meeveo, 51.17 ,40.1,62,3172.54,90.0,Reorder,10/14/2025,10/10/2025,4/12/2026,-95.00,Reorder,,1.00,0
+1215,Peach,Fruits & Vegetables,Wikizz, 4.00 ,25.5,40,160,33.9,OK,10/11/2025,10/10/2025,5/6/2026,-71.00,OK,,1.00,0
+1216,White Tea,Beverages,Feedbug, 25.50 ,13.9,50,1275,133.0,Reorder,10/15/2025,10/8/2025,6/22/2026,-24.00,Reorder,,1.00,0
+1217,Sushi Rice,Grains & Pulses,Katz, 4.25 ,27.2,77,327.25,26.7,OK,10/14/2025,10/6/2025,5/3/2026,-74.00,OK,,1.00,0
+1218,Strawberries,Fruits & Vegetables,Skalith, 5.90 ,61.3,31,182.9,61.5,Reorder,10/11/2025,10/9/2025,3/24/2026,-114.00,Reorder,,1.00,0
+1219,Mushrooms,Fruits & Vegetables,Twitterbeat, 6.50 ,34.2,35,227.5,105.6,Reorder,10/13/2025,10/10/2025,7/6/2026,-10.00,Reorder,,1.00,0
+1220,Broccoli,Fruits & Vegetables,Zoovu, 4.00 ,22.5,31,124,143.3,Reorder,10/15/2025,10/8/2025,5/8/2026,-69.00,Reorder,,1.00,0
+1221,White Bread,Bakery,Ozu, 2.50 ,7.0,56,140,82.0,Reorder,10/14/2025,10/7/2025,4/29/2026,-78.00,Reorder,,1.00,0
+1222,Greek Yogurt,Dairy,Skyndu, 3.00 ,38.5,90,270,26.2,OK,10/15/2025,10/2/2025,7/12/2026,-4.00,OK,,1.00,0
+1223,Canola Oil,Oils & Fats,Yodo, 2.30 ,21.7,79,181.7,58.1,OK,10/13/2025,10/5/2025,7/15/2026,-1.00,OK,,1.00,0
+1224,Lime,Fruits & Vegetables,Tazz, 2.00 ,76.1,29,58,52.5,Reorder,10/13/2025,10/10/2025,3/23/2026,-115.00,Reorder,,1.00,0
+1225,Canola Oil,Oils & Fats,Omba, 2.30 ,62.6,46,105.8,51.0,Reorder,10/14/2025,10/2/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1226,Blueberries,Fruits & Vegetables,DabZ, 10.00 ,32.3,42,420,70.4,Reorder,10/13/2025,10/10/2025,7/22/2026,6.00,Reorder,,0.20,25.81
+1227,Mozzarella Cheese,Dairy,Devpoint, 7.20 ,61.4,16,115.2,88.0,Reorder,10/12/2025,10/10/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1228,Tuna,Seafood,Viva, 18.00 ,44.8,89,1602,133.3,Reorder,10/13/2025,10/10/2025,5/7/2026,-70.00,Reorder,,1.00,0
+1229,White Tea,Beverages,Chatterbridge, 25.00 ,85.0,20,500,103.9,Reorder,10/12/2025,10/7/2025,6/19/2026,-27.00,Reorder,,1.00,0
+1230,Black Coffee,Beverages,Quamba, 15.00 ,7.8,37,555,133.5,Reorder,10/12/2025,10/3/2025,5/23/2026,-54.00,Reorder,,1.00,0
+1231,Bread Flour,Grains & Pulses,Bubblebox, 1.50 ,34.6,97,145.5,110.4,Reorder,10/11/2025,10/9/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1232,Feta Cheese,Dairy,Rhynyx, 7.00 ,28.1,98,686,62.7,OK,10/14/2025,10/6/2025,5/25/2026,-52.00,OK,,1.00,0
+1233,Kiwi,Fruits & Vegetables,Zooveo, 6.00 ,34.5,37,222,111.8,Reorder,10/12/2025,10/7/2025,4/6/2026,-101.00,Reorder,,1.00,0
+1234,Digestive Biscuit,Bakery,BlogXS, 4.00 ,74.1,97,388,120.7,Reorder,10/12/2025,10/2/2025,7/3/2026,-13.00,Reorder,,1.00,0
+1235,Arabica Coffee,Beverages,Mynte, 20.00 ,82.9,97,1940,59.0,OK,10/15/2025,10/7/2025,3/21/2026,-117.00,OK,,1.00,0
+1236,Lemon,Fruits & Vegetables,Flashspan, 2.50 ,32.0,90,225,53.8,OK,10/12/2025,10/8/2025,6/4/2026,-42.00,OK,,1.00,0
+1237,Arabica Coffee,Beverages,Youspan, 20.00 ,53.2,46,920,146.1,Reorder,10/11/2025,10/10/2025,5/17/2026,-60.00,Reorder,,1.00,0
+1238,Broccoli,Fruits & Vegetables,Jetpulse, 4.00 ,61.6,40,160,102.9,Reorder,10/11/2025,10/3/2025,6/14/2026,-32.00,Reorder,,1.00,0
+1239,Kale,Fruits & Vegetables,Yodoo, 4.00 ,76.2,77,308,87.6,Reorder,10/15/2025,10/1/2025,6/10/2026,-36.00,Reorder,,1.00,0
+1240,Bread Flour,Grains & Pulses,Skyndu, 1.50 ,34.3,62,93,71.9,Reorder,10/12/2025,10/5/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1241,Herbal Tea,Beverages,Yoveo, 30.00 ,11.6,59,1770,67.7,Reorder,10/15/2025,10/1/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1242,Blueberries,Fruits & Vegetables,Linklinks, 10.00 ,60.7,23,230,88.3,Reorder,10/13/2025,10/10/2025,5/3/2026,-74.00,Reorder,,1.00,0
+1243,Digestive Biscuit,Bakery,Dynabox, 4.00 ,41.7,39,156,37.1,OK,10/14/2025,10/4/2025,4/21/2026,-86.00,OK,,1.00,0
+1244,Gouda Cheese,Dairy,Kamba, 7.00 ,14.6,68,476,81.8,Reorder,10/14/2025,10/1/2025,5/13/2026,-64.00,Reorder,,1.00,0
+1245,Almond Flour,Grains & Pulses,Eimbee, 9.50 ,85.4,75,712.5,135.6,Reorder,10/11/2025,10/5/2025,6/26/2026,-20.00,Reorder,,1.00,0
+1246,Chocolate Biscuit,Bakery,Trunyx, 5.00 ,6.4,96,480,115.1,Reorder,10/11/2025,10/3/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1247,Haddock,Seafood,Buzzdog, 9.00 ,26.7,17,153,124.4,Reorder,10/13/2025,10/6/2025,3/20/2026,-118.00,Reorder,,1.00,0
+1248,Egg (Duck),Dairy,Zoonoodle, 1.00 ,77.5,23,23,68.7,Reorder,10/14/2025,10/1/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1249,Peach,Fruits & Vegetables,Oyoloo, 4.00 ,14.1,15,60,97.3,Reorder,10/13/2025,10/10/2025,4/3/2026,-104.00,Reorder,,1.00,0
+1250,Mackerel,Seafood,Janyx, 7.50 ,23.5,71,532.5,74.5,Reorder,10/13/2025,10/1/2025,4/16/2026,-91.00,Reorder,,1.00,0
+1251,Egg (Goose),Dairy,Dynava, 2.50 ,57.8,97,242.5,66.4,OK,10/12/2025,10/8/2025,6/13/2026,-33.00,OK,,1.00,0
+1252,Zucchini,Fruits & Vegetables,Katz, 2.50 ,26.6,29,72.5,48.0,Reorder,10/13/2025,10/6/2025,6/10/2026,-36.00,Reorder,,1.00,0
+1253,Bell Pepper,Fruits & Vegetables,Eimbee, 4.60 ,64.2,46,211.6,108.2,Reorder,10/12/2025,10/2/2025,4/8/2026,-99.00,Reorder,,1.00,0
+1254,Cheese,Dairy,Jaxspan, 9.50 ,78.2,76,722,119.4,Reorder,10/11/2025,10/6/2025,7/26/2026,10.00,Reorder,,0.00,78.24
+1255,Zucchini,Fruits & Vegetables,Jaxspan, 2.50 ,72.1,59,147.5,133.2,Reorder,10/12/2025,10/2/2025,6/26/2026,-20.00,Reorder,,1.00,0
+1256,Orange,Fruits & Vegetables,Demimbu, 3.10 ,79.5,92,285.2,61.6,OK,10/15/2025,10/2/2025,4/9/2026,-98.00,OK,,1.00,0
+1257,Kiwi,Fruits & Vegetables,Tazz, 6.00 ,67.0,28,168,81.8,Reorder,10/11/2025,10/1/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1258,Coconut,Fruits & Vegetables,Browseblab, 5.00 ,75.9,19,95,41.6,Reorder,10/15/2025,10/5/2025,4/2/2026,-105.00,Reorder,,1.00,0
+1259,Butter,Dairy,Npath, 3.00 ,50.2,85,255,61.5,OK,10/11/2025,10/8/2025,7/16/2026,0.00,OK,,1.00,0
+1260,Bread Flour,Grains & Pulses,Roomm, 1.50 ,38.9,57,85.5,111.8,Reorder,10/12/2025,10/10/2025,7/30/2026,14.00,Reorder,,0.00,38.91
+1261,Broccoli,Fruits & Vegetables,Buzzster, 4.00 ,51.0,95,380,132.0,Reorder,10/13/2025,10/4/2025,3/18/2026,-120.00,Reorder,,1.00,0
+1262,Sushi Rice,Grains & Pulses,Meembee, 4.50 ,18.5,84,378,36.2,OK,10/11/2025,10/3/2025,5/17/2026,-60.00,OK,,1.00,0
+1263,Rice Flour,Grains & Pulses,Topicblab, 2.00 ,16.5,31,62,146.4,Reorder,10/13/2025,10/5/2025,7/10/2026,-6.00,Reorder,,1.00,0
+1264,Pear,Fruits & Vegetables,Gigashots, 4.50 ,58.8,41,184.5,60.3,Reorder,10/13/2025,10/8/2025,4/4/2026,-103.00,Reorder,,1.00,0
+1265,Feta Cheese,Dairy,Avaveo, 7.00 ,73.5,97,679,49.0,OK,10/12/2025,10/4/2025,5/11/2026,-66.00,OK,,1.00,0
+1266,Milk,Dairy,Thoughtsphere, 1.00 ,24.2,43,43,70.3,Reorder,10/11/2025,10/10/2025,7/4/2026,-12.00,Reorder,,1.00,0
+1267,Palm Oil,Oils & Fats,Fivebridge, 1.80 ,14.8,74,133.2,41.0,OK,10/11/2025,10/3/2025,7/22/2026,6.00,OK,,0.20,11.85
+1268,Bread Flour,Grains & Pulses,Zava, 1.50 ,45.6,70,105,75.1,Reorder,10/13/2025,10/6/2025,7/21/2026,5.00,Reorder,,0.35,29.66
+1269,Cheese,Dairy,Twitterbeat, 9.20 ,13.8,69,634.8,139.4,Reorder,10/12/2025,10/2/2025,4/29/2026,-78.00,Reorder,,1.00,0
+1270,Carrot,Fruits & Vegetables,Quinu, 1.50 ,9.0,67,100.5,68.7,Reorder,10/12/2025,10/6/2025,4/2/2026,-105.00,Reorder,,1.00,0
+1271,Short Grain Rice,Grains & Pulses,Photobean, 3.00 ,82.7,18,54,114.3,Reorder,10/15/2025,10/5/2025,7/6/2026,-10.00,Reorder,,1.00,0
+1272,Arabica Coffee,Beverages,Chatterpoint, 21.00 ,31.7,22,462,125.7,Reorder,10/12/2025,10/8/2025,5/26/2026,-51.00,Reorder,,1.00,0
+1273,Grapes,Fruits & Vegetables,Skinix, 5.50 ,21.3,88,484,45.0,OK,10/14/2025,10/2/2025,6/18/2026,-28.00,OK,,1.00,0
+1274,Tilapia,Seafood,InnoZ, 7.00 ,71.0,78,546,135.2,Reorder,10/13/2025,10/3/2025,7/24/2026,8.00,Reorder,,0.00,70.95
+1275,Olive Oil,Oils & Fats,Fliptune, 6.00 ,47.1,83,498,119.5,Reorder,10/15/2025,10/10/2025,5/13/2026,-64.00,Reorder,,1.00,0
+1276,Robusta Coffee,Beverages,Demivee, 10.50 ,54.5,42,441,52.8,Reorder,10/13/2025,10/1/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1277,Peas,Fruits & Vegetables,Skipfire, 3.00 ,33.1,49,147,46.9,OK,10/14/2025,10/6/2025,7/6/2026,-10.00,OK,,1.00,0
+1278,Brown Rice,Grains & Pulses,Oyondu, 2.50 ,17.1,17,42.5,115.8,Reorder,10/15/2025,10/7/2025,7/30/2026,14.00,Reorder,,0.00,17.11
+1279,Buttermilk,Dairy,Jatri, 2.40 ,37.5,52,124.8,70.5,Reorder,10/13/2025,10/6/2025,7/26/2026,10.00,Reorder,,0.00,37.50
+1280,Mushrooms,Fruits & Vegetables,Demivee, 6.00 ,18.7,79,474,129.1,Reorder,10/11/2025,10/3/2025,4/1/2026,-106.00,Reorder,,1.00,0
+1281,Palm Oil,Oils & Fats,Buzzshare, 1.80 ,32.7,35,63,43.9,Reorder,10/15/2025,10/4/2025,6/7/2026,-39.00,Reorder,,1.00,0
+1282,Cucumber,Fruits & Vegetables,Flashset, 1.80 ,58.7,76,136.8,95.0,Reorder,10/11/2025,10/2/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1283,Swiss Cheese,Dairy,Feedmix, 8.00 ,75.4,93,744,34.8,OK,10/11/2025,10/10/2025,6/27/2026,-19.00,OK,,1.00,0
+1284,Halibut,Seafood,Jaxspan, 20.00 ,43.6,40,800,31.1,OK,10/15/2025,10/9/2025,6/26/2026,-20.00,OK,,1.00,0
+1285,Trout,Seafood,Flipbug, 11.50 ,76.1,19,218.5,112.6,Reorder,10/13/2025,10/5/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1286,Vegetable Oil,Oils & Fats,Vimbo, 2.00 ,38.3,70,140,69.1,OK,10/13/2025,10/8/2025,4/21/2026,-86.00,OK,,1.00,0
+1287,Digestive Biscuit,Bakery,Dabvine, 4.00 ,40.3,90,360,96.0,Reorder,10/14/2025,10/1/2025,7/3/2026,-13.00,Reorder,,1.00,0
+1288,Digestive Biscuit,Bakery,Devshare, 4.00 ,59.0,77,308,32.8,OK,10/13/2025,10/4/2025,5/28/2026,-49.00,OK,,1.00,0
+1289,Apricot,Fruits & Vegetables,Quinu, 5.00 ,64.1,38,190,112.7,Reorder,10/11/2025,10/10/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1290,Tilapia,Seafood,Jamia, 7.00 ,47.9,93,651,52.6,OK,10/12/2025,10/8/2025,5/7/2026,-70.00,OK,,1.00,0
+1291,Evaporated Milk,Dairy,Blognation, 2.00 ,84.7,23,46,35.9,Reorder,10/11/2025,10/9/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1292,Green Tea,Beverages,Livepath, 7.60 ,66.0,51,387.6,147.4,Reorder,10/13/2025,10/1/2025,6/22/2026,-24.00,Reorder,,1.00,0
+1293,Heavy Cream,Dairy,Yata, 4.00 ,34.1,57,228,90.1,Reorder,10/12/2025,10/6/2025,3/28/2026,-110.00,Reorder,,1.00,0
+1294,Papaya,Fruits & Vegetables,Demivee, 4.50 ,84.3,59,265.5,94.1,Reorder,10/14/2025,10/6/2025,3/27/2026,-111.00,Reorder,,1.00,0
+1295,Blueberries,Fruits & Vegetables,Kayveo, 10.00 ,28.3,89,890,49.9,OK,10/14/2025,10/6/2025,7/2/2026,-14.00,OK,,1.00,0
+1296,Blueberries,Fruits & Vegetables,Kamba, 10.00 ,27.5,53,530,100.9,Reorder,10/14/2025,10/2/2025,3/21/2026,-117.00,Reorder,,1.00,0
+1297,Plum,Fruits & Vegetables,Skajo, 3.90 ,78.9,11,42.9,58.3,Reorder,10/15/2025,10/9/2025,6/7/2026,-39.00,Reorder,,1.00,0
+1298,Yogurt,Dairy,Miboo, 1.75 ,67.6,59,103.25,138.7,Reorder,10/14/2025,10/10/2025,7/29/2026,13.00,Reorder,,0.00,67.58
+1299,Onion,Fruits & Vegetables,Oba, 2.00 ,71.5,34,68,89.9,Reorder,10/13/2025,10/5/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1300,Tuna,Seafood,Thoughtstorm, 18.00 ,45.0,25,450,95.2,Reorder,10/12/2025,10/7/2025,5/20/2026,-57.00,Reorder,,1.00,0
+1301,Anchovies,Seafood,Zoonder, 10.00 ,59.8,81,810,73.8,OK,10/11/2025,10/9/2025,5/25/2026,-52.00,OK,,1.00,0
+1302,Apple,Fruits & Vegetables,Zava, 3.50 ,56.4,81,283.5,73.0,OK,10/13/2025,10/3/2025,6/23/2026,-23.00,OK,,1.00,0
+1303,Watermelon,Fruits & Vegetables,Topicblab, 3.00 ,8.7,71,213,137.2,Reorder,10/13/2025,10/1/2025,4/16/2026,-91.00,Reorder,,1.00,0
+1304,Cauliflower,Fruits & Vegetables,Abata, 2.50 ,12.1,52,130,83.4,Reorder,10/14/2025,10/8/2025,6/10/2026,-36.00,Reorder,,1.00,0
+1305,Greek Yogurt,Dairy,Avamba, 3.00 ,8.4,26,78,131.1,Reorder,10/14/2025,10/9/2025,6/26/2026,-20.00,Reorder,,1.00,0
+1306,Haddock,Seafood,Feedfish, 9.00 ,36.0,84,756,77.8,OK,10/11/2025,10/4/2025,5/19/2026,-58.00,OK,,1.00,0
+1307,Blueberries,Fruits & Vegetables,Eidel, 10.00 ,39.6,28,280,142.0,Reorder,10/11/2025,10/2/2025,4/11/2026,-96.00,Reorder,,1.00,0
+1308,Strawberries,Fruits & Vegetables,Lazz, 6.00 ,65.5,94,564,99.5,Reorder,10/12/2025,10/7/2025,7/29/2026,13.00,Reorder,,0.00,65.45
+1309,Kiwi,Fruits & Vegetables,Talane, 6.00 ,52.6,47,282,60.2,Reorder,10/14/2025,10/8/2025,5/9/2026,-68.00,Reorder,,1.00,0
+1310,Coconut Sugar,Grains & Pulses,Bubblebox, 5.00 ,70.8,20,100,48.8,Reorder,10/12/2025,10/4/2025,6/5/2026,-41.00,Reorder,,1.00,0
+1311,Tomato,Fruits & Vegetables,Quatz, 2.50 ,61.1,84,210,81.2,OK,10/13/2025,10/9/2025,3/24/2026,-114.00,OK,,1.00,0
+1312,Cheese,Dairy,Mydeo, 9.00 ,56.7,100,900,85.3,OK,10/14/2025,10/8/2025,7/17/2026,1.00,OK,,0.70,17.01
+1313,Milk,Dairy,BlogXS, 1.00 ,43.1,74,74,31.7,OK,10/13/2025,10/1/2025,7/30/2026,14.00,OK,,0.00,43.10
+1314,Green Coffee,Beverages,Aibox, 12.00 ,38.5,27,324,46.0,Reorder,10/12/2025,10/2/2025,4/22/2026,-85.00,Reorder,,1.00,0
+1315,Eggplant,Fruits & Vegetables,Mybuzz, 3.00 ,68.2,91,273,63.6,OK,10/13/2025,10/7/2025,5/30/2026,-47.00,OK,,1.00,0
+1316,Grapes,Fruits & Vegetables,Rhynoodle, 5.50 ,33.4,82,451,68.6,OK,10/12/2025,10/7/2025,6/27/2026,-19.00,OK,,1.00,0
+1317,Bread Flour,Grains & Pulses,Realblab, 1.50 ,11.5,84,126,147.1,Reorder,10/13/2025,10/9/2025,6/17/2026,-29.00,Reorder,,1.00,0
+1318,Halibut,Seafood,Linktype, 20.00 ,71.3,18,360,34.3,Reorder,10/15/2025,10/9/2025,6/2/2026,-44.00,Reorder,,1.00,0
+1319,Sourdough Bread,Bakery,Avamba, 4.50 ,72.1,12,54,91.7,Reorder,10/15/2025,10/1/2025,7/24/2026,8.00,Reorder,,0.00,72.12
+1320,Black Rice,Grains & Pulses,Voomm, 6.50 ,61.0,85,552.5,100.3,Reorder,10/14/2025,10/5/2025,7/22/2026,6.00,Reorder,,0.20,48.78
+1321,Butter Biscuit,Bakery,Vipe, 6.00 ,67.8,33,198,30.1,OK,10/15/2025,10/10/2025,3/20/2026,-118.00,OK,,1.00,0
+1322,Tilapia,Seafood,Flipopia, 7.00 ,13.4,59,413,38.6,OK,10/14/2025,10/5/2025,5/7/2026,-70.00,OK,,1.00,0
+1323,Grapes,Fruits & Vegetables,Jabbersphere, 5.50 ,7.7,22,121,95.6,Reorder,10/11/2025,10/7/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1324,Gouda Cheese,Dairy,Rhyloo, 7.00 ,73.9,67,469,49.3,OK,10/11/2025,10/1/2025,5/14/2026,-63.00,OK,,1.00,0
+1325,Cheese,Dairy,Oozz, 9.00 ,65.9,78,702,65.2,OK,10/12/2025,10/4/2025,7/28/2026,12.00,OK,,0.00,65.88
+1326,Lemon,Fruits & Vegetables,Vimbo, 2.45 ,19.2,72,176.4,54.4,OK,10/11/2025,10/2/2025,5/17/2026,-60.00,OK,,1.00,0
+1327,Heavy Cream,Dairy,Oyoyo, 4.00 ,23.3,63,252,79.0,Reorder,10/13/2025,10/9/2025,7/25/2026,9.00,Reorder,,0.00,23.28
+1328,White Bread,Bakery,Tagfeed, 2.50 ,62.5,30,75,50.9,Reorder,10/12/2025,10/4/2025,5/31/2026,-46.00,Reorder,,1.00,0
+1329,Arabica Coffee,Beverages,Jayo, 20.00 ,74.6,36,720,140.0,Reorder,10/13/2025,10/6/2025,6/18/2026,-28.00,Reorder,,1.00,0
+1330,Grapes,Fruits & Vegetables,Camimbo, 5.50 ,53.8,88,484,38.7,OK,10/11/2025,10/1/2025,5/29/2026,-48.00,OK,,1.00,0
+1331,Banana,Fruits & Vegetables,Youfeed, 53.82 ,40.6,95,5112.9,41.5,OK,10/15/2025,10/8/2025,7/19/2026,3.00,OK,,0.60,16.24
+1332,Broccoli,Fruits & Vegetables,Skilith, 4.00 ,52.0,30,120,139.4,Reorder,10/11/2025,10/3/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1333,Green Beans,Fruits & Vegetables,Omba, 2.00 ,35.0,31,62,116.0,Reorder,10/14/2025,10/7/2025,7/1/2026,-15.00,Reorder,,1.00,0
+1334,Cod,Seafood,Buzzster, 8.00 ,84.0,16,128,76.2,Reorder,10/14/2025,10/2/2025,5/29/2026,-48.00,Reorder,,1.00,0
+1335,White Sugar,Grains & Pulses,Skyba, 2.00 ,45.6,14,28,106.6,Reorder,10/14/2025,10/4/2025,6/9/2026,-37.00,Reorder,,1.00,0
+1336,Tomato,Fruits & Vegetables,Shuffledrive, 2.50 ,55.5,44,110,68.8,Reorder,10/15/2025,10/8/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1337,Long Grain Rice,Grains & Pulses,Yodoo, 1.50 ,22.8,69,103.5,52.4,OK,10/14/2025,10/6/2025,7/15/2026,-1.00,OK,,1.00,0
+1338,Long Grain Rice,Grains & Pulses,Gigashots, 1.50 ,84.0,71,106.5,123.1,Reorder,10/13/2025,10/10/2025,6/27/2026,-19.00,Reorder,,1.00,0
+1339,Carrot,Fruits & Vegetables,Skynoodle, 1.60 ,78.5,92,147.2,30.8,OK,10/15/2025,10/5/2025,4/30/2026,-77.00,OK,,1.00,0
+1340,Peanut Oil,Oils & Fats,Babblestorm, 4.00 ,73.6,49,196,134.3,Reorder,10/12/2025,10/3/2025,7/3/2026,-13.00,Reorder,,1.00,0
+1341,Pomegranate,Fruits & Vegetables,Innojam, 6.00 ,57.5,52,312,49.3,OK,10/13/2025,10/5/2025,5/10/2026,-67.00,OK,,1.00,0
+1342,Egg (Turkey),Dairy,Gigabox, 2.50 ,35.3,56,140,36.3,OK,10/13/2025,10/9/2025,6/11/2026,-35.00,OK,,1.00,0
+1343,Strawberries,Fruits & Vegetables,Yombu, 6.10 ,19.3,16,97.6,61.8,Reorder,10/15/2025,10/5/2025,4/21/2026,-86.00,Reorder,,1.00,0
+1344,Zucchini,Fruits & Vegetables,Trudeo, 2.50 ,39.4,52,130,72.1,Reorder,10/13/2025,10/2/2025,5/1/2026,-76.00,Reorder,,1.00,0
+1345,Trout,Seafood,Browsezoom, 11.50 ,32.1,91,1046.5,60.9,OK,10/14/2025,10/4/2025,5/10/2026,-67.00,OK,,1.00,0
+1346,Mango,Fruits & Vegetables,Meezzy, 4.70 ,41.0,58,272.6,45.9,OK,10/15/2025,10/2/2025,5/19/2026,-58.00,OK,,1.00,0
+1347,Halibut,Seafood,Wikibox, 20.00 ,66.9,47,940,38.2,OK,10/12/2025,10/5/2025,7/26/2026,10.00,OK,,0.00,66.90
+1348,Rye Bread,Bakery,Kwilith, 3.00 ,21.8,50,150,90.4,Reorder,10/14/2025,10/7/2025,5/16/2026,-61.00,Reorder,,1.00,0
+1349,Sour Cream,Dairy,Babblestorm, 4.00 ,61.5,43,172,60.7,Reorder,10/11/2025,10/8/2025,7/19/2026,3.00,Reorder,,0.60,24.59
+1350,Cheddar Cheese,Dairy,Jabbersphere, 8.90 ,42.8,68,605.2,49.2,OK,10/14/2025,10/4/2025,3/21/2026,-117.00,OK,,1.00,0
+1351,Egg (Turkey),Dairy,DabZ, 2.50 ,20.7,19,47.5,118.6,Reorder,10/15/2025,10/3/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1352,Swiss Cheese,Dairy,Quinu, 8.00 ,84.1,70,560,74.4,Reorder,10/13/2025,10/9/2025,5/16/2026,-61.00,Reorder,,1.00,0
+1353,Eggplant,Fruits & Vegetables,Tanoodle, 3.00 ,38.1,97,291,51.7,OK,10/12/2025,10/9/2025,5/6/2026,-71.00,OK,,1.00,0
+1354,Sunflower Oil,Oils & Fats,Voolith, 2.50 ,43.1,87,217.5,61.2,OK,10/11/2025,10/1/2025,3/23/2026,-115.00,OK,,1.00,0
+1355,White Tea,Beverages,Viva, 25.00 ,49.6,58,1450,131.7,Reorder,10/14/2025,10/10/2025,7/21/2026,5.00,Reorder,,0.35,32.21
+1356,Coconut,Fruits & Vegetables,Eamia, 5.00 ,6.5,16,80,62.7,Reorder,10/14/2025,10/3/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1357,Pineapple,Fruits & Vegetables,Quinu, 3.50 ,85.4,65,227.5,120.4,Reorder,10/12/2025,10/6/2025,5/8/2026,-69.00,Reorder,,1.00,0
+1358,Basmati Rice,Grains & Pulses,Kanoodle, 4.50 ,61.8,15,67.5,63.8,Reorder,10/15/2025,10/9/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1359,Bell Pepper,Fruits & Vegetables,Leenti, 4.50 ,27.8,75,337.5,49.3,OK,10/14/2025,10/3/2025,4/25/2026,-82.00,OK,,1.00,0
+1360,Vanilla Biscuit,Bakery,Yozio, 5.50 ,50.7,80,440,66.1,OK,10/12/2025,10/1/2025,3/16/2026,-122.00,OK,,1.00,0
+1361,Orange,Fruits & Vegetables,Camido, 2.85 ,52.3,84,239.4,29.0,OK,10/13/2025,10/5/2025,4/15/2026,-92.00,OK,,1.00,0
+1362,Eggplant,Fruits & Vegetables,Ainyx, 3.00 ,62.5,17,51,125.0,Reorder,10/12/2025,10/5/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1363,Evaporated Milk,Dairy,Gigabox, 1.90 ,35.0,64,121.6,118.6,Reorder,10/13/2025,10/10/2025,5/3/2026,-74.00,Reorder,,1.00,0
+1364,Whipped Cream,Dairy,Yakitri, 4.00 ,85.5,76,304,76.4,Reorder,10/14/2025,10/10/2025,4/3/2026,-104.00,Reorder,,1.00,0
+1365,Sesame Oil,Oils & Fats,Thoughtbeat, 6.50 ,83.0,77,500.5,146.3,Reorder,10/15/2025,10/7/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1366,Cream,Dairy,Thoughtblab, 2.50 ,83.8,18,45,52.6,Reorder,10/13/2025,10/7/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1367,Coconut Sugar,Grains & Pulses,Tagchat, 5.00 ,73.3,51,255,111.9,Reorder,10/11/2025,10/6/2025,6/7/2026,-39.00,Reorder,,1.00,0
+1368,Asparagus,Fruits & Vegetables,Realmix, 5.00 ,27.5,68,340,76.2,Reorder,10/13/2025,10/4/2025,7/22/2026,6.00,Reorder,,0.20,22.02
+1369,Wild Rice,Grains & Pulses,Devbug, 10.00 ,53.4,46,460,31.9,OK,10/13/2025,10/4/2025,6/15/2026,-31.00,OK,,1.00,0
+1370,Long Grain Rice,Grains & Pulses,Meevee, 1.50 ,80.7,98,147,121.6,Reorder,10/15/2025,10/6/2025,6/26/2026,-20.00,Reorder,,1.00,0
+1371,Onion,Fruits & Vegetables,Edgewire, 2.00 ,67.1,50,100,61.6,Reorder,10/11/2025,10/7/2025,5/17/2026,-60.00,Reorder,,1.00,0
+1372,Salmon,Seafood,Feedfish, 15.00 ,62.7,88,1320,121.6,Reorder,10/13/2025,10/4/2025,7/11/2026,-5.00,Reorder,,1.00,0
+1373,Potato,Fruits & Vegetables,Edgewire, 1.20 ,80.4,26,31.2,143.0,Reorder,10/15/2025,10/6/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1374,Green Coffee,Beverages,Oozz, 12.00 ,76.1,43,516,125.5,Reorder,10/15/2025,10/7/2025,6/17/2026,-29.00,Reorder,,1.00,0
+1375,Powdered Sugar,Grains & Pulses,Devbug, 2.50 ,21.1,46,115,28.2,OK,10/15/2025,10/4/2025,7/16/2026,0.00,OK,,1.00,0
+1376,Cauliflower,Fruits & Vegetables,Meevee, 2.45 ,23.6,19,46.55,61.3,Reorder,10/12/2025,10/8/2025,5/27/2026,-50.00,Reorder,,1.00,0
+1377,Kale,Fruits & Vegetables,Brightbean, 4.00 ,53.1,61,244,93.3,Reorder,10/14/2025,10/3/2025,7/22/2026,6.00,Reorder,,0.20,42.49
+1378,Garlic,Fruits & Vegetables,Twiyo, 7.00 ,52.7,43,301,122.3,Reorder,10/12/2025,10/4/2025,4/4/2026,-103.00,Reorder,,1.00,0
+1379,Green Tea,Beverages,Fiveclub, 8.50 ,44.4,80,680,83.2,Reorder,10/12/2025,10/8/2025,5/17/2026,-60.00,Reorder,,1.00,0
+1380,Green Tea,Beverages,Skalith, 8.00 ,25.9,34,272,123.2,Reorder,10/11/2025,10/9/2025,7/11/2026,-5.00,Reorder,,1.00,0
+1381,Green Tea,Beverages,Thoughtsphere, 8.00 ,43.8,88,704,142.3,Reorder,10/13/2025,10/5/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1382,Cottage Cheese,Dairy,Divape, 5.00 ,26.8,89,445,140.3,Reorder,10/15/2025,10/9/2025,5/26/2026,-51.00,Reorder,,1.00,0
+1383,Wild Rice,Grains & Pulses,Wordpedia, 10.00 ,83.1,26,260,87.7,Reorder,10/13/2025,10/2/2025,5/7/2026,-70.00,Reorder,,1.00,0
+1384,Pear,Fruits & Vegetables,Lazz, 4.50 ,42.8,26,117,40.2,Reorder,10/12/2025,10/7/2025,7/9/2026,-7.00,Reorder,,1.00,0
+1385,Peach,Fruits & Vegetables,Linktype, 4.00 ,17.9,37,148,86.9,Reorder,10/11/2025,10/1/2025,4/29/2026,-78.00,Reorder,,1.00,0
+1386,Yogurt,Dairy,Browsecat, 1.75 ,21.0,76,133,71.6,OK,10/13/2025,10/3/2025,5/5/2026,-72.00,OK,,1.00,0
+1387,Feta Cheese,Dairy,Demivee, 7.00 ,34.1,80,560,143.6,Reorder,10/15/2025,10/9/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1388,Sweet Potato,Fruits & Vegetables,Photospace, 2.00 ,16.6,100,200,58.6,OK,10/11/2025,10/3/2025,3/23/2026,-115.00,OK,,1.00,0
+1389,Butter,Dairy,Meembee, 3.10 ,23.3,21,65.1,98.9,Reorder,10/13/2025,10/1/2025,6/18/2026,-28.00,Reorder,,1.00,0
+1390,Coconut Oil,Oils & Fats,Gevee, 5.00 ,60.8,33,165,32.3,OK,10/11/2025,10/5/2025,5/5/2026,-72.00,OK,,1.00,0
+1391,Apple,Fruits & Vegetables,Chatterpoint, 3.50 ,42.4,43,150.5,131.2,Reorder,10/14/2025,10/10/2025,4/1/2026,-106.00,Reorder,,1.00,0
+1392,Mushrooms,Fruits & Vegetables,Izio, 6.20 ,29.1,34,210.8,32.9,OK,10/13/2025,10/3/2025,4/9/2026,-98.00,OK,,1.00,0
+1393,Mackerel,Seafood,Yodoo, 7.50 ,55.7,82,615,32.9,OK,10/14/2025,10/4/2025,6/10/2026,-36.00,OK,,1.00,0
+1394,Whole Wheat Bread,Bakery,Lazz, 3.50 ,31.0,17,59.5,120.7,Reorder,10/13/2025,10/5/2025,7/20/2026,4.00,Reorder,,0.50,15.49
+1395,Sushi Rice,Grains & Pulses,Talane, 4.75 ,79.7,36,171,113.7,Reorder,10/11/2025,10/1/2025,6/3/2026,-43.00,Reorder,,1.00,0
+1396,Cod,Seafood,Roombo, 8.00 ,24.5,65,520,108.8,Reorder,10/13/2025,10/1/2025,7/30/2026,14.00,Reorder,,0.00,24.46
+1397,Papaya,Fruits & Vegetables,Avaveo, 4.50 ,60.3,45,202.5,44.7,OK,10/12/2025,10/5/2025,6/22/2026,-24.00,OK,,1.00,0
+1398,Egg (Goose),Dairy,Abatz, 2.50 ,23.9,35,87.5,119.6,Reorder,10/11/2025,10/9/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1399,Bread Flour,Grains & Pulses,Oloo, 1.50 ,10.2,96,144,111.9,Reorder,10/14/2025,10/3/2025,6/5/2026,-41.00,Reorder,,1.00,0
+1400,Coconut,Fruits & Vegetables,Katz, 5.00 ,50.8,56,280,129.1,Reorder,10/12/2025,10/3/2025,5/1/2026,-76.00,Reorder,,1.00,0
+1401,Ricotta Cheese,Dairy,Shufflester, 6.00 ,63.0,49,294,97.5,Reorder,10/13/2025,10/10/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1402,Raw Sugar,Grains & Pulses,Cogilith, 1.50 ,52.9,100,150,65.8,OK,10/12/2025,10/9/2025,5/19/2026,-58.00,OK,,1.00,0
+1403,Haddock,Seafood,Youtags, 9.00 ,70.2,30,270,48.8,Reorder,10/15/2025,10/9/2025,6/28/2026,-18.00,Reorder,,1.00,0
+1404,Papaya,Fruits & Vegetables,Brightbean, 4.50 ,58.6,20,90,25.6,Reorder,10/13/2025,10/5/2025,3/23/2026,-115.00,Reorder,,1.00,0
+1405,Sesame Oil,Oils & Fats,Rhycero, 6.50 ,47.6,85,552.5,111.5,Reorder,10/12/2025,10/2/2025,4/15/2026,-92.00,Reorder,,1.00,0
+1406,Green Beans,Fruits & Vegetables,Izio, 2.10 ,66.9,86,180.6,129.8,Reorder,10/12/2025,10/5/2025,4/5/2026,-102.00,Reorder,,1.00,0
+1407,Sourdough Bread,Bakery,Plajo, 4.00 ,76.3,65,260,63.6,OK,10/11/2025,10/10/2025,4/7/2026,-100.00,OK,,1.00,0
+1408,Cottage Cheese,Dairy,Feedfire, 5.00 ,81.2,67,335,29.8,OK,10/15/2025,10/10/2025,5/13/2026,-64.00,OK,,1.00,0
+1409,Ricotta Cheese,Dairy,Fliptune, 6.00 ,24.7,88,528,39.9,OK,10/11/2025,10/7/2025,7/25/2026,9.00,OK,,0.00,24.74
+1410,Robusta Coffee,Beverages,Devpulse, 10.00 ,79.4,14,140,143.5,Reorder,10/11/2025,10/6/2025,4/7/2026,-100.00,Reorder,,1.00,0
+1411,Tilapia,Seafood,Vipe, 6.70 ,29.6,85,569.5,92.7,Reorder,10/15/2025,10/3/2025,5/10/2026,-67.00,Reorder,,1.00,0
+1412,Feta Cheese,Dairy,Thoughtstorm, 7.00 ,73.0,74,518,37.7,OK,10/12/2025,10/10/2025,7/23/2026,7.00,OK,,0.00,73.00
+1413,Cheddar Cheese,Dairy,Oyoba, 9.00 ,51.3,21,189,51.8,Reorder,10/13/2025,10/7/2025,7/19/2026,3.00,Reorder,,0.60,20.52
+1414,Butter Biscuit,Bakery,Quatz, 6.00 ,21.5,22,132,69.1,Reorder,10/15/2025,10/1/2025,4/4/2026,-103.00,Reorder,,1.00,0
+1415,Ricotta Cheese,Dairy,Thoughtblab, 6.00 ,25.0,91,546,116.7,Reorder,10/13/2025,10/1/2025,6/2/2026,-44.00,Reorder,,1.00,0
+1416,Multigrain Bread,Bakery,Devpulse, 3.50 ,74.1,85,297.5,102.4,Reorder,10/11/2025,10/8/2025,4/28/2026,-79.00,Reorder,,1.00,0
+1417,Peas,Fruits & Vegetables,Photolist, 3.00 ,78.1,12,36,91.0,Reorder,10/14/2025,10/4/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1418,Pomegranate,Fruits & Vegetables,Browsebug, 6.00 ,37.1,43,258,45.3,Reorder,10/14/2025,10/1/2025,5/19/2026,-58.00,Reorder,,1.00,0
+1419,Yogurt,Dairy,Eimbee, 1.75 ,25.8,92,161,85.1,OK,10/13/2025,10/5/2025,3/27/2026,-111.00,OK,,1.00,0
+1420,Watermelon,Fruits & Vegetables,Digitube, 3.00 ,72.2,23,69,28.9,Reorder,10/14/2025,10/1/2025,4/16/2026,-91.00,Reorder,,1.00,0
+1421,Egg (Duck),Dairy,Blogtags, 1.00 ,23.8,77,77,132.1,Reorder,10/13/2025,10/6/2025,7/28/2026,12.00,Reorder,,0.00,23.78
+1422,Sweet Potato,Fruits & Vegetables,Skibox, 2.00 ,50.3,65,130,62.9,OK,10/12/2025,10/6/2025,4/14/2026,-93.00,OK,,1.00,0
+1423,Banana,Fruits & Vegetables,Skinix, 15.31 ,64.6,82,1255.42,120.9,Reorder,10/12/2025,10/5/2025,7/2/2026,-14.00,Reorder,,1.00,0
+1424,Swiss Cheese,Dairy,Janyx, 8.00 ,82.9,20,160,99.0,Reorder,10/13/2025,10/6/2025,4/7/2026,-100.00,Reorder,,1.00,0
+1425,Cheddar Cheese,Dairy,Wordify, 9.00 ,14.6,31,279,29.9,OK,10/15/2025,10/9/2025,6/12/2026,-34.00,OK,,1.00,0
+1426,Butter,Dairy,Shuffletag, 2.90 ,6.7,36,104.4,74.3,Reorder,10/15/2025,10/2/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1427,Black Tea,Beverages,Ozu, 5.00 ,9.8,59,295,145.7,Reorder,10/13/2025,10/8/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1428,Long Grain Rice,Grains & Pulses,Flashspan, 1.50 ,13.8,11,16.5,63.4,Reorder,10/13/2025,10/4/2025,7/19/2026,3.00,Reorder,,0.60,5.51
+1429,Black Coffee,Beverages,Gabspot, 15.50 ,48.5,24,372,147.0,Reorder,10/13/2025,10/3/2025,6/24/2026,-22.00,Reorder,,1.00,0
+1430,Haddock,Seafood,Kwimbee, 9.00 ,58.0,75,675,104.6,Reorder,10/11/2025,10/8/2025,7/22/2026,6.00,Reorder,,0.20,46.41
+1431,Black Coffee,Beverages,Youfeed, 15.00 ,65.1,11,165,67.0,Reorder,10/12/2025,10/2/2025,3/24/2026,-114.00,Reorder,,1.00,0
+1432,Anchovies,Seafood,Camido, 10.00 ,84.1,60,600,92.0,Reorder,10/15/2025,10/2/2025,5/22/2026,-55.00,Reorder,,1.00,0
+1433,Lemon,Fruits & Vegetables,Yata, 2.40 ,46.3,91,218.4,131.8,Reorder,10/13/2025,10/3/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1434,Egg (Goose),Dairy,Youopia, 2.50 ,34.9,43,107.5,75.4,Reorder,10/13/2025,10/9/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1435,Bread Flour,Grains & Pulses,Demizz, 1.50 ,61.0,25,37.5,99.0,Reorder,10/14/2025,10/1/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1436,Parmesan Cheese,Dairy,Rhyloo, 11.80 ,84.6,96,1132.8,126.5,Reorder,10/11/2025,10/5/2025,4/26/2026,-81.00,Reorder,,1.00,0
+1437,Mackerel,Seafood,Twitterworks, 7.50 ,57.2,30,225,127.0,Reorder,10/11/2025,10/8/2025,4/1/2026,-106.00,Reorder,,1.00,0
+1438,Arborio Rice,Grains & Pulses,Dabtype, 4.50 ,13.2,56,252,136.3,Reorder,10/12/2025,10/3/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1439,Whole Wheat Bread,Bakery,Quire, 3.50 ,61.4,91,318.5,77.0,OK,10/13/2025,10/9/2025,3/22/2026,-116.00,OK,,1.00,0
+1440,White Sugar,Grains & Pulses,Topicshots, 2.00 ,31.4,27,54,109.9,Reorder,10/14/2025,10/1/2025,6/28/2026,-18.00,Reorder,,1.00,0
+1441,Buttermilk,Dairy,Zoombox, 2.45 ,42.6,28,68.6,43.6,Reorder,10/11/2025,10/6/2025,6/22/2026,-24.00,Reorder,,1.00,0
+1442,Sour Cream,Dairy,Chatterbridge, 4.00 ,83.3,92,368,104.0,Reorder,10/12/2025,10/3/2025,6/3/2026,-43.00,Reorder,,1.00,0
+1443,Tuna,Seafood,Youspan, 18.00 ,27.9,37,666,94.0,Reorder,10/12/2025,10/7/2025,6/16/2026,-30.00,Reorder,,1.00,0
+1444,Powdered Sugar,Grains & Pulses,Kazu, 2.50 ,52.2,28,70,52.9,Reorder,10/13/2025,10/7/2025,5/29/2026,-48.00,Reorder,,1.00,0
+1445,Tilapia,Seafood,Vinder, 7.00 ,50.5,30,210,88.3,Reorder,10/15/2025,10/4/2025,4/28/2026,-79.00,Reorder,,1.00,0
+1446,Arabica Coffee,Beverages,Feedfire, 20.00 ,63.2,98,1960,93.7,OK,10/14/2025,10/3/2025,4/4/2026,-103.00,OK,,1.00,0
+1447,Lemon,Fruits & Vegetables,Livetube, 2.50 ,67.4,65,162.5,133.4,Reorder,10/15/2025,10/9/2025,4/5/2026,-102.00,Reorder,,1.00,0
+1448,Rice Flour,Grains & Pulses,Zava, 2.00 ,62.1,42,84,27.0,OK,10/13/2025,10/10/2025,5/24/2026,-53.00,OK,,1.00,0
+1449,Lemon,Fruits & Vegetables,Avavee, 2.50 ,58.8,63,157.5,100.2,Reorder,10/14/2025,10/7/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1450,Broccoli,Fruits & Vegetables,Jabbersphere, 4.00 ,70.9,85,340,68.3,OK,10/11/2025,10/10/2025,3/22/2026,-116.00,OK,,1.00,0
+1451,Egg (Duck),Dairy,Yombu, 1.00 ,38.1,44,44,32.4,OK,10/14/2025,10/3/2025,7/18/2026,2.00,OK,,0.65,13.32
+1452,Plum,Fruits & Vegetables,Feedspan, 4.00 ,11.8,26,104,61.7,Reorder,10/14/2025,10/7/2025,6/19/2026,-27.00,Reorder,,1.00,0
+1453,Coconut Sugar,Grains & Pulses,Topiclounge, 5.00 ,33.8,49,245,138.6,Reorder,10/13/2025,10/3/2025,6/3/2026,-43.00,Reorder,,1.00,0
+1454,Pomegranate,Fruits & Vegetables,Meeveo, 6.00 ,52.4,59,354,121.4,Reorder,10/14/2025,10/2/2025,7/22/2026,6.00,Reorder,,0.20,41.90
+1455,Raw Sugar,Grains & Pulses,Livepath, 1.50 ,26.9,19,28.5,139.2,Reorder,10/12/2025,10/7/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1456,Eggplant,Fruits & Vegetables,Roombo, 3.00 ,19.9,47,141,32.9,OK,10/14/2025,10/1/2025,5/7/2026,-70.00,OK,,1.00,0
+1457,Grapes,Fruits & Vegetables,Edgewire, 5.50 ,6.7,98,539,72.0,OK,10/14/2025,10/7/2025,7/28/2026,12.00,OK,,0.00,6.74
+1458,Watermelon,Fruits & Vegetables,Innotype, 3.00 ,71.3,51,153,121.7,Reorder,10/13/2025,10/9/2025,6/25/2026,-21.00,Reorder,,1.00,0
+1459,Anchovies,Seafood,Flipopia, 10.00 ,85.3,100,1000,96.9,OK,10/11/2025,10/4/2025,6/18/2026,-28.00,OK,,1.00,0
+1460,Yogurt,Dairy,Jaxnation, 1.70 ,33.4,55,93.5,69.3,Reorder,10/11/2025,10/1/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1461,Whipped Cream,Dairy,Devcast, 4.00 ,60.0,14,56,30.7,Reorder,10/12/2025,10/7/2025,4/15/2026,-92.00,Reorder,,1.00,0
+1462,Egg (Quail),Dairy,Vinte, 0.80 ,85.7,29,23.2,127.6,Reorder,10/11/2025,10/6/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1463,Chocolate Biscuit,Bakery,Yodo, 5.00 ,20.8,100,500,131.1,Reorder,10/15/2025,10/5/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1464,Ricotta Cheese,Dairy,Janyx, 6.00 ,12.5,49,294,108.6,Reorder,10/13/2025,10/9/2025,6/15/2026,-31.00,Reorder,,1.00,0
+1465,Vegetable Oil,Oils & Fats,Abata, 2.00 ,32.5,75,150,50.2,OK,10/12/2025,10/6/2025,3/26/2026,-112.00,OK,,1.00,0
+1466,Heavy Cream,Dairy,Youbridge, 4.10 ,77.7,82,336.2,54.8,OK,10/14/2025,10/3/2025,5/9/2026,-68.00,OK,,1.00,0
+1467,Cottage Cheese,Dairy,Feedmix, 4.80 ,59.9,68,326.4,41.7,OK,10/13/2025,10/1/2025,4/18/2026,-89.00,OK,,1.00,0
+1468,Corn Oil,Oils & Fats,Twinte, 2.50 ,37.5,70,175,104.1,Reorder,10/12/2025,10/3/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1469,Salmon,Seafood,Innojam, 15.00 ,39.9,49,735,126.2,Reorder,10/15/2025,10/5/2025,5/19/2026,-58.00,Reorder,,1.00,0
+1470,Mackerel,Seafood,Kazio, 7.50 ,77.7,89,667.5,132.5,Reorder,10/15/2025,10/10/2025,4/22/2026,-85.00,Reorder,,1.00,0
+1471,Cheese,Dairy,Omba, 9.00 ,62.7,88,792,138.5,Reorder,10/15/2025,10/7/2025,4/30/2026,-77.00,Reorder,,1.00,0
+1472,Green Tea,Beverages,Zoovu, 8.00 ,60.2,39,312,115.4,Reorder,10/11/2025,10/8/2025,4/11/2026,-96.00,Reorder,,1.00,0
+1473,Cauliflower,Fruits & Vegetables,Dynabox, 2.50 ,10.3,87,217.5,64.3,OK,10/15/2025,10/9/2025,4/7/2026,-100.00,OK,,1.00,0
+1474,Oatmeal Biscuit,Bakery,Vidoo, 5.00 ,25.7,93,465,134.6,Reorder,10/11/2025,10/3/2025,4/7/2026,-100.00,Reorder,,1.00,0
+1475,Egg (Turkey),Dairy,Browsedrive, 2.40 ,35.5,23,55.2,112.8,Reorder,10/15/2025,10/5/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1476,Vanilla Biscuit,Bakery,Linkbridge, 5.50 ,67.1,94,517,96.9,Reorder,10/12/2025,10/1/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1477,Digestive Biscuit,Bakery,Kanoodle, 4.00 ,10.0,38,152,132.1,Reorder,10/15/2025,10/9/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1478,Evaporated Milk,Dairy,Buzzshare, 2.00 ,85.0,11,22,45.5,Reorder,10/15/2025,10/2/2025,7/25/2026,9.00,Reorder,,0.00,85.02
+1479,White Tea,Beverages,Rhycero, 25.30 ,50.1,60,1518,54.2,OK,10/12/2025,10/10/2025,6/10/2026,-36.00,OK,,1.00,0
+1480,Avocado Oil,Oils & Fats,Twitterwire, 10.00 ,77.0,50,500,31.7,OK,10/12/2025,10/2/2025,6/17/2026,-29.00,OK,,1.00,0
+1481,Egg (Goose),Dairy,Skalith, 2.50 ,8.6,90,225,43.5,OK,10/12/2025,10/1/2025,4/16/2026,-91.00,OK,,1.00,0
+1482,Arborio Rice,Grains & Pulses,Talane, 4.50 ,9.6,86,387,67.2,OK,10/15/2025,10/3/2025,7/29/2026,13.00,OK,,0.00,9.56
+1483,Cauliflower,Fruits & Vegetables,Jabberstorm, 2.50 ,30.6,86,215,62.5,OK,10/12/2025,10/8/2025,7/24/2026,8.00,OK,,0.00,30.56
+1484,Almond Flour,Grains & Pulses,Pixonyx, 9.50 ,27.2,54,513,46.4,OK,10/11/2025,10/4/2025,4/4/2026,-103.00,OK,,1.00,0
+1485,Watermelon,Fruits & Vegetables,Jabbersphere, 3.00 ,12.7,27,81,65.3,Reorder,10/11/2025,10/6/2025,6/17/2026,-29.00,Reorder,,1.00,0
+1486,Rye Bread,Bakery,Kwilith, 3.00 ,74.5,50,150,103.1,Reorder,10/11/2025,10/6/2025,5/11/2026,-66.00,Reorder,,1.00,0
+1487,Onion,Fruits & Vegetables,Skyndu, 2.00 ,48.1,68,136,127.3,Reorder,10/12/2025,10/8/2025,4/11/2026,-96.00,Reorder,,1.00,0
+1488,Sourdough Bread,Bakery,Meevee, 4.20 ,18.1,22,92.4,60.3,Reorder,10/11/2025,10/10/2025,7/10/2026,-6.00,Reorder,,1.00,0
+1489,Cheese,Dairy,Eimbee, 9.20 ,80.8,50,460,129.8,Reorder,10/13/2025,10/8/2025,4/30/2026,-77.00,Reorder,,1.00,0
+1490,Bell Pepper,Fruits & Vegetables,Tagpad, 4.40 ,20.9,26,114.4,103.8,Reorder,10/14/2025,10/7/2025,7/25/2026,9.00,Reorder,,0.00,20.89
+1491,White Tea,Beverages,Aivee, 25.00 ,71.7,62,1550,117.6,Reorder,10/13/2025,10/10/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1492,Broccoli,Fruits & Vegetables,Yamia, 4.00 ,47.6,79,316,60.1,OK,10/12/2025,10/1/2025,3/20/2026,-118.00,OK,,1.00,0
+1493,Peach,Fruits & Vegetables,Ainyx, 4.00 ,55.8,73,292,111.8,Reorder,10/15/2025,10/4/2025,7/25/2026,9.00,Reorder,,0.00,55.83
+1494,Carrot,Fruits & Vegetables,Gevee, 1.45 ,38.9,18,26.1,104.2,Reorder,10/15/2025,10/7/2025,7/4/2026,-12.00,Reorder,,1.00,0
+1495,Kale,Fruits & Vegetables,Dabshots, 4.00 ,53.9,79,316,71.5,OK,10/14/2025,10/3/2025,3/28/2026,-110.00,OK,,1.00,0
+1496,Arabica Coffee,Beverages,Voonyx, 20.00 ,9.5,23,460,33.0,Reorder,10/15/2025,10/2/2025,7/30/2026,14.00,Reorder,,0.00,9.54
+1497,Milk,Dairy,Jabbercube, 1.00 ,22.0,18,18,62.8,Reorder,10/14/2025,10/5/2025,4/10/2026,-97.00,Reorder,,1.00,0
+1498,Sunflower Oil,Oils & Fats,Photofeed, 2.50 ,61.8,24,60,98.0,Reorder,10/12/2025,10/6/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1499,Watermelon,Fruits & Vegetables,Eidel, 3.00 ,52.2,53,159,120.5,Reorder,10/13/2025,10/8/2025,5/11/2026,-66.00,Reorder,,1.00,0
+1500,Yogurt,Dairy,Skinte, 1.75 ,76.9,85,148.75,36.6,OK,10/11/2025,10/3/2025,5/14/2026,-63.00,OK,,1.00,0
+1501,Sesame Oil,Oils & Fats,Miboo, 6.50 ,24.5,15,97.5,54.6,Reorder,10/12/2025,10/3/2025,7/28/2026,12.00,Reorder,,0.00,24.51
+1502,Anchovies,Seafood,Quatz, 10.00 ,80.9,66,660,47.2,OK,10/12/2025,10/4/2025,4/22/2026,-85.00,OK,,1.00,0
+1503,Corn Oil,Oils & Fats,Youbridge, 2.50 ,25.4,17,42.5,88.4,Reorder,10/15/2025,10/8/2025,7/15/2026,-1.00,Reorder,,1.00,0
+1504,Grapes,Fruits & Vegetables,Rhynyx, 5.50 ,7.3,13,71.5,132.6,Reorder,10/12/2025,10/5/2025,6/27/2026,-19.00,Reorder,,1.00,0
+1505,Digestive Biscuit,Bakery,Eimbee, 4.00 ,48.6,34,136,132.0,Reorder,10/13/2025,10/2/2025,3/18/2026,-120.00,Reorder,,1.00,0
+1506,Swiss Cheese,Dairy,Skiptube, 8.00 ,59.9,85,680,25.4,OK,10/13/2025,10/10/2025,4/18/2026,-89.00,OK,,1.00,0
+1507,Cabbage,Fruits & Vegetables,Meevee, 1.00 ,27.0,12,12,55.9,Reorder,10/12/2025,10/8/2025,5/19/2026,-58.00,Reorder,,1.00,0
+1508,Oatmeal Biscuit,Bakery,Trunyx, 5.00 ,82.1,82,410,64.9,OK,10/13/2025,10/8/2025,5/8/2026,-69.00,OK,,1.00,0
+1509,Sourdough Bread,Bakery,Zoomlounge, 4.00 ,70.7,71,284,105.3,Reorder,10/14/2025,10/7/2025,5/6/2026,-71.00,Reorder,,1.00,0
+1510,Mozzarella Cheese,Dairy,Blogspan, 7.00 ,75.3,58,406,114.2,Reorder,10/12/2025,10/1/2025,6/2/2026,-44.00,Reorder,,1.00,0
+1511,Rice Flour,Grains & Pulses,Photobug, 2.00 ,83.1,15,30,123.6,Reorder,10/13/2025,10/4/2025,3/21/2026,-117.00,Reorder,,1.00,0
+1512,Pineapple,Fruits & Vegetables,Quinu, 3.50 ,13.1,68,238,89.4,Reorder,10/13/2025,10/2/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1513,White Sugar,Grains & Pulses,Wordtune, 2.00 ,46.0,13,26,145.4,Reorder,10/11/2025,10/8/2025,7/5/2026,-11.00,Reorder,,1.00,0
+1514,Sesame Oil,Oils & Fats,Dabtype, 6.50 ,43.5,45,292.5,89.2,Reorder,10/14/2025,10/5/2025,4/7/2026,-100.00,Reorder,,1.00,0
+1515,Egg (Goose),Dairy,Babblestorm, 2.45 ,46.3,40,98,58.7,Reorder,10/11/2025,10/7/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1516,Black Coffee,Beverages,Aimbu, 15.50 ,66.1,62,961,143.0,Reorder,10/11/2025,10/1/2025,6/2/2026,-44.00,Reorder,,1.00,0
+1517,Peanut Oil,Oils & Fats,Pixoboo, 4.00 ,69.6,79,316,53.2,OK,10/15/2025,10/3/2025,4/21/2026,-86.00,OK,,1.00,0
+1518,Peas,Fruits & Vegetables,Meedoo, 3.00 ,33.8,75,225,53.8,OK,10/12/2025,10/5/2025,6/16/2026,-30.00,OK,,1.00,0
+1519,Almond Flour,Grains & Pulses,Trudoo, 9.50 ,31.0,76,722,135.1,Reorder,10/11/2025,10/3/2025,6/6/2026,-40.00,Reorder,,1.00,0
+1520,Canola Oil,Oils & Fats,Realcube, 2.30 ,32.5,96,220.8,134.6,Reorder,10/15/2025,10/9/2025,6/26/2026,-20.00,Reorder,,1.00,0
+1521,Canola Oil,Oils & Fats,Kimia, 2.30 ,7.6,69,158.7,107.3,Reorder,10/13/2025,10/1/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1522,Butter,Dairy,Jayo, 3.00 ,32.6,48,144,39.5,OK,10/13/2025,10/6/2025,6/17/2026,-29.00,OK,,1.00,0
+1523,Cream,Dairy,Riffpedia, 2.40 ,19.6,82,196.8,60.9,OK,10/13/2025,10/2/2025,4/15/2026,-92.00,OK,,1.00,0
+1524,Zucchini,Fruits & Vegetables,Babblestorm, 2.50 ,59.6,43,107.5,70.0,Reorder,10/13/2025,10/3/2025,3/16/2026,-122.00,Reorder,,1.00,0
+1525,Green Coffee,Beverages,Skyndu, 12.00 ,35.7,90,1080,75.4,OK,10/12/2025,10/6/2025,7/20/2026,4.00,OK,,0.50,17.85
+1526,Milk,Dairy,Centimia, 0.90 ,25.2,13,11.7,134.4,Reorder,10/15/2025,10/4/2025,5/7/2026,-70.00,Reorder,,1.00,0
+1527,Cabbage,Fruits & Vegetables,Skivee, 1.00 ,28.9,62,62,116.0,Reorder,10/13/2025,10/9/2025,6/27/2026,-19.00,Reorder,,1.00,0
+1528,Coconut Sugar,Grains & Pulses,Lazz, 5.00 ,6.1,17,85,92.8,Reorder,10/14/2025,10/1/2025,3/23/2026,-115.00,Reorder,,1.00,0
+1529,Sesame Oil,Oils & Fats,Skilith, 6.50 ,25.0,100,650,96.8,OK,10/13/2025,10/2/2025,4/6/2026,-101.00,OK,,1.00,0
+1530,All-Purpose Flour,Grains & Pulses,Wikibox, 1.75 ,37.6,54,94.5,64.9,Reorder,10/12/2025,10/2/2025,3/25/2026,-113.00,Reorder,,1.00,0
+1531,Whipped Cream,Dairy,Skippad, 4.10 ,9.5,98,401.8,102.1,Reorder,10/11/2025,10/2/2025,3/23/2026,-115.00,Reorder,,1.00,0
+1532,Herbal Tea,Beverages,Dynazzy, 30.50 ,38.7,20,610,47.9,Reorder,10/13/2025,10/6/2025,5/23/2026,-54.00,Reorder,,1.00,0
+1533,Haddock,Seafood,Zoovu, 9.00 ,25.1,43,387,101.3,Reorder,10/13/2025,10/1/2025,5/15/2026,-62.00,Reorder,,1.00,0
+1534,Green Coffee,Beverages,Photobean, 12.00 ,56.5,29,348,80.3,Reorder,10/11/2025,10/7/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1535,Grapes,Fruits & Vegetables,Flipopia, 5.50 ,19.3,37,203.5,94.5,Reorder,10/15/2025,10/7/2025,4/22/2026,-85.00,Reorder,,1.00,0
+1536,Cheddar Cheese,Dairy,Oyonder, 8.90 ,27.3,85,756.5,26.9,OK,10/13/2025,10/2/2025,5/19/2026,-58.00,OK,,1.00,0
+1537,Basmati Rice,Grains & Pulses,Skidoo, 4.40 ,28.7,26,114.4,50.0,Reorder,10/13/2025,10/8/2025,4/1/2026,-106.00,Reorder,,1.00,0
+1538,White Tea,Beverages,Brightbean, 25.00 ,70.9,91,2275,104.7,Reorder,10/15/2025,10/10/2025,6/28/2026,-18.00,Reorder,,1.00,0
+1539,Ricotta Cheese,Dairy,Skimia, 6.20 ,57.7,50,310,41.8,OK,10/11/2025,10/8/2025,3/26/2026,-112.00,OK,,1.00,0
+1540,Trout,Seafood,Izio, 12.00 ,13.0,98,1176,114.7,Reorder,10/13/2025,10/3/2025,6/19/2026,-27.00,Reorder,,1.00,0
+1541,Egg (Duck),Dairy,Katz, 1.00 ,16.7,37,37,93.5,Reorder,10/14/2025,10/1/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1542,White Bread,Bakery,Devpoint, 2.50 ,61.3,78,195,100.3,Reorder,10/14/2025,10/7/2025,3/27/2026,-111.00,Reorder,,1.00,0
+1543,Cauliflower,Fruits & Vegetables,Realpoint, 2.55 ,66.3,48,122.4,79.4,Reorder,10/15/2025,10/3/2025,3/28/2026,-110.00,Reorder,,1.00,0
+1544,Arabica Coffee,Beverages,Rhyzio, 20.00 ,48.5,74,1480,26.2,OK,10/11/2025,10/4/2025,5/4/2026,-73.00,OK,,1.00,0
+1545,Pineapple,Fruits & Vegetables,Gigashots, 3.50 ,34.5,18,63,73.3,Reorder,10/11/2025,10/1/2025,4/1/2026,-106.00,Reorder,,1.00,0
+1546,Cauliflower,Fruits & Vegetables,Photobug, 2.48 ,8.1,95,235.6,40.5,OK,10/14/2025,10/3/2025,6/13/2026,-33.00,OK,,1.00,0
+1547,Egg (Turkey),Dairy,Quinu, 2.50 ,76.5,39,97.5,42.2,Reorder,10/15/2025,10/7/2025,6/10/2026,-36.00,Reorder,,1.00,0
+1548,Peas,Fruits & Vegetables,Edgeclub, 3.00 ,23.9,48,144,140.1,Reorder,10/11/2025,10/10/2025,3/18/2026,-120.00,Reorder,,1.00,0
+1549,Strawberries,Fruits & Vegetables,Meevee, 5.90 ,57.7,58,342.2,80.7,Reorder,10/13/2025,10/9/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1550,Greek Yogurt,Dairy,Shufflester, 3.00 ,72.4,39,117,147.7,Reorder,10/14/2025,10/2/2025,6/2/2026,-44.00,Reorder,,1.00,0
+1551,Papaya,Fruits & Vegetables,Ntag, 4.40 ,79.0,84,369.6,93.9,Reorder,10/13/2025,10/9/2025,4/26/2026,-81.00,Reorder,,1.00,0
+1552,Sardines,Seafood,Linklinks, 6.00 ,16.3,30,180,94.0,Reorder,10/11/2025,10/5/2025,4/11/2026,-96.00,Reorder,,1.00,0
+1553,Sesame Oil,Oils & Fats,Yotz, 6.50 ,68.0,14,91,88.5,Reorder,10/12/2025,10/6/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1554,Powdered Sugar,Grains & Pulses,Skidoo, 2.50 ,36.8,21,52.5,74.7,Reorder,10/14/2025,10/10/2025,6/6/2026,-40.00,Reorder,,1.00,0
+1555,Jasmine Rice,Grains & Pulses,Topdrive, 4.75 ,10.7,17,80.75,97.4,Reorder,10/14/2025,10/6/2025,3/28/2026,-110.00,Reorder,,1.00,0
+1556,Cauliflower,Fruits & Vegetables,Cogilith, 2.50 ,48.2,34,85,76.8,Reorder,10/12/2025,10/5/2025,7/27/2026,11.00,Reorder,,0.00,48.16
+1557,Jasmine Rice,Grains & Pulses,Babblestorm, 4.75 ,41.1,56,266,104.9,Reorder,10/15/2025,10/5/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1558,Plum,Fruits & Vegetables,Devcast, 3.90 ,58.7,64,249.6,144.7,Reorder,10/14/2025,10/2/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1559,Grapes,Fruits & Vegetables,Aibox, 5.50 ,28.5,87,478.5,41.4,OK,10/11/2025,10/1/2025,5/7/2026,-70.00,OK,,1.00,0
+1560,Papaya,Fruits & Vegetables,Kwinu, 4.50 ,32.5,24,108,145.1,Reorder,10/14/2025,10/2/2025,6/25/2026,-21.00,Reorder,,1.00,0
+1561,Sushi Rice,Grains & Pulses,Photobug, 4.20 ,17.2,47,197.4,77.9,Reorder,10/14/2025,10/4/2025,5/27/2026,-50.00,Reorder,,1.00,0
+1562,Digestive Biscuit,Bakery,Quatz, 4.00 ,81.8,61,244,106.8,Reorder,10/11/2025,10/4/2025,3/26/2026,-112.00,Reorder,,1.00,0
+1563,Rye Bread,Bakery,Realblab, 2.80 ,49.5,48,134.4,120.3,Reorder,10/11/2025,10/3/2025,7/19/2026,3.00,Reorder,,0.60,19.81
+1564,Chocolate Biscuit,Bakery,Photobean, 5.00 ,43.9,37,185,144.0,Reorder,10/11/2025,10/3/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1565,Arabica Coffee,Beverages,Rhycero, 20.00 ,81.0,45,900,40.4,OK,10/12/2025,10/3/2025,3/25/2026,-113.00,OK,,1.00,0
+1566,Bread Flour,Grains & Pulses,Feedfire, 1.50 ,70.3,87,130.5,46.5,OK,10/13/2025,10/6/2025,5/12/2026,-65.00,OK,,1.00,0
+1567,Almond Flour,Grains & Pulses,Trilia, 9.50 ,48.7,37,351.5,61.2,Reorder,10/14/2025,10/2/2025,6/1/2026,-45.00,Reorder,,1.00,0
+1568,Robusta Coffee,Beverages,Katz, 10.30 ,26.6,59,607.7,72.2,Reorder,10/15/2025,10/6/2025,4/29/2026,-78.00,Reorder,,1.00,0
+1569,Pomegranate,Fruits & Vegetables,Eare, 6.00 ,24.3,62,372,80.9,Reorder,10/12/2025,10/2/2025,3/15/2026,-123.00,Reorder,,1.00,0
+1570,Yogurt,Dairy,Devpulse, 1.70 ,45.8,63,107.1,61.7,OK,10/14/2025,10/7/2025,5/27/2026,-50.00,OK,,1.00,0
+1571,Grapes,Fruits & Vegetables,Layo, 5.50 ,79.6,38,209,107.6,Reorder,10/12/2025,10/2/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1572,Mackerel,Seafood,Dabfeed, 7.50 ,7.7,76,570,81.2,Reorder,10/11/2025,10/6/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1573,Egg (Quail),Dairy,Skimia, 0.80 ,22.9,34,27.2,50.1,Reorder,10/12/2025,10/4/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1574,Eggplant,Fruits & Vegetables,Blogpad, 3.00 ,76.6,25,75,139.8,Reorder,10/11/2025,10/10/2025,6/1/2026,-45.00,Reorder,,1.00,0
+1575,Egg (Turkey),Dairy,Twimm, 2.50 ,63.8,86,215,113.5,Reorder,10/12/2025,10/7/2025,5/31/2026,-46.00,Reorder,,1.00,0
+1576,Oatmeal Biscuit,Bakery,Kwimbee, 5.00 ,44.3,41,205,95.9,Reorder,10/15/2025,10/10/2025,4/10/2026,-97.00,Reorder,,1.00,0
+1577,Cauliflower,Fruits & Vegetables,Avamm, 2.50 ,64.0,77,192.5,46.9,OK,10/11/2025,10/8/2025,4/7/2026,-100.00,OK,,1.00,0
+1578,Egg (Duck),Dairy,Dynazzy, 1.00 ,38.3,41,41,71.8,Reorder,10/15/2025,10/3/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1579,Orange,Fruits & Vegetables,Oyondu, 2.95 ,61.2,44,129.8,36.3,OK,10/13/2025,10/9/2025,5/27/2026,-50.00,OK,,1.00,0
+1580,Avocado Oil,Oils & Fats,Dabtype, 10.00 ,80.0,53,530,54.4,Reorder,10/12/2025,10/5/2025,6/5/2026,-41.00,Reorder,,1.00,0
+1581,Chocolate Biscuit,Bakery,Chatterbridge, 5.00 ,18.9,68,340,47.2,OK,10/13/2025,10/2/2025,3/30/2026,-108.00,OK,,1.00,0
+1582,Swiss Cheese,Dairy,Centidel, 8.00 ,6.3,96,768,102.7,Reorder,10/14/2025,10/1/2025,6/15/2026,-31.00,Reorder,,1.00,0
+1583,Garlic,Fruits & Vegetables,Layo, 7.00 ,36.6,33,231,26.6,OK,10/15/2025,10/2/2025,7/30/2026,14.00,OK,,0.00,36.55
+1584,Cauliflower,Fruits & Vegetables,Yakitri, 2.50 ,64.7,33,82.5,36.1,Reorder,10/12/2025,10/8/2025,4/28/2026,-79.00,Reorder,,1.00,0
+1585,Watermelon,Fruits & Vegetables,Trupe, 3.00 ,17.2,90,270,35.9,OK,10/13/2025,10/5/2025,6/29/2026,-17.00,OK,,1.00,0
+1586,Brown Rice,Grains & Pulses,Livetube, 2.50 ,23.2,31,77.5,110.5,Reorder,10/11/2025,10/9/2025,3/25/2026,-113.00,Reorder,,1.00,0
+1587,Asparagus,Fruits & Vegetables,Yabox, 5.00 ,73.2,92,460,49.6,OK,10/14/2025,10/6/2025,5/12/2026,-65.00,OK,,1.00,0
+1588,Cauliflower,Fruits & Vegetables,Skinix, 2.50 ,34.3,66,165,106.2,Reorder,10/11/2025,10/2/2025,6/7/2026,-39.00,Reorder,,1.00,0
+1589,Anchovies,Seafood,Mybuzz, 10.00 ,33.9,83,830,142.6,Reorder,10/15/2025,10/6/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1590,Mango,Fruits & Vegetables,Wordtune, 5.00 ,44.2,84,420,76.2,OK,10/12/2025,10/5/2025,3/28/2026,-110.00,OK,,1.00,0
+1591,Haddock,Seafood,Yabox, 9.00 ,25.0,76,684,87.1,Reorder,10/15/2025,10/4/2025,5/4/2026,-73.00,Reorder,,1.00,0
+1592,Pomegranate,Fruits & Vegetables,Meevee, 6.00 ,70.6,26,156,81.6,Reorder,10/11/2025,10/5/2025,5/2/2026,-75.00,Reorder,,1.00,0
+1593,Green Coffee,Beverages,Lajo, 12.50 ,52.4,61,762.5,32.3,OK,10/15/2025,10/2/2025,5/1/2026,-76.00,OK,,1.00,0
+1594,Evaporated Milk,Dairy,Realcube, 1.90 ,84.5,15,28.5,25.6,Reorder,10/12/2025,10/4/2025,3/15/2026,-123.00,Reorder,,1.00,0
+1595,Apricot,Fruits & Vegetables,Topiczoom, 5.00 ,29.6,73,365,147.0,Reorder,10/14/2025,10/7/2025,4/18/2026,-89.00,Reorder,,1.00,0
+1596,Whole Wheat Flour,Grains & Pulses,Pixonyx, 2.65 ,78.9,41,108.65,67.1,Reorder,10/14/2025,10/10/2025,4/8/2026,-99.00,Reorder,,1.00,0
+1597,Avocado Oil,Oils & Fats,Dabjam, 10.00 ,83.5,14,140,54.6,Reorder,10/14/2025,10/7/2025,3/19/2026,-119.00,Reorder,,1.00,0
+1598,Mango,Fruits & Vegetables,Meevee, 5.00 ,63.9,99,495,124.1,Reorder,10/12/2025,10/8/2025,5/18/2026,-59.00,Reorder,,1.00,0
+1599,Asparagus,Fruits & Vegetables,Buzzbean, 5.00 ,30.2,80,400,96.9,Reorder,10/12/2025,10/10/2025,5/5/2026,-72.00,Reorder,,1.00,0
+1600,Eggplant,Fruits & Vegetables,Vimbo, 3.00 ,27.8,49,147,131.7,Reorder,10/14/2025,10/5/2025,5/7/2026,-70.00,Reorder,,1.00,0
+1601,Grapes,Fruits & Vegetables,Riffwire, 5.50 ,45.0,25,137.5,117.8,Reorder,10/14/2025,10/7/2025,6/19/2026,-27.00,Reorder,,1.00,0
+1602,Sesame Oil,Oils & Fats,Shuffledrive, 6.50 ,41.3,39,253.5,75.6,Reorder,10/14/2025,10/2/2025,7/11/2026,-5.00,Reorder,,1.00,0
+1603,Orange,Fruits & Vegetables,Flashdog, 2.90 ,78.6,94,272.6,133.0,Reorder,10/11/2025,10/9/2025,6/7/2026,-39.00,Reorder,,1.00,0
+1604,Sardines,Seafood,Vinder, 6.00 ,32.3,11,66,126.0,Reorder,10/11/2025,10/4/2025,4/17/2026,-90.00,Reorder,,1.00,0
+1605,Peanut Oil,Oils & Fats,Twitterwire, 4.00 ,63.2,21,84,48.2,Reorder,10/15/2025,10/1/2025,4/23/2026,-84.00,Reorder,,1.00,0
+1606,Kiwi,Fruits & Vegetables,Topdrive, 5.70 ,62.0,38,216.6,147.4,Reorder,10/15/2025,10/1/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1607,Palm Oil,Oils & Fats,Browsetype, 1.80 ,11.7,58,104.4,39.9,OK,10/15/2025,10/3/2025,7/11/2026,-5.00,OK,,1.00,0
+1608,Plum,Fruits & Vegetables,Lajo, 3.85 ,15.1,85,327.25,58.8,OK,10/11/2025,10/3/2025,7/4/2026,-12.00,OK,,1.00,0
+1609,Cauliflower,Fruits & Vegetables,Vinder, 2.50 ,26.4,63,157.5,106.9,Reorder,10/15/2025,10/1/2025,5/5/2026,-72.00,Reorder,,1.00,0
+1610,Coconut Oil,Oils & Fats,Brightdog, 5.00 ,28.6,54,270,85.8,Reorder,10/15/2025,10/2/2025,7/26/2026,10.00,Reorder,,0.00,28.58
+1611,Cherry,Fruits & Vegetables,Rooxo, 8.00 ,63.0,30,240,55.4,Reorder,10/13/2025,10/9/2025,6/28/2026,-18.00,Reorder,,1.00,0
+1612,Cauliflower,Fruits & Vegetables,Tanoodle, 2.50 ,49.6,57,142.5,73.4,Reorder,10/11/2025,10/2/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1613,Vegetable Oil,Oils & Fats,Browseblab, 2.00 ,53.3,18,36,56.8,Reorder,10/12/2025,10/3/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1614,Tuna,Seafood,Tagcat, 18.00 ,29.5,16,288,67.4,Reorder,10/12/2025,10/3/2025,5/6/2026,-71.00,Reorder,,1.00,0
+1615,Buttermilk,Dairy,Twitterbeat, 2.50 ,6.8,39,97.5,69.5,Reorder,10/15/2025,10/2/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1616,Lemon,Fruits & Vegetables,Centimia, 2.45 ,54.6,59,144.55,47.9,OK,10/13/2025,10/2/2025,5/22/2026,-55.00,OK,,1.00,0
+1617,Salmon,Seafood,Mycat, 15.00 ,68.6,79,1185,40.8,OK,10/13/2025,10/1/2025,6/8/2026,-38.00,OK,,1.00,0
+1618,Egg (Quail),Dairy,Ntags, 0.80 ,79.8,78,62.4,137.3,Reorder,10/11/2025,10/7/2025,7/2/2026,-14.00,Reorder,,1.00,0
+1619,Sushi Rice,Grains & Pulses,Tekfly, 4.25 ,15.1,22,93.5,68.0,Reorder,10/13/2025,10/1/2025,4/19/2026,-88.00,Reorder,,1.00,0
+1620,Egg (Chicken),Dairy,Realfire, 0.20 ,43.4,10,2,124.8,Reorder,10/13/2025,10/7/2025,6/12/2026,-34.00,Reorder,,1.00,0
+1621,Arborio Rice,Grains & Pulses,Geba, 4.50 ,33.6,34,153,49.8,Reorder,10/13/2025,10/2/2025,4/8/2026,-99.00,Reorder,,1.00,0
+1622,Heavy Cream,Dairy,Yadel, 4.00 ,32.4,74,296,141.2,Reorder,10/12/2025,10/9/2025,7/1/2026,-15.00,Reorder,,1.00,0
+1623,Sushi Rice,Grains & Pulses,Latz, 4.30 ,33.2,10,43,100.3,Reorder,10/12/2025,10/9/2025,7/16/2026,0.00,Reorder,,1.00,0
+1624,Basmati Rice,Grains & Pulses,Yodo, 4.50 ,69.1,11,49.5,133.7,Reorder,10/11/2025,10/6/2025,7/23/2026,7.00,Reorder,,0.00,69.11
+1625,Grapes,Fruits & Vegetables,Gabspot, 5.50 ,19.4,99,544.5,135.1,Reorder,10/15/2025,10/5/2025,6/5/2026,-41.00,Reorder,,1.00,0
+1626,Swiss Cheese,Dairy,Meeveo, 8.00 ,61.2,64,512,69.1,Reorder,10/15/2025,10/10/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1627,Pear,Fruits & Vegetables,Cogidoo, 4.45 ,52.8,58,258.1,96.3,Reorder,10/11/2025,10/9/2025,5/12/2026,-65.00,Reorder,,1.00,0
+1628,Corn Oil,Oils & Fats,Centizu, 2.50 ,28.2,26,65,86.4,Reorder,10/11/2025,10/5/2025,3/16/2026,-122.00,Reorder,,1.00,0
+1629,Raw Sugar,Grains & Pulses,Flipopia, 1.50 ,78.3,72,108,82.3,Reorder,10/14/2025,10/3/2025,4/13/2026,-94.00,Reorder,,1.00,0
+1630,Mozzarella Cheese,Dairy,Buzzdog, 7.10 ,44.6,36,255.6,106.5,Reorder,10/15/2025,10/7/2025,5/16/2026,-61.00,Reorder,,1.00,0
+1631,Mushrooms,Fruits & Vegetables,Yakijo, 6.00 ,30.0,24,144,95.5,Reorder,10/11/2025,10/3/2025,4/6/2026,-101.00,Reorder,,1.00,0
+1632,Onion,Fruits & Vegetables,Voolith, 2.00 ,65.1,16,32,139.7,Reorder,10/12/2025,10/9/2025,4/15/2026,-92.00,Reorder,,1.00,0
+1633,Banana,Fruits & Vegetables,Edgetag, 13.99 ,73.7,39,545.61,106.2,Reorder,10/12/2025,10/9/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1634,Zucchini,Fruits & Vegetables,Quimm, 2.50 ,60.4,89,222.5,64.8,OK,10/14/2025,10/2/2025,4/24/2026,-83.00,OK,,1.00,0
+1635,Cherry,Fruits & Vegetables,Jabbersphere, 8.00 ,78.6,57,456,29.6,OK,10/11/2025,10/9/2025,7/19/2026,3.00,OK,,0.60,31.43
+1636,Herbal Tea,Beverages,Wikido, 30.00 ,72.3,61,1830,54.5,OK,10/11/2025,10/8/2025,6/2/2026,-44.00,OK,,1.00,0
+1637,Short Grain Rice,Grains & Pulses,Tanoodle, 3.00 ,52.0,56,168,141.3,Reorder,10/15/2025,10/5/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1638,Cream,Dairy,Bubblebox, 2.35 ,51.5,21,49.35,146.1,Reorder,10/12/2025,10/10/2025,4/17/2026,-90.00,Reorder,,1.00,0
+1639,Grapes,Fruits & Vegetables,Thoughtmix, 5.50 ,53.4,59,324.5,64.2,Reorder,10/14/2025,10/9/2025,7/26/2026,10.00,Reorder,,0.00,53.38
+1640,Green Coffee,Beverages,Linklinks, 12.00 ,17.9,20,240,120.0,Reorder,10/13/2025,10/5/2025,7/13/2026,-3.00,Reorder,,1.00,0
+1641,Rye Bread,Bakery,Jetwire, 3.00 ,36.9,99,297,67.2,OK,10/13/2025,10/5/2025,4/22/2026,-85.00,OK,,1.00,0
+1642,Green Tea,Beverages,Vidoo, 8.00 ,10.6,24,192,142.5,Reorder,10/14/2025,10/6/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1643,Sushi Rice,Grains & Pulses,Quire, 4.35 ,68.3,78,339.3,107.1,Reorder,10/11/2025,10/10/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1644,Egg (Duck),Dairy,Fivebridge, 1.00 ,57.5,52,52,135.8,Reorder,10/12/2025,10/5/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1645,Spinach,Fruits & Vegetables,Eabox, 2.45 ,70.9,45,110.25,119.4,Reorder,10/13/2025,10/7/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1646,Apricot,Fruits & Vegetables,LiveZ, 5.00 ,13.3,89,445,94.9,Reorder,10/11/2025,10/4/2025,5/6/2026,-71.00,Reorder,,1.00,0
+1647,Kiwi,Fruits & Vegetables,Vitz, 5.80 ,83.1,63,365.4,28.2,OK,10/15/2025,10/4/2025,6/11/2026,-35.00,OK,,1.00,0
+1648,Black Rice,Grains & Pulses,Shuffletag, 6.25 ,10.7,49,306.25,91.2,Reorder,10/13/2025,10/1/2025,7/20/2026,4.00,Reorder,,0.50,5.37
+1649,Green Tea,Beverages,Photobug, 8.00 ,65.8,26,208,101.1,Reorder,10/13/2025,10/2/2025,4/12/2026,-95.00,Reorder,,1.00,0
+1650,Egg (Quail),Dairy,Meejo, 0.80 ,12.6,93,74.4,61.1,OK,10/12/2025,10/8/2025,6/19/2026,-27.00,OK,,1.00,0
+1651,Papaya,Fruits & Vegetables,Brightbean, 4.30 ,24.4,81,348.3,141.9,Reorder,10/11/2025,10/5/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1652,Heavy Cream,Dairy,Talane, 4.00 ,29.3,74,296,139.2,Reorder,10/13/2025,10/10/2025,5/14/2026,-63.00,Reorder,,1.00,0
+1653,Black Tea,Beverages,Devshare, 5.00 ,46.3,19,95,81.7,Reorder,10/13/2025,10/9/2025,3/29/2026,-109.00,Reorder,,1.00,0
+1654,Short Grain Rice,Grains & Pulses,Quatz, 3.00 ,73.3,64,192,109.9,Reorder,10/13/2025,10/6/2025,6/16/2026,-30.00,Reorder,,1.00,0
+1655,Bell Pepper,Fruits & Vegetables,Zava, 4.50 ,30.6,49,220.5,143.0,Reorder,10/14/2025,10/5/2025,3/16/2026,-122.00,Reorder,,1.00,0
+1656,Parmesan Cheese,Dairy,Tagpad, 12.00 ,61.0,99,1188,82.2,OK,10/11/2025,10/7/2025,7/23/2026,7.00,OK,,0.00,60.99
+1657,Buttermilk,Dairy,Trilia, 2.45 ,76.2,60,147,66.7,Reorder,10/13/2025,10/7/2025,3/24/2026,-114.00,Reorder,,1.00,0
+1658,Cabbage,Fruits & Vegetables,Zoombox, 0.90 ,16.1,90,81,45.3,OK,10/13/2025,10/3/2025,5/24/2026,-53.00,OK,,1.00,0
+1659,Haddock,Seafood,Snaptags, 9.00 ,34.4,79,711,136.7,Reorder,10/14/2025,10/7/2025,6/12/2026,-34.00,Reorder,,1.00,0
+1660,Egg (Chicken),Dairy,Topiclounge, 0.20 ,81.4,22,4.4,130.0,Reorder,10/12/2025,10/8/2025,5/26/2026,-51.00,Reorder,,1.00,0
+1661,Brown Rice,Grains & Pulses,Quinu, 2.50 ,53.4,51,127.5,108.1,Reorder,10/13/2025,10/5/2025,4/25/2026,-82.00,Reorder,,1.00,0
+1662,Arabica Coffee,Beverages,Yotz, 20.00 ,48.1,65,1300,136.1,Reorder,10/13/2025,10/9/2025,5/29/2026,-48.00,Reorder,,1.00,0
+1663,Whipped Cream,Dairy,Flashset, 4.00 ,79.2,55,220,137.2,Reorder,10/13/2025,10/10/2025,7/12/2026,-4.00,Reorder,,1.00,0
+1664,White Rice,Grains & Pulses,Eimbee, 1.80 ,78.8,18,32.4,72.2,Reorder,10/15/2025,10/5/2025,6/10/2026,-36.00,Reorder,,1.00,0
+1665,Parmesan Cheese,Dairy,Skidoo, 12.00 ,85.5,37,444,112.7,Reorder,10/11/2025,10/5/2025,7/30/2026,14.00,Reorder,,0.00,85.47
+1666,Salmon,Seafood,Abata, 15.00 ,59.2,88,1320,79.3,OK,10/14/2025,10/3/2025,6/23/2026,-23.00,OK,,1.00,0
+1667,Pineapple,Fruits & Vegetables,Brainverse, 3.50 ,74.3,20,70,78.8,Reorder,10/12/2025,10/8/2025,3/19/2026,-119.00,Reorder,,1.00,0
+1668,Bread Flour,Grains & Pulses,Twitterwire, 1.50 ,37.8,99,148.5,145.3,Reorder,10/13/2025,10/10/2025,6/21/2026,-25.00,Reorder,,1.00,0
+1669,Asparagus,Fruits & Vegetables,Zoomzone, 4.80 ,33.1,46,220.8,140.6,Reorder,10/15/2025,10/5/2025,6/3/2026,-43.00,Reorder,,1.00,0
+1670,Wild Rice,Grains & Pulses,Topdrive, 10.00 ,80.1,19,190,144.2,Reorder,10/15/2025,10/6/2025,5/10/2026,-67.00,Reorder,,1.00,0
+1671,Yogurt,Dairy,Wordpedia, 1.75 ,65.4,12,21,130.4,Reorder,10/11/2025,10/6/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1672,Buttermilk,Dairy,Twitterlist, 2.55 ,31.7,69,175.95,85.8,Reorder,10/12/2025,10/1/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1673,Egg (Duck),Dairy,Skipfire, 1.00 ,17.7,63,63,62.7,OK,10/13/2025,10/5/2025,5/7/2026,-70.00,OK,,1.00,0
+1674,Asparagus,Fruits & Vegetables,Voonder, 4.70 ,19.8,78,366.6,91.4,Reorder,10/13/2025,10/10/2025,6/10/2026,-36.00,Reorder,,1.00,0
+1675,White Bread,Bakery,Skivee, 2.50 ,47.3,72,180,125.4,Reorder,10/11/2025,10/8/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1676,Wild Rice,Grains & Pulses,Babbleopia, 10.00 ,61.8,58,580,128.5,Reorder,10/14/2025,10/2/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1677,Egg (Goose),Dairy,Einti, 2.50 ,7.7,88,220,51.8,OK,10/15/2025,10/5/2025,5/20/2026,-57.00,OK,,1.00,0
+1678,White Rice,Grains & Pulses,Wikibox, 1.80 ,68.6,54,97.2,28.8,OK,10/14/2025,10/5/2025,4/19/2026,-88.00,OK,,1.00,0
+1679,Powdered Sugar,Grains & Pulses,Aivee, 2.50 ,19.9,64,160,102.6,Reorder,10/12/2025,10/5/2025,4/3/2026,-104.00,Reorder,,1.00,0
+1680,Milk,Dairy,Jatri, 1.00 ,39.2,12,12,129.4,Reorder,10/15/2025,10/7/2025,5/11/2026,-66.00,Reorder,,1.00,0
+1681,Mango,Fruits & Vegetables,Jaxnation, 5.20 ,24.3,61,317.2,40.4,OK,10/13/2025,10/3/2025,7/30/2026,14.00,OK,,0.00,24.30
+1682,Oatmeal Biscuit,Bakery,Skajo, 5.00 ,50.9,28,140,119.1,Reorder,10/12/2025,10/6/2025,4/10/2026,-97.00,Reorder,,1.00,0
+1683,Spinach,Fruits & Vegetables,Feedfish, 2.50 ,16.8,23,57.5,88.1,Reorder,10/12/2025,10/4/2025,3/26/2026,-112.00,Reorder,,1.00,0
+1684,Blueberries,Fruits & Vegetables,Flipbug, 10.00 ,46.6,87,870,74.2,OK,10/13/2025,10/9/2025,6/28/2026,-18.00,OK,,1.00,0
+1685,Robusta Coffee,Beverages,Yozio, 10.00 ,13.7,59,590,94.2,Reorder,10/15/2025,10/7/2025,5/29/2026,-48.00,Reorder,,1.00,0
+1686,Watermelon,Fruits & Vegetables,Dabjam, 3.00 ,69.7,13,39,130.4,Reorder,10/12/2025,10/2/2025,5/9/2026,-68.00,Reorder,,1.00,0
+1687,Pomegranate,Fruits & Vegetables,Browsetype, 6.00 ,19.4,81,486,54.3,OK,10/13/2025,10/4/2025,7/9/2026,-7.00,OK,,1.00,0
+1688,White Bread,Bakery,Meevee, 2.50 ,27.4,61,152.5,79.8,Reorder,10/15/2025,10/9/2025,7/30/2026,14.00,Reorder,,0.00,27.42
+1689,Carrot,Fruits & Vegetables,Linkbridge, 1.50 ,34.4,80,120,43.2,OK,10/14/2025,10/10/2025,4/26/2026,-81.00,OK,,1.00,0
+1690,Brown Rice,Grains & Pulses,Avamm, 2.50 ,55.7,39,97.5,130.0,Reorder,10/13/2025,10/8/2025,5/4/2026,-73.00,Reorder,,1.00,0
+1691,Cabbage,,Rooxo, 66.55 ,65.9,69,4591.95,91.4,Reorder,10/15/2025,10/4/2025,3/21/2026,-117.00,Reorder,,1.00,0
+1692,Egg (Goose),Dairy,Gabvine, 2.50 ,83.9,60,150,131.4,Reorder,10/11/2025,10/3/2025,4/30/2026,-77.00,Reorder,,1.00,0
+1693,Sour Cream,Dairy,Yodel, 4.10 ,66.7,22,90.2,40.6,Reorder,10/14/2025,10/9/2025,3/26/2026,-112.00,Reorder,,1.00,0
+1694,Almond Flour,Grains & Pulses,Voonte, 9.50 ,18.1,79,750.5,104.4,Reorder,10/14/2025,10/9/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1695,Broccoli,Fruits & Vegetables,Rhyzio, 4.00 ,15.8,47,188,79.7,Reorder,10/13/2025,10/3/2025,6/11/2026,-35.00,Reorder,,1.00,0
+1696,Jasmine Rice,Grains & Pulses,Tagcat, 4.75 ,85.3,20,95,115.8,Reorder,10/11/2025,10/10/2025,5/15/2026,-62.00,Reorder,,1.00,0
+1697,Gouda Cheese,Dairy,Gigazoom, 7.00 ,85.6,41,287,29.3,OK,10/12/2025,10/2/2025,4/17/2026,-90.00,OK,,1.00,0
+1698,Tilapia,Seafood,Plajo, 7.00 ,47.8,46,322,83.4,Reorder,10/11/2025,10/6/2025,6/15/2026,-31.00,Reorder,,1.00,0
+1699,Palm Oil,Oils & Fats,Skipstorm, 1.80 ,51.8,67,120.6,124.5,Reorder,10/12/2025,10/4/2025,4/16/2026,-91.00,Reorder,,1.00,0
+1700,Arborio Rice,Grains & Pulses,Feednation, 4.50 ,33.5,51,229.5,29.9,OK,10/13/2025,10/1/2025,5/31/2026,-46.00,OK,,1.00,0
+1701,White Sugar,Grains & Pulses,Cogibox, 2.00 ,84.3,42,84,82.8,Reorder,10/11/2025,10/6/2025,3/23/2026,-115.00,Reorder,,1.00,0
+1702,Sesame Oil,Oils & Fats,Divanoodle, 6.50 ,41.2,85,552.5,115.7,Reorder,10/15/2025,10/1/2025,7/16/2026,0.00,Reorder,,1.00,0
+1703,Sunflower Oil,Oils & Fats,Skibox, 2.50 ,65.3,23,57.5,58.5,Reorder,10/11/2025,10/8/2025,4/28/2026,-79.00,Reorder,,1.00,0
+1704,Bell Pepper,Fruits & Vegetables,Devcast, 4.50 ,71.0,84,378,93.9,Reorder,10/14/2025,10/7/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1705,Greek Yogurt,Fruits & Vegetables,Quaxo, 42.58 ,59.5,28,1192.24,137.3,Reorder,10/11/2025,10/7/2025,5/3/2026,-74.00,Reorder,,1.00,0
+1706,White Bread,Bakery,Mybuzz, 2.50 ,79.4,62,155,59.8,OK,10/11/2025,10/8/2025,5/28/2026,-49.00,OK,,1.00,0
+1707,Egg (Goose),Dairy,Oba, 2.50 ,40.5,65,162.5,62.3,OK,10/12/2025,10/9/2025,5/10/2026,-67.00,OK,,1.00,0
+1708,Lime,Fruits & Vegetables,Livefish, 2.00 ,24.4,18,36,121.9,Reorder,10/12/2025,10/1/2025,7/11/2026,-5.00,Reorder,,1.00,0
+1709,Egg (Chicken),Dairy,Kaymbo, 0.20 ,57.5,70,14,80.5,Reorder,10/11/2025,10/2/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1710,Vegetable Oil,Oils & Fats,Yoveo, 2.00 ,16.1,23,46,137.7,Reorder,10/12/2025,10/3/2025,5/7/2026,-70.00,Reorder,,1.00,0
+1711,Jasmine Rice,Grains & Pulses,Eimbee, 4.75 ,78.3,26,123.5,83.7,Reorder,10/14/2025,10/8/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1712,Robusta Coffee,Beverages,Skiptube, 10.00 ,39.2,20,200,147.6,Reorder,10/14/2025,10/7/2025,5/12/2026,-65.00,Reorder,,1.00,0
+1713,Mozzarella Cheese,Dairy,Roodel, 7.20 ,26.7,55,396,51.8,OK,10/14/2025,10/4/2025,3/29/2026,-109.00,OK,,1.00,0
+1714,Whole Wheat Flour,Grains & Pulses,Jaxworks, 2.75 ,75.3,82,225.5,35.9,OK,10/12/2025,10/6/2025,5/27/2026,-50.00,OK,,1.00,0
+1715,Salmon,Seafood,Fanoodle, 15.00 ,20.1,73,1095,74.4,Reorder,10/14/2025,10/1/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1716,White Tea,Beverages,Agivu, 25.00 ,55.1,81,2025,143.6,Reorder,10/14/2025,10/4/2025,7/20/2026,4.00,Reorder,,0.50,27.54
+1717,Onion,Fruits & Vegetables,Wikizz, 2.00 ,57.5,20,40,54.5,Reorder,10/13/2025,10/3/2025,4/13/2026,-94.00,Reorder,,1.00,0
+1718,Black Coffee,Beverages,Digitube, 15.00 ,43.0,78,1170,67.5,OK,10/14/2025,10/7/2025,5/10/2026,-67.00,OK,,1.00,0
+1719,Butter Biscuit,Bakery,Bluejam, 6.00 ,78.9,84,504,68.0,OK,10/14/2025,10/6/2025,3/26/2026,-112.00,OK,,1.00,0
+1720,Corn Oil,Oils & Fats,Centizu, 2.50 ,69.0,32,80,86.3,Reorder,10/14/2025,10/5/2025,3/22/2026,-116.00,Reorder,,1.00,0
+1721,Coconut Oil,Oils & Fats,Bluejam, 5.00 ,66.7,90,450,60.4,OK,10/12/2025,10/9/2025,7/16/2026,0.00,OK,,1.00,0
+1722,Evaporated Milk,Dairy,Miboo, 2.00 ,20.0,70,140,31.5,OK,10/11/2025,10/3/2025,5/16/2026,-61.00,OK,,1.00,0
+1723,Bell Pepper,Fruits & Vegetables,Fatz, 4.50 ,62.2,90,405,66.6,OK,10/15/2025,10/2/2025,7/18/2026,2.00,OK,,0.65,21.76
+1724,Lettuce,Fruits & Vegetables,Meemm, 2.00 ,26.4,100,200,71.7,OK,10/15/2025,10/7/2025,4/20/2026,-87.00,OK,,1.00,0
+1725,Brown Rice,Grains & Pulses,Youtags, 2.50 ,70.4,89,222.5,52.4,OK,10/12/2025,10/7/2025,7/27/2026,11.00,OK,,0.00,70.39
+1726,Whole Wheat Flour,Grains & Pulses,Dabjam, 2.70 ,17.5,38,102.6,138.2,Reorder,10/13/2025,10/10/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1727,Rye Bread,Bakery,Kwideo, 3.00 ,48.6,61,183,80.4,Reorder,10/13/2025,10/4/2025,7/24/2026,8.00,Reorder,,0.00,48.65
+1728,Orange,Fruits & Vegetables,Oba, 3.00 ,75.3,75,225,106.6,Reorder,10/15/2025,10/1/2025,7/2/2026,-14.00,Reorder,,1.00,0
+1729,Multigrain Bread,Bakery,Topicware, 3.20 ,12.5,87,278.4,112.0,Reorder,10/11/2025,10/1/2025,7/27/2026,11.00,Reorder,,0.00,12.50
+1730,Bread Flour,Grains & Pulses,Skaboo, 1.50 ,14.6,71,106.5,99.2,Reorder,10/12/2025,10/8/2025,7/6/2026,-10.00,Reorder,,1.00,0
+1731,Haddock,Seafood,Rhybox, 9.00 ,12.2,98,882,137.0,Reorder,10/14/2025,10/8/2025,7/15/2026,-1.00,Reorder,,1.00,0
+1732,Green Beans,Fruits & Vegetables,BlogXS, 2.00 ,73.9,19,38,33.7,Reorder,10/13/2025,10/7/2025,6/12/2026,-34.00,Reorder,,1.00,0
+1733,Coconut,Fruits & Vegetables,Eazzy, 5.00 ,84.3,85,425,85.9,Reorder,10/14/2025,10/4/2025,6/14/2026,-32.00,Reorder,,1.00,0
+1734,Apple,Fruits & Vegetables,Omba, 3.50 ,33.2,71,248.5,102.5,Reorder,10/12/2025,10/7/2025,7/13/2026,-3.00,Reorder,,1.00,0
+1735,Brown Rice,Grains & Pulses,Skipfire, 2.50 ,10.1,44,110,136.9,Reorder,10/12/2025,10/6/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1736,Rice Flour,Grains & Pulses,Livetube, 2.00 ,33.5,25,50,105.1,Reorder,10/11/2025,10/8/2025,4/21/2026,-86.00,Reorder,,1.00,0
+1737,Peanut Oil,Oils & Fats,Devpulse, 4.00 ,83.2,24,96,51.6,Reorder,10/14/2025,10/2/2025,5/1/2026,-76.00,Reorder,,1.00,0
+1738,Anchovies,Seafood,Skipfire, 10.00 ,70.3,44,440,87.5,Reorder,10/12/2025,10/4/2025,5/8/2026,-69.00,Reorder,,1.00,0
+1739,Powdered Sugar,Grains & Pulses,Mybuzz, 2.50 ,77.4,63,157.5,105.5,Reorder,10/13/2025,10/4/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1740,Palm Oil,Oils & Fats,Dynabox, 1.80 ,20.7,69,124.2,74.2,Reorder,10/15/2025,10/8/2025,7/10/2026,-6.00,Reorder,,1.00,0
+1741,Tuna,Seafood,Centimia, 18.00 ,20.0,88,1584,113.8,Reorder,10/12/2025,10/5/2025,4/23/2026,-84.00,Reorder,,1.00,0
+1742,Robusta Coffee,Beverages,Mymm, 10.00 ,60.1,74,740,127.5,Reorder,10/15/2025,10/9/2025,4/2/2026,-105.00,Reorder,,1.00,0
+1743,Bell Pepper,Fruits & Vegetables,Jaxbean, 4.50 ,31.2,98,441,67.2,OK,10/13/2025,10/8/2025,7/16/2026,0.00,OK,,1.00,0
+1744,Egg (Chicken),Dairy,Meembee, 0.20 ,54.6,22,4.4,58.4,Reorder,10/13/2025,10/10/2025,4/28/2026,-79.00,Reorder,,1.00,0
+1745,Apricot,Fruits & Vegetables,Fivebridge, 5.00 ,58.2,55,275,68.9,Reorder,10/14/2025,10/9/2025,4/17/2026,-90.00,Reorder,,1.00,0
+1746,Ricotta Cheese,Dairy,Kwideo, 6.10 ,28.0,96,585.6,119.2,Reorder,10/14/2025,10/10/2025,5/29/2026,-48.00,Reorder,,1.00,0
+1747,Feta Cheese,Dairy,Quaxo, 7.00 ,72.1,91,637,49.7,OK,10/15/2025,10/2/2025,4/14/2026,-93.00,OK,,1.00,0
+1748,Digestive Biscuit,Bakery,Vimbo, 4.00 ,26.6,40,160,36.1,OK,10/12/2025,10/9/2025,3/23/2026,-115.00,OK,,1.00,0
+1749,Salmon,Seafood,Buzzshare, 15.00 ,68.8,52,780,35.6,OK,10/12/2025,10/9/2025,5/17/2026,-60.00,OK,,1.00,0
+1750,Lettuce,Fruits & Vegetables,Gigabox, 2.00 ,66.5,22,44,40.1,Reorder,10/13/2025,10/5/2025,4/7/2026,-100.00,Reorder,,1.00,0
+1751,Black Rice,Grains & Pulses,Blognation, 6.35 ,81.4,98,622.3,76.7,OK,10/14/2025,10/1/2025,6/29/2026,-17.00,OK,,1.00,0
+1752,Whole Wheat Flour,Grains & Pulses,Topicstorm, 2.75 ,46.8,59,162.25,65.4,Reorder,10/11/2025,10/5/2025,6/27/2026,-19.00,Reorder,,1.00,0
+1753,Chocolate Biscuit,Bakery,Devcast, 5.00 ,72.7,99,495,87.8,OK,10/11/2025,10/8/2025,7/27/2026,11.00,OK,,0.00,72.71
+1754,Black Tea,Beverages,Jaloo, 5.30 ,10.4,18,95.4,117.1,Reorder,10/14/2025,10/10/2025,7/5/2026,-11.00,Reorder,,1.00,0
+1755,Watermelon,Fruits & Vegetables,Jaxspan, 3.00 ,29.2,58,174,43.1,OK,10/15/2025,10/1/2025,4/18/2026,-89.00,OK,,1.00,0
+1756,Black Rice,Grains & Pulses,BlogXS, 6.30 ,31.4,30,189,36.2,Reorder,10/15/2025,10/4/2025,6/18/2026,-28.00,Reorder,,1.00,0
+1757,Papaya,Fruits & Vegetables,Twitterwire, 4.50 ,53.0,97,436.5,102.1,Reorder,10/14/2025,10/7/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1758,Egg (Goose),Dairy,Gigashots, 2.45 ,42.4,50,122.5,89.3,Reorder,10/12/2025,10/8/2025,7/6/2026,-10.00,Reorder,,1.00,0
+1759,Cheddar Cheese,Dairy,LiveZ, 9.00 ,68.4,70,630,63.0,OK,10/14/2025,10/5/2025,7/18/2026,2.00,OK,,0.65,23.95
+1760,Blueberries,Fruits & Vegetables,Buzzbean, 10.00 ,73.9,40,400,92.9,Reorder,10/15/2025,10/2/2025,5/17/2026,-60.00,Reorder,,1.00,0
+1761,Corn Oil,Oils & Fats,Shuffletag, 2.50 ,41.8,75,187.5,100.3,Reorder,10/15/2025,10/1/2025,3/15/2026,-123.00,Reorder,,1.00,0
+1762,Strawberries,Fruits & Vegetables,Skimia, 6.00 ,31.5,26,156,79.5,Reorder,10/15/2025,10/7/2025,7/11/2026,-5.00,Reorder,,1.00,0
+1763,Arabica Coffee,Beverages,Jetpulse, 20.00 ,64.9,13,260,104.0,Reorder,10/11/2025,10/10/2025,5/29/2026,-48.00,Reorder,,1.00,0
+1764,Plum,Fruits & Vegetables,Yambee, 4.00 ,69.0,11,44,108.5,Reorder,10/13/2025,10/10/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1765,Salmon,Seafood,Kamba, 15.00 ,43.9,98,1470,80.2,OK,10/11/2025,10/8/2025,6/25/2026,-21.00,OK,,1.00,0
+1766,Broccoli,Fruits & Vegetables,Abatz, 4.00 ,79.7,35,140,82.0,Reorder,10/12/2025,10/3/2025,6/26/2026,-20.00,Reorder,,1.00,0
+1767,Mackerel,Seafood,Wikido, 7.50 ,26.1,45,337.5,75.1,Reorder,10/13/2025,10/7/2025,5/22/2026,-55.00,Reorder,,1.00,0
+1768,Kale,Fruits & Vegetables,Blogpad, 4.00 ,67.0,47,188,82.9,Reorder,10/12/2025,10/5/2025,7/29/2026,13.00,Reorder,,0.00,66.97
+1769,Sesame Oil,Oils & Fats,Tazz, 6.50 ,31.2,89,578.5,94.0,Reorder,10/15/2025,10/10/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1770,Black Coffee,Beverages,Brainverse, 15.00 ,21.3,33,495,136.1,Reorder,10/14/2025,10/5/2025,6/8/2026,-38.00,Reorder,,1.00,0
+1771,Apricot,Fruits & Vegetables,Blognation, 5.00 ,78.0,90,450,67.4,OK,10/14/2025,10/2/2025,4/6/2026,-101.00,OK,,1.00,0
+1772,Jasmine Rice,Grains & Pulses,Kwilith, 4.75 ,8.7,44,209,88.1,Reorder,10/14/2025,10/1/2025,7/10/2026,-6.00,Reorder,,1.00,0
+1773,Wild Rice,Grains & Pulses,Podcat, 9.75 ,25.5,41,399.75,35.9,OK,10/13/2025,10/4/2025,4/24/2026,-83.00,OK,,1.00,0
+1774,Potato,Fruits & Vegetables,Centimia, 1.20 ,57.0,72,86.4,145.8,Reorder,10/13/2025,10/2/2025,4/10/2026,-97.00,Reorder,,1.00,0
+1775,Egg (Goose),Dairy,Skyble, 2.40 ,16.5,72,172.8,119.9,Reorder,10/14/2025,10/6/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1776,Black Coffee,Beverages,Skyndu, 15.00 ,77.4,40,600,105.8,Reorder,10/12/2025,10/8/2025,7/30/2026,14.00,Reorder,,0.00,77.43
+1777,Whole Wheat Bread,Bakery,Photobug, 3.50 ,7.9,36,126,144.9,Reorder,10/14/2025,10/3/2025,7/19/2026,3.00,Reorder,,0.60,3.15
+1778,Vegetable Oil,Oils & Fats,Digitube, 2.00 ,14.3,51,102,59.0,Reorder,10/11/2025,10/1/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1779,Black Coffee,Beverages,Tagpad, 14.90 ,37.5,87,1296.3,31.1,OK,10/14/2025,10/1/2025,3/25/2026,-113.00,OK,,1.00,0
+1780,Pear,Fruits & Vegetables,Roodel, 4.50 ,35.6,79,355.5,75.6,OK,10/14/2025,10/3/2025,6/19/2026,-27.00,OK,,1.00,0
+1781,Tilapia,Seafood,Jabbercube, 6.80 ,26.7,14,95.2,31.1,Reorder,10/12/2025,10/9/2025,7/1/2026,-15.00,Reorder,,1.00,0
+1782,Orange,Fruits & Vegetables,Demimbu, 3.00 ,60.0,81,243,119.1,Reorder,10/14/2025,10/1/2025,6/16/2026,-30.00,Reorder,,1.00,0
+1783,Lime,Fruits & Vegetables,Shufflebeat, 2.00 ,57.8,75,150,106.3,Reorder,10/13/2025,10/6/2025,4/22/2026,-85.00,Reorder,,1.00,0
+1784,Gouda Cheese,Dairy,Avaveo, 7.00 ,49.5,48,336,73.9,Reorder,10/15/2025,10/9/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1785,Onion,Fruits & Vegetables,Gabspot, 2.00 ,41.7,50,100,106.7,Reorder,10/13/2025,10/2/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1786,Haddock,Seafood,Eire, 9.00 ,10.3,11,99,80.1,Reorder,10/11/2025,10/5/2025,3/21/2026,-117.00,Reorder,,1.00,0
+1787,Almond Flour,Grains & Pulses,Thoughtblab, 9.50 ,84.0,74,703,145.3,Reorder,10/13/2025,10/8/2025,5/31/2026,-46.00,Reorder,,1.00,0
+1788,Tomato,Fruits & Vegetables,Fivebridge, 2.50 ,77.1,11,27.5,130.9,Reorder,10/14/2025,10/3/2025,4/14/2026,-93.00,Reorder,,1.00,0
+1789,Heavy Cream,Dairy,Tambee, 4.00 ,33.3,85,340,122.5,Reorder,10/12/2025,10/8/2025,3/15/2026,-123.00,Reorder,,1.00,0
+1790,Cauliflower,Fruits & Vegetables,Flashspan, 2.50 ,31.1,57,142.5,124.2,Reorder,10/14/2025,10/5/2025,4/25/2026,-82.00,Reorder,,1.00,0
+1791,Lime,Fruits & Vegetables,Yata, 1.90 ,78.1,75,142.5,119.3,Reorder,10/12/2025,10/5/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1792,Egg (Turkey),Dairy,Katz, 2.35 ,57.0,63,148.05,27.5,OK,10/13/2025,10/4/2025,6/3/2026,-43.00,OK,,1.00,0
+1793,White Tea,Beverages,Jazzy, 25.25 ,42.5,35,883.75,46.8,Reorder,10/13/2025,10/7/2025,7/15/2026,-1.00,Reorder,,1.00,0
+1794,Cabbage,Fruits & Vegetables,Topdrive, 1.00 ,49.5,24,24,140.5,Reorder,10/15/2025,10/9/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1795,Jasmine Rice,Grains & Pulses,Topicware, 4.75 ,82.0,53,251.75,129.7,Reorder,10/13/2025,10/2/2025,4/28/2026,-79.00,Reorder,,1.00,0
+1796,Butter Biscuit,Bakery,InnoZ, 6.00 ,78.6,74,444,47.3,OK,10/13/2025,10/8/2025,7/3/2026,-13.00,OK,,1.00,0
+1797,Brown Rice,Grains & Pulses,Viva, 2.50 ,8.1,79,197.5,143.6,Reorder,10/13/2025,10/2/2025,7/13/2026,-3.00,Reorder,,1.00,0
+1798,Bread Flour,Grains & Pulses,Dazzlesphere, 1.50 ,13.4,54,81,52.7,OK,10/12/2025,10/8/2025,6/28/2026,-18.00,OK,,1.00,0
+1799,Palm Oil,Oils & Fats,Wordware, 1.80 ,61.6,44,79.2,74.8,Reorder,10/13/2025,10/3/2025,5/16/2026,-61.00,Reorder,,1.00,0
+1800,Almond Flour,Grains & Pulses,Camido, 9.50 ,64.5,77,731.5,28.3,OK,10/12/2025,10/6/2025,6/6/2026,-40.00,OK,,1.00,0
+1801,Apricot,Fruits & Vegetables,Skinix, 5.00 ,43.7,42,210,132.1,Reorder,10/11/2025,10/2/2025,6/16/2026,-30.00,Reorder,,1.00,0
+1802,Sweet Potato,Fruits & Vegetables,Yodo, 2.00 ,54.9,44,88,49.6,Reorder,10/12/2025,10/3/2025,6/27/2026,-19.00,Reorder,,1.00,0
+1803,Sour Cream,Dairy,Realblab, 4.00 ,73.7,81,324,142.8,Reorder,10/13/2025,10/2/2025,7/6/2026,-10.00,Reorder,,1.00,0
+1804,Black Rice,Grains & Pulses,Zazio, 6.25 ,36.5,92,575,122.3,Reorder,10/15/2025,10/7/2025,6/9/2026,-37.00,Reorder,,1.00,0
+1805,Salmon,Seafood,Avavee, 15.00 ,62.1,78,1170,95.6,Reorder,10/12/2025,10/5/2025,5/23/2026,-54.00,Reorder,,1.00,0
+1806,Heavy Cream,Dairy,Yodo, 4.20 ,26.7,85,357,146.0,Reorder,10/15/2025,10/1/2025,4/21/2026,-86.00,Reorder,,1.00,0
+1807,Pomegranate,Fruits & Vegetables,Kwideo, 6.00 ,8.2,65,390,33.2,OK,10/13/2025,10/4/2025,5/20/2026,-57.00,OK,,1.00,0
+1808,Olive Oil,Oils & Fats,Realmix, 6.00 ,73.9,36,216,118.4,Reorder,10/11/2025,10/8/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1809,Potato,Fruits & Vegetables,Thoughtbridge, 1.20 ,63.0,26,31.2,34.9,Reorder,10/13/2025,10/5/2025,7/14/2026,-2.00,Reorder,,1.00,0
+1810,Sunflower Oil,Oils & Fats,Aibox, 2.50 ,59.3,39,97.5,131.8,Reorder,10/13/2025,10/7/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1811,White Sugar,Grains & Pulses,Twimm, 2.00 ,41.8,39,78,75.3,Reorder,10/11/2025,10/4/2025,4/13/2026,-94.00,Reorder,,1.00,0
+1812,Cabbage,Fruits & Vegetables,Twitternation, 1.00 ,10.4,83,83,73.2,OK,10/15/2025,10/10/2025,6/7/2026,-39.00,OK,,1.00,0
+1813,Cucumber,Fruits & Vegetables,Yabox, 1.80 ,7.8,28,50.4,125.3,Reorder,10/14/2025,10/8/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1814,Tuna,Seafood,Realmix, 18.00 ,54.5,85,1530,41.9,OK,10/13/2025,10/8/2025,3/30/2026,-108.00,OK,,1.00,0
+1815,Lime,Fruits & Vegetables,Roomm, 2.00 ,85.1,76,152,98.8,Reorder,10/15/2025,10/2/2025,6/1/2026,-45.00,Reorder,,1.00,0
+1816,Tomato,Fruits & Vegetables,Thoughtbeat, 2.50 ,51.1,100,250,95.9,OK,10/14/2025,10/4/2025,7/11/2026,-5.00,OK,,1.00,0
+1817,Pomegranate,Fruits & Vegetables,Teklist, 6.00 ,8.3,17,102,90.4,Reorder,10/12/2025,10/2/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1818,Anchovies,Seafood,Twitterbridge, 10.00 ,81.4,51,510,37.5,OK,10/14/2025,10/7/2025,5/18/2026,-59.00,OK,,1.00,0
+1819,Grapes,Fruits & Vegetables,Centizu, 5.50 ,85.7,54,297,130.0,Reorder,10/14/2025,10/2/2025,7/12/2026,-4.00,Reorder,,1.00,0
+1820,Sourdough Bread,Bakery,Gigashots, 4.00 ,40.6,94,376,83.2,OK,10/11/2025,10/9/2025,5/29/2026,-48.00,OK,,1.00,0
+1821,Asparagus,Fruits & Vegetables,Vitz, 5.00 ,46.4,34,170,78.7,Reorder,10/13/2025,10/6/2025,6/6/2026,-40.00,Reorder,,1.00,0
+1822,Herbal Tea,Beverages,Myworks, 30.00 ,36.7,27,810,39.0,Reorder,10/14/2025,10/2/2025,4/26/2026,-81.00,Reorder,,1.00,0
+1823,All-Purpose Flour,Grains & Pulses,Pixonyx, 1.75 ,22.9,50,87.5,87.6,Reorder,10/13/2025,10/6/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1824,Almond Flour,Grains & Pulses,Skaboo, 9.50 ,64.2,85,807.5,85.9,Reorder,10/15/2025,10/1/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1825,Rice Flour,Grains & Pulses,Quatz, 2.00 ,22.0,24,48,44.2,Reorder,10/13/2025,10/3/2025,5/24/2026,-53.00,Reorder,,1.00,0
+1826,Halibut,Seafood,Gevee, 20.00 ,29.2,82,1640,116.8,Reorder,10/12/2025,10/4/2025,7/14/2026,-2.00,Reorder,,1.00,0
+1827,Apple,Fruits & Vegetables,Wikido, 3.50 ,65.9,17,59.5,31.1,Reorder,10/13/2025,10/7/2025,5/16/2026,-61.00,Reorder,,1.00,0
+1828,Canola Oil,Oils & Fats,Katz, 2.30 ,68.1,25,57.5,111.7,Reorder,10/13/2025,10/6/2025,5/11/2026,-66.00,Reorder,,1.00,0
+1829,Tilapia,Seafood,Geba, 7.00 ,20.7,56,392,96.3,Reorder,10/12/2025,10/3/2025,6/21/2026,-25.00,Reorder,,1.00,0
+1830,Evaporated Milk,Dairy,Photobug, 2.00 ,66.6,72,144,134.8,Reorder,10/12/2025,10/9/2025,6/30/2026,-16.00,Reorder,,1.00,0
+1831,Mushrooms,Fruits & Vegetables,Bluezoom, 6.30 ,10.6,65,409.5,69.7,Reorder,10/12/2025,10/1/2025,4/11/2026,-96.00,Reorder,,1.00,0
+1832,Grapes,Fruits & Vegetables,Kimia, 5.50 ,39.9,30,165,128.2,Reorder,10/13/2025,10/4/2025,7/29/2026,13.00,Reorder,,0.00,39.92
+1833,Onion,Fruits & Vegetables,Tavu, 2.00 ,15.3,39,78,118.1,Reorder,10/15/2025,10/7/2025,7/24/2026,8.00,Reorder,,0.00,15.30
+1834,Pineapple,Fruits & Vegetables,Rhyloo, 3.50 ,8.1,14,49,53.3,Reorder,10/15/2025,10/8/2025,7/2/2026,-14.00,Reorder,,1.00,0
+1835,Carrot,Fruits & Vegetables,Gigashots, 1.50 ,75.1,74,111,101.8,Reorder,10/14/2025,10/10/2025,7/13/2026,-3.00,Reorder,,1.00,0
+1836,Parmesan Cheese,Dairy,Buzzbean, 11.90 ,83.2,63,749.7,83.4,Reorder,10/12/2025,10/4/2025,3/26/2026,-112.00,Reorder,,1.00,0
+1837,Peach,Fruits & Vegetables,Youfeed, 4.00 ,24.6,47,188,69.2,Reorder,10/12/2025,10/9/2025,6/6/2026,-40.00,Reorder,,1.00,0
+1838,Egg (Turkey),Dairy,Browsecat, 2.50 ,22.4,42,105,147.9,Reorder,10/12/2025,10/6/2025,7/29/2026,13.00,Reorder,,0.00,22.35
+1839,Tomato,Fruits & Vegetables,Demimbu, 2.50 ,10.4,32,80,58.1,Reorder,10/12/2025,10/4/2025,5/31/2026,-46.00,Reorder,,1.00,0
+1840,Lettuce,Fruits & Vegetables,Quamba, 2.00 ,35.4,88,176,141.6,Reorder,10/12/2025,10/6/2025,5/13/2026,-64.00,Reorder,,1.00,0
+1841,Yogurt,Dairy,Thoughtworks, 1.75 ,35.5,80,140,131.2,Reorder,10/15/2025,10/5/2025,7/8/2026,-8.00,Reorder,,1.00,0
+1842,Orange,Fruits & Vegetables,Oloo, 3.00 ,58.2,36,108,31.1,OK,10/11/2025,10/6/2025,5/26/2026,-51.00,OK,,1.00,0
+1843,Bread Flour,Grains & Pulses,Avaveo, 1.50 ,70.3,11,16.5,98.7,Reorder,10/12/2025,10/9/2025,6/23/2026,-23.00,Reorder,,1.00,0
+1844,Peach,Fruits & Vegetables,Livepath, 4.00 ,50.4,40,160,103.8,Reorder,10/13/2025,10/7/2025,7/9/2026,-7.00,Reorder,,1.00,0
+1845,Bread Flour,Grains & Pulses,Jazzy, 1.50 ,78.3,63,94.5,37.4,OK,10/12/2025,10/2/2025,3/15/2026,-123.00,OK,,1.00,0
+1846,Raw Sugar,Grains & Pulses,Eabox, 1.50 ,16.6,90,135,115.8,Reorder,10/13/2025,10/6/2025,7/7/2026,-9.00,Reorder,,1.00,0
+1847,Multigrain Bread,Bakery,Bubblebox, 3.25 ,75.6,47,152.75,116.9,Reorder,10/11/2025,10/1/2025,6/15/2026,-31.00,Reorder,,1.00,0
+1848,Digestive Biscuit,Bakery,Zoonder, 4.00 ,32.2,29,116,54.1,Reorder,10/15/2025,10/1/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1849,Peach,Fruits & Vegetables,Blogpad, 4.00 ,19.4,94,376,138.4,Reorder,10/15/2025,10/6/2025,7/7/2026,-9.00,Reorder,,1.00,0
+1850,Mango,Fruits & Vegetables,Oyoloo, 4.90 ,7.0,32,156.8,114.4,Reorder,10/12/2025,10/1/2025,6/12/2026,-34.00,Reorder,,1.00,0
+1851,Plum,Fruits & Vegetables,Mybuzz, 4.00 ,34.6,40,160,35.8,OK,10/15/2025,10/2/2025,3/16/2026,-122.00,OK,,1.00,0
+1852,Egg (Goose),Dairy,Tagchat, 2.50 ,66.6,50,125,71.9,Reorder,10/15/2025,10/9/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1853,Cod,Seafood,Kwimbee, 8.00 ,57.1,72,576,41.9,OK,10/12/2025,10/4/2025,3/26/2026,-112.00,OK,,1.00,0
+1854,Pomegranate,Fruits & Vegetables,Tagopia, 6.00 ,29.7,22,132,118.3,Reorder,10/13/2025,10/10/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1855,Chocolate Biscuit,Bakery,Yakitri, 5.00 ,84.9,23,115,140.8,Reorder,10/11/2025,10/10/2025,5/15/2026,-62.00,Reorder,,1.00,0
+1856,Halibut,Seafood,Camimbo, 20.00 ,18.7,35,700,37.2,Reorder,10/12/2025,10/7/2025,4/3/2026,-104.00,Reorder,,1.00,0
+1857,Cucumber,Fruits & Vegetables,Dabtype, 1.75 ,66.7,12,21,75.0,Reorder,10/12/2025,10/9/2025,7/16/2026,0.00,Reorder,,1.00,0
+1858,Cheddar Cheese,Dairy,Roomm, 9.00 ,40.8,86,774,107.2,Reorder,10/15/2025,10/2/2025,7/20/2026,4.00,Reorder,,0.50,20.42
+1859,Mackerel,Seafood,Skynoodle, 7.50 ,54.7,91,682.5,60.0,OK,10/12/2025,10/2/2025,4/4/2026,-103.00,OK,,1.00,0
+1860,Evaporated Milk,Dairy,Centimia, 2.00 ,79.1,23,46,145.5,Reorder,10/14/2025,10/5/2025,5/22/2026,-55.00,Reorder,,1.00,0
+1861,Onion,Fruits & Vegetables,Voolia, 2.00 ,52.7,98,196,147.2,Reorder,10/12/2025,10/5/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1862,Cherry,Fruits & Vegetables,Voomm, 8.00 ,48.5,29,232,82.1,Reorder,10/12/2025,10/7/2025,5/14/2026,-63.00,Reorder,,1.00,0
+1863,Coconut,Fruits & Vegetables,Mudo, 5.00 ,29.1,32,160,104.1,Reorder,10/14/2025,10/1/2025,3/28/2026,-110.00,Reorder,,1.00,0
+1864,Pear,Fruits & Vegetables,Youspan, 4.50 ,42.8,84,378,69.8,OK,10/13/2025,10/5/2025,7/14/2026,-2.00,OK,,1.00,0
+1865,Yogurt,Dairy,Bubblemix, 1.75 ,14.6,86,150.5,87.0,Reorder,10/12/2025,10/7/2025,6/12/2026,-34.00,Reorder,,1.00,0
+1866,Black Rice,Grains & Pulses,Wordware, 6.20 ,67.0,11,68.2,100.9,Reorder,10/15/2025,10/8/2025,7/5/2026,-11.00,Reorder,,1.00,0
+1867,Whole Wheat Flour,Grains & Pulses,Quatz, 2.75 ,78.9,60,165,138.6,Reorder,10/13/2025,10/3/2025,6/25/2026,-21.00,Reorder,,1.00,0
+1868,Whole Wheat Bread,Bakery,Mybuzz, 3.50 ,23.4,58,203,147.2,Reorder,10/14/2025,10/5/2025,5/24/2026,-53.00,Reorder,,1.00,0
+1869,Ricotta Cheese,Dairy,Eadel, 6.00 ,65.8,64,384,34.7,OK,10/12/2025,10/7/2025,6/27/2026,-19.00,OK,,1.00,0
+1870,Canola Oil,Oils & Fats,Omba, 2.30 ,46.6,19,43.7,45.5,Reorder,10/12/2025,10/6/2025,3/16/2026,-122.00,Reorder,,1.00,0
+1871,Cherry,Fruits & Vegetables,Gigazoom, 8.00 ,27.2,43,344,139.4,Reorder,10/12/2025,10/3/2025,4/30/2026,-77.00,Reorder,,1.00,0
+1872,Peanut Oil,Oils & Fats,Tagopia, 4.00 ,22.2,38,152,34.8,OK,10/14/2025,10/6/2025,6/14/2026,-32.00,OK,,1.00,0
+1873,Buttermilk,Dairy,Wordpedia, 2.50 ,24.3,70,175,140.0,Reorder,10/15/2025,10/10/2025,5/10/2026,-67.00,Reorder,,1.00,0
+1874,Asparagus,Fruits & Vegetables,Jaxspan, 5.00 ,80.4,18,90,105.2,Reorder,10/14/2025,10/10/2025,5/11/2026,-66.00,Reorder,,1.00,0
+1875,Brown Rice,Grains & Pulses,Fivebridge, 2.50 ,33.3,46,115,54.6,Reorder,10/12/2025,10/2/2025,5/20/2026,-57.00,Reorder,,1.00,0
+1876,Arabica Coffee,Beverages,Zoozzy, 20.50 ,7.1,78,1599,40.1,OK,10/12/2025,10/9/2025,3/26/2026,-112.00,OK,,1.00,0
+1877,Canola Oil,Oils & Fats,Tagopia, 2.30 ,44.8,53,121.9,143.5,Reorder,10/14/2025,10/5/2025,5/15/2026,-62.00,Reorder,,1.00,0
+1878,Haddock,Seafood,Geba, 9.00 ,16.8,67,603,42.1,OK,10/15/2025,10/4/2025,5/30/2026,-47.00,OK,,1.00,0
+1879,Egg (Chicken),Dairy,Einti, 0.20 ,57.8,36,7.2,33.7,OK,10/13/2025,10/5/2025,5/18/2026,-59.00,OK,,1.00,0
+1880,Whole Wheat Flour,Grains & Pulses,Mudo, 2.75 ,15.7,39,107.25,139.5,Reorder,10/11/2025,10/10/2025,7/23/2026,7.00,Reorder,,0.00,15.67
+1881,Sweet Potato,Fruits & Vegetables,Einti, 2.00 ,36.8,95,190,39.2,OK,10/12/2025,10/9/2025,5/29/2026,-48.00,OK,,1.00,0
+1882,Almond Flour,Grains & Pulses,Shuffledrive, 9.50 ,42.4,12,114,115.3,Reorder,10/15/2025,10/10/2025,4/3/2026,-104.00,Reorder,,1.00,0
+1883,Wild Rice,Grains & Pulses,Yoveo, 10.00 ,84.2,98,980,82.2,OK,10/14/2025,10/10/2025,4/5/2026,-102.00,OK,,1.00,0
+1884,Jasmine Rice,Grains & Pulses,Linktype, 4.75 ,7.8,50,237.5,44.9,OK,10/15/2025,10/4/2025,7/16/2026,0.00,OK,,1.00,0
+1885,Zucchini,Fruits & Vegetables,Vidoo, 2.50 ,30.8,98,245,73.1,OK,10/13/2025,10/1/2025,3/17/2026,-121.00,OK,,1.00,0
+1886,Corn Oil,Oils & Fats,Devbug, 2.50 ,42.1,28,70,39.9,Reorder,10/12/2025,10/4/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1887,Cucumber,Fruits & Vegetables,Kanoodle, 1.80 ,41.1,67,120.6,80.8,Reorder,10/15/2025,10/8/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1888,Onion,Fruits & Vegetables,Devpulse, 2.00 ,34.8,20,40,101.1,Reorder,10/13/2025,10/10/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1889,Trout,Seafood,Topicblab, 11.60 ,85.6,67,777.2,103.9,Reorder,10/12/2025,10/3/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1890,Egg (Quail),Dairy,Trunyx, 0.80 ,12.4,94,75.2,130.7,Reorder,10/11/2025,10/4/2025,5/4/2026,-73.00,Reorder,,1.00,0
+1891,Black Tea,Beverages,Zoombeat, 5.00 ,17.5,45,225,39.3,OK,10/12/2025,10/7/2025,6/20/2026,-26.00,OK,,1.00,0
+1892,Anchovies,Seafood,Voolia, 10.00 ,20.8,86,860,107.1,Reorder,10/11/2025,10/7/2025,5/19/2026,-58.00,Reorder,,1.00,0
+1893,Wild Rice,Grains & Pulses,Kayveo, 9.75 ,74.5,72,702,36.8,OK,10/11/2025,10/4/2025,5/22/2026,-55.00,OK,,1.00,0
+1894,Green Beans,Fruits & Vegetables,Jayo, 2.10 ,18.7,31,65.1,141.4,Reorder,10/11/2025,10/4/2025,5/15/2026,-62.00,Reorder,,1.00,0
+1895,Butter Biscuit,Bakery,Ooba, 6.00 ,35.1,12,72,102.7,Reorder,10/11/2025,10/9/2025,3/21/2026,-117.00,Reorder,,1.00,0
+1896,Gouda Cheese,Dairy,Kazu, 7.00 ,62.6,71,497,119.3,Reorder,10/13/2025,10/8/2025,5/6/2026,-71.00,Reorder,,1.00,0
+1897,Anchovies,Seafood,Jatri, 10.00 ,24.6,64,640,83.6,Reorder,10/14/2025,10/4/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1898,Coconut Oil,Oils & Fats,Browsezoom, 5.00 ,80.4,89,445,144.5,Reorder,10/14/2025,10/3/2025,7/9/2026,-7.00,Reorder,,1.00,0
+1899,Sesame Oil,Oils & Fats,Jaxworks, 6.50 ,35.0,50,325,73.0,Reorder,10/14/2025,10/7/2025,7/2/2026,-14.00,Reorder,,1.00,0
+1900,Mango,Fruits & Vegetables,Devpulse, 5.00 ,44.3,53,265,137.0,Reorder,10/15/2025,10/9/2025,3/28/2026,-110.00,Reorder,,1.00,0
+1901,Haddock,Seafood,Rhybox, 9.00 ,70.8,19,171,57.6,Reorder,10/14/2025,10/3/2025,5/19/2026,-58.00,Reorder,,1.00,0
+1902,Broccoli,Fruits & Vegetables,Plajo, 4.00 ,37.1,89,356,138.5,Reorder,10/13/2025,10/9/2025,5/17/2026,-60.00,Reorder,,1.00,0
+1903,Cod,Seafood,Katz, 8.00 ,40.7,96,768,59.0,OK,10/13/2025,10/3/2025,5/25/2026,-52.00,OK,,1.00,0
+1904,Parmesan Cheese,Dairy,Yakidoo, 12.00 ,84.7,52,624,57.9,Reorder,10/15/2025,10/2/2025,5/11/2026,-66.00,Reorder,,1.00,0
+1905,Sesame Oil,Oils & Fats,Youopia, 6.50 ,70.3,97,630.5,141.7,Reorder,10/15/2025,10/10/2025,4/27/2026,-80.00,Reorder,,1.00,0
+1906,Halibut,Seafood,Camido, 20.00 ,31.7,88,1760,121.7,Reorder,10/15/2025,10/10/2025,6/27/2026,-19.00,Reorder,,1.00,0
+1907,Jasmine Rice,Grains & Pulses,Gabvine, 4.75 ,11.5,33,156.75,94.6,Reorder,10/13/2025,10/8/2025,4/24/2026,-83.00,Reorder,,1.00,0
+1908,Jasmine Rice,Grains & Pulses,Katz, 4.75 ,22.0,98,465.5,112.7,Reorder,10/12/2025,10/10/2025,4/11/2026,-96.00,Reorder,,1.00,0
+1909,Peach,Fruits & Vegetables,Browsetype, 4.00 ,31.5,45,180,94.7,Reorder,10/15/2025,10/4/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1910,White Rice,Grains & Pulses,Tagcat, 1.80 ,19.6,80,144,85.0,Reorder,10/15/2025,10/4/2025,7/13/2026,-3.00,Reorder,,1.00,0
+1911,Halibut,Seafood,Skidoo, 20.00 ,44.2,68,1360,130.9,Reorder,10/15/2025,10/2/2025,6/18/2026,-28.00,Reorder,,1.00,0
+1912,Apricot,Fruits & Vegetables,Zoonder, 5.00 ,30.6,90,450,82.5,OK,10/14/2025,10/2/2025,3/22/2026,-116.00,OK,,1.00,0
+1913,Trout,Seafood,Rhynoodle, 12.00 ,47.5,89,1068,71.6,OK,10/12/2025,10/8/2025,5/10/2026,-67.00,OK,,1.00,0
+1914,Cucumber,Fruits & Vegetables,Youbridge, 1.80 ,28.4,38,68.4,83.8,Reorder,10/14/2025,10/9/2025,5/21/2026,-56.00,Reorder,,1.00,0
+1915,Green Beans,Fruits & Vegetables,Fivespan, 2.10 ,67.1,99,207.9,125.7,Reorder,10/12/2025,10/3/2025,6/4/2026,-42.00,Reorder,,1.00,0
+1916,Powdered Sugar,Grains & Pulses,Topicshots, 2.40 ,55.7,66,158.4,79.9,Reorder,10/14/2025,10/1/2025,4/15/2026,-92.00,Reorder,,1.00,0
+1917,Pomegranate,Fruits & Vegetables,Eare, 6.00 ,25.1,66,396,142.2,Reorder,10/15/2025,10/9/2025,4/6/2026,-101.00,Reorder,,1.00,0
+1918,Bread Flour,Grains & Pulses,Jetpulse, 1.50 ,68.7,64,96,56.3,OK,10/12/2025,10/9/2025,5/13/2026,-64.00,OK,,1.00,0
+1919,Black Rice,Grains & Pulses,Voonder, 6.00 ,55.7,18,108,143.3,Reorder,10/15/2025,10/4/2025,3/30/2026,-108.00,Reorder,,1.00,0
+1920,Whole Wheat Flour,Grains & Pulses,Rhyloo, 2.75 ,51.2,86,236.5,83.1,OK,10/15/2025,10/8/2025,4/27/2026,-80.00,OK,,1.00,0
+1921,Black Tea,Beverages,Kare, 4.70 ,76.8,35,164.5,57.8,Reorder,10/15/2025,10/3/2025,5/26/2026,-51.00,Reorder,,1.00,0
+1922,Green Beans,Fruits & Vegetables,Viva, 2.00 ,84.1,26,52,52.5,Reorder,10/13/2025,10/7/2025,6/13/2026,-33.00,Reorder,,1.00,0
+1923,Parmesan Cheese,Dairy,Photospace, 12.00 ,34.1,80,960,43.5,OK,10/14/2025,10/5/2025,7/7/2026,-9.00,OK,,1.00,0
+1924,Zucchini,Fruits & Vegetables,Skibox, 2.50 ,70.9,63,157.5,93.1,Reorder,10/14/2025,10/1/2025,7/11/2026,-5.00,Reorder,,1.00,0
+1925,Vanilla Biscuit,Bakery,Ozu, 5.50 ,78.6,89,489.5,90.0,Reorder,10/11/2025,10/8/2025,5/9/2026,-68.00,Reorder,,1.00,0
+1926,Sweet Potato,Fruits & Vegetables,Jaxworks, 2.00 ,66.4,80,160,30.9,OK,10/12/2025,10/2/2025,4/8/2026,-99.00,OK,,1.00,0
+1927,Vegetable Oil,Oils & Fats,Tagtune, 2.00 ,73.7,41,82,34.4,OK,10/11/2025,10/8/2025,6/11/2026,-35.00,OK,,1.00,0
+1928,Chocolate Biscuit,Bakery,Babbleblab, 5.00 ,51.6,53,265,66.7,Reorder,10/12/2025,10/9/2025,6/15/2026,-31.00,Reorder,,1.00,0
+1929,Haddock,Seafood,Devshare, 9.00 ,60.6,61,549,33.9,OK,10/11/2025,10/7/2025,7/11/2026,-5.00,OK,,1.00,0
+1930,Egg (Duck),Dairy,Aivee, 1.00 ,74.7,70,70,86.4,Reorder,10/12/2025,10/7/2025,3/15/2026,-123.00,Reorder,,1.00,0
+1931,Mango,Fruits & Vegetables,Skalith, 5.00 ,84.1,73,365,102.7,Reorder,10/14/2025,10/3/2025,4/20/2026,-87.00,Reorder,,1.00,0
+1932,Kale,Fruits & Vegetables,Devshare, 4.00 ,49.2,60,240,40.5,OK,10/15/2025,10/5/2025,6/18/2026,-28.00,OK,,1.00,0
+1933,Pomegranate,Fruits & Vegetables,Twitterwire, 6.00 ,55.6,88,528,93.3,Reorder,10/13/2025,10/9/2025,7/5/2026,-11.00,Reorder,,1.00,0
+1934,Cauliflower,Fruits & Vegetables,Twitterwire, 2.50 ,44.2,95,237.5,125.8,Reorder,10/14/2025,10/4/2025,5/31/2026,-46.00,Reorder,,1.00,0
+1935,Powdered Sugar,Grains & Pulses,Riffwire, 2.50 ,53.8,47,117.5,74.9,Reorder,10/15/2025,10/1/2025,7/19/2026,3.00,Reorder,,0.60,21.51
+1936,Mozzarella Cheese,Dairy,Eidel, 7.00 ,26.6,24,168,28.5,Reorder,10/15/2025,10/3/2025,6/29/2026,-17.00,Reorder,,1.00,0
+1937,Anchovies,Seafood,Zoovu, 10.00 ,25.4,93,930,114.2,Reorder,10/14/2025,10/8/2025,7/11/2026,-5.00,Reorder,,1.00,0
+1938,Sunflower Oil,Oils & Fats,Ooba, 2.50 ,48.3,80,200,103.5,Reorder,10/13/2025,10/7/2025,3/15/2026,-123.00,Reorder,,1.00,0
+1939,Apple,Fruits & Vegetables,Geba, 3.50 ,65.2,77,269.5,91.1,Reorder,10/12/2025,10/6/2025,5/10/2026,-67.00,Reorder,,1.00,0
+1940,Green Beans,Fruits & Vegetables,Kanoodle, 2.00 ,71.6,42,84,136.3,Reorder,10/14/2025,10/1/2025,3/22/2026,-116.00,Reorder,,1.00,0
+1941,Egg (Turkey),Dairy,Oyondu, 2.50 ,15.3,92,230,76.5,OK,10/15/2025,10/10/2025,4/9/2026,-98.00,OK,,1.00,0
+1942,Mushrooms,Fruits & Vegetables,Chatterpoint, 6.25 ,29.1,81,506.25,63.1,OK,10/11/2025,10/1/2025,7/19/2026,3.00,OK,,0.60,11.63
+1943,Jasmine Rice,Grains & Pulses,Babbleset, 4.75 ,84.7,46,218.5,26.5,OK,10/11/2025,10/10/2025,4/4/2026,-103.00,OK,,1.00,0
+1944,Brown Rice,Grains & Pulses,Flipbug, 2.50 ,42.0,44,110,97.7,Reorder,10/14/2025,10/4/2025,7/26/2026,10.00,Reorder,,0.00,41.98
+1945,Multigrain Bread,Bakery,Innojam, 3.50 ,43.7,38,133,101.9,Reorder,10/11/2025,10/3/2025,6/27/2026,-19.00,Reorder,,1.00,0
+1946,Evaporated Milk,Dairy,Demivee, 2.00 ,8.4,64,128,125.7,Reorder,10/11/2025,10/7/2025,5/16/2026,-61.00,Reorder,,1.00,0
+1947,Long Grain Rice,Grains & Pulses,Ainyx, 1.45 ,37.4,39,56.55,43.2,Reorder,10/14/2025,10/5/2025,6/30/2026,-16.00,Reorder,,1.00,0
+1948,White Bread,Bakery,Jazzy, 2.50 ,75.2,42,105,69.8,Reorder,10/14/2025,10/2/2025,5/25/2026,-52.00,Reorder,,1.00,0
+1949,White Sugar,Grains & Pulses,Devpoint, 2.00 ,29.9,29,58,68.0,Reorder,10/12/2025,10/10/2025,6/26/2026,-20.00,Reorder,,1.00,0
+1950,Cucumber,Fruits & Vegetables,Bubblemix, 1.80 ,14.4,60,108,25.6,OK,10/12/2025,10/4/2025,5/17/2026,-60.00,OK,,1.00,0
+1951,Parmesan Cheese,Dairy,Quatz, 12.00 ,48.7,65,780,128.0,Reorder,10/12/2025,10/7/2025,4/18/2026,-89.00,Reorder,,1.00,0
+1952,Bell Pepper,Fruits & Vegetables,Meetz, 4.50 ,29.5,89,400.5,104.9,Reorder,10/14/2025,10/5/2025,6/3/2026,-43.00,Reorder,,1.00,0
+1953,Corn Oil,Oils & Fats,Flipopia, 2.50 ,9.9,50,125,110.7,Reorder,10/12/2025,10/1/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1954,Bell Pepper,Fruits & Vegetables,Livetube, 4.50 ,9.0,94,423,116.2,Reorder,10/14/2025,10/8/2025,5/2/2026,-75.00,Reorder,,1.00,0
+1955,Canola Oil,Oils & Fats,Thoughtmix, 2.30 ,8.4,97,223.1,85.7,OK,10/15/2025,10/10/2025,4/19/2026,-88.00,OK,,1.00,0
+1956,Digestive Biscuit,Bakery,Lajo, 4.00 ,30.8,72,288,34.2,OK,10/15/2025,10/8/2025,4/6/2026,-101.00,OK,,1.00,0
+1957,Cream,Dairy,Trilith, 2.50 ,72.1,62,155,66.4,Reorder,10/15/2025,10/3/2025,5/14/2026,-63.00,Reorder,,1.00,0
+1958,Apple,Fruits & Vegetables,Jabbersphere, 3.50 ,82.6,44,154,25.1,OK,10/11/2025,10/3/2025,5/23/2026,-54.00,OK,,1.00,0
+1959,Peanut Oil,Oils & Fats,Twitterbeat, 4.00 ,81.2,21,84,75.7,Reorder,10/12/2025,10/3/2025,5/28/2026,-49.00,Reorder,,1.00,0
+1960,Coconut Sugar,Grains & Pulses,Feedfire, 5.00 ,63.4,91,455,79.5,OK,10/11/2025,10/1/2025,7/28/2026,12.00,OK,,0.00,63.44
+1961,Tuna,Seafood,Thoughtbeat, 18.00 ,62.0,87,1566,57.9,OK,10/15/2025,10/1/2025,6/8/2026,-38.00,OK,,1.00,0
+1962,Spinach,Fruits & Vegetables,Youbridge, 2.52 ,52.1,61,153.72,43.8,OK,10/14/2025,10/7/2025,7/6/2026,-10.00,OK,,1.00,0
+1963,Carrot,Fruits & Vegetables,Gigaclub, 1.50 ,74.2,61,91.5,29.3,OK,10/14/2025,10/5/2025,5/6/2026,-71.00,OK,,1.00,0
+1964,Sweet Potato,Fruits & Vegetables,Trupe, 2.00 ,54.5,49,98,43.2,OK,10/14/2025,10/9/2025,7/4/2026,-12.00,OK,,1.00,0
+1965,Lemon,Fruits & Vegetables,Meejo, 2.50 ,54.3,87,217.5,84.0,OK,10/13/2025,10/8/2025,7/5/2026,-11.00,OK,,1.00,0
+1966,Multigrain Bread,Bakery,Katz, 3.25 ,55.1,93,302.25,68.0,OK,10/11/2025,10/1/2025,5/29/2026,-48.00,OK,,1.00,0
+1967,Basmati Rice,Grains & Pulses,Skimia, 4.45 ,46.4,55,244.75,131.2,Reorder,10/12/2025,10/8/2025,4/30/2026,-77.00,Reorder,,1.00,0
+1968,Sour Cream,Dairy,Voonder, 4.00 ,44.4,29,116,127.2,Reorder,10/13/2025,10/9/2025,7/1/2026,-15.00,Reorder,,1.00,0
+1969,Egg (Chicken),Dairy,Babblestorm, 0.20 ,58.3,63,12.6,72.5,Reorder,10/14/2025,10/1/2025,6/6/2026,-40.00,Reorder,,1.00,0
+1970,Potato,Fruits & Vegetables,Rhyzio, 1.20 ,49.2,42,50.4,116.7,Reorder,10/13/2025,10/5/2025,7/20/2026,4.00,Reorder,,0.50,24.59
+1971,Onion,Fruits & Vegetables,Mudo, 2.00 ,66.4,74,148,121.1,Reorder,10/13/2025,10/6/2025,4/16/2026,-91.00,Reorder,,1.00,0
+1972,Short Grain Rice,Grains & Pulses,Brightdog, 3.00 ,84.4,22,66,40.0,Reorder,10/11/2025,10/10/2025,6/8/2026,-38.00,Reorder,,1.00,0
+1973,Egg (Chicken),Dairy,Bubblemix, 0.20 ,28.3,83,16.6,29.4,OK,10/15/2025,10/7/2025,4/12/2026,-95.00,OK,,1.00,0
+1974,Wild Rice,Grains & Pulses,Kayveo, 10.00 ,47.4,32,320,135.2,Reorder,10/13/2025,10/1/2025,4/30/2026,-77.00,Reorder,,1.00,0
+1975,Apple,Fruits & Vegetables,Skaboo, 3.50 ,79.3,84,294,136.5,Reorder,10/12/2025,10/7/2025,4/15/2026,-92.00,Reorder,,1.00,0
+1976,Plum,Fruits & Vegetables,Thoughtbeat, 4.00 ,23.2,22,88,134.8,Reorder,10/14/2025,10/2/2025,7/13/2026,-3.00,Reorder,,1.00,0
+1977,Peas,Fruits & Vegetables,Youbridge, 3.00 ,28.2,100,300,138.0,Reorder,10/14/2025,10/8/2025,3/27/2026,-111.00,Reorder,,1.00,0
+1978,Cheddar Cheese,Dairy,Quaxo, 9.00 ,11.0,36,324,120.9,Reorder,10/14/2025,10/8/2025,5/24/2026,-53.00,Reorder,,1.00,0
+1979,Halibut,Seafood,Wikizz, 20.00 ,12.7,14,280,29.2,Reorder,10/13/2025,10/7/2025,6/5/2026,-41.00,Reorder,,1.00,0
+1980,White Sugar,Grains & Pulses,Yambee, 2.00 ,32.1,38,76,28.3,OK,10/12/2025,10/9/2025,7/21/2026,5.00,OK,,0.35,20.84
+1981,Eggplant,Fruits & Vegetables,Blogtag, 3.00 ,19.2,97,291,129.8,Reorder,10/14/2025,10/1/2025,3/17/2026,-121.00,Reorder,,1.00,0
+1982,Green Tea,Beverages,Jetpulse, 8.00 ,43.5,64,512,72.4,Reorder,10/14/2025,10/6/2025,4/4/2026,-103.00,Reorder,,1.00,0
+1983,Lime,Fruits & Vegetables,Camido, 1.90 ,7.0,14,26.6,65.4,Reorder,10/13/2025,10/1/2025,7/25/2026,9.00,Reorder,,0.00,6.98
+1984,Avocado Oil,Oils & Fats,Voolith, 10.00 ,65.2,24,240,91.2,Reorder,10/11/2025,10/6/2025,7/24/2026,8.00,Reorder,,0.00,65.17
+1985,Tilapia,Seafood,Dynava, 7.00 ,52.5,100,700,98.9,OK,10/13/2025,10/4/2025,4/19/2026,-88.00,OK,,1.00,0
+1986,Jasmine Rice,Grains & Pulses,Skyba, 4.75 ,33.1,62,294.5,55.1,OK,10/12/2025,10/3/2025,6/7/2026,-39.00,OK,,1.00,0
+1987,Basmati Rice,Grains & Pulses,Yamia, 4.50 ,82.1,71,319.5,146.5,Reorder,10/14/2025,10/2/2025,5/30/2026,-47.00,Reorder,,1.00,0
+1988,Parmesan Cheese,Dairy,BlogXS, 12.00 ,60.7,38,456,50.7,Reorder,10/14/2025,10/5/2025,3/31/2026,-107.00,Reorder,,1.00,0
+1989,Powdered Sugar,Grains & Pulses,Jabberstorm, 2.40 ,15.0,88,211.2,40.8,OK,10/11/2025,10/1/2025,4/29/2026,-78.00,OK,,1.00,0
+1990,Sourdough Bread,Bakery,Rhyloo, 4.50 ,60.6,40,180,78.7,Reorder,10/11/2025,10/6/2025,7/18/2026,2.00,Reorder,,0.65,21.23
+1991,Spinach,Fruits & Vegetables,Shuffledrive, 2.50 ,60.4,88,220,29.1,OK,10/13/2025,10/10/2025,3/24/2026,-114.00,OK,,1.00,0
+1992,Cheddar Cheese,Dairy,Gabcube, 9.00 ,35.9,60,540,60.6,Reorder,10/14/2025,10/3/2025,7/7/2026,-9.00,Reorder,,1.00,0
+1993,Cabbage,Fruits & Vegetables,Lajo, 0.90 ,56.3,94,84.6,75.2,OK,10/13/2025,10/4/2025,7/1/2026,-15.00,OK,,1.00,0
+1994,Avocado Oil,Oils & Fats,Dazzlesphere, 10.00 ,19.5,30,300,32.5,Reorder,10/14/2025,10/10/2025,7/17/2026,1.00,Reorder,,0.70,5.86
+1995,Papaya,Fruits & Vegetables,Yakijo, 4.50 ,19.0,19,85.5,110.9,Reorder,10/14/2025,10/10/2025,7/5/2026,-11.00,Reorder,,1.00,0
